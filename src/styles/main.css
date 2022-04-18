@@ -108,19 +108,94 @@ a:hover {
   ;
 }
 
-.custom_header svg {
-  animation: bounce .75s .3s;
+.custom_header #item1 {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: bounce .75s;
+  animation-timing-function: ease-out;
+}
+
+.custom_header #item2 {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: bounce 1s;
+  animation-timing-function: ease-out;
+}
+
+.custom_header #item3 {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: bounce 1.75s;
+  animation-timing-function: ease-out;
+}
+
+.custom_header #item4 {
+  animation: slideDown 1.2s;
+  animation-timing-function: ease-out;
+}
+
+.custom_header #item5 {
+  animation: slideDown 1.5s;
+  animation-timing-function: ease-out;
+}
+
+.custom_header #item6 {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: scaleUp 2s;
+  animation-timing-function: ease-out;
 }
 
 @keyframes bounce {
   0% {
-    transform: scale(1, 1);
+  opacity: 0;
+  transform: scale(1.2, 1.2);
   }
-  50% {
+  30% {
+    opacity: 0;
     transform: scale(1.2, 1.2);
   }
   100% {
+    opacity: 1;
     transform: scale(1, 1);
+  }
+}
+
+@keyframes slideDown {
+  0% {
+  opacity: 0;
+  transform: translateY(-15px);
+  }
+  60% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes scaleUp {
+  0% {
+  opacity: 0;
+  transform: scale(.3);
+  }
+  75% {
+    opacity: 0;
+    transform: scale(.3);
+  }
+  80% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  85% {
+    transform: scale(1);
+  }
+
+  90% {
+    transform: scale(1);
   }
 }
 
