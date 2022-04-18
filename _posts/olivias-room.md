@@ -10,7 +10,7 @@ image: /assets/images/posts/thumbnails/olivia.png
 
 ![Error](@@baseUrl@@/assets/images/posts/olivia/h1.png)
 
-Olivia is an awesome kid with awesome parents. They wanted for her to have a painting on a wall in her room depicting not just her family but her roots and what they love as a family. I was honored the get the commission of portraying them.
+Olivia is an awesome kid with awesome parents. They wanted for her to have a painting on a wall in her room depicting not just her family but her roots and what they love as a family. I was honored to get the commission of portraying them.
 
 ![Error](@@baseUrl@@/assets/images/posts/olivia/001.png)
 

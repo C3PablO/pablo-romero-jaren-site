@@ -12,7 +12,7 @@ image: /assets/images/posts/thumbnails/ds.png
 
 Iconik is a tool for media management and collaboration. The streamlined design allows you to get where  you want to go fast. Leading brands are already adopting iconik because it’s a tool that entire organizations can use. 
 
-My job at iconik consists of making a solid design system acting as source of truth for the whole team, a design system that can scale and speed up workflows and feature adoption for the end users. 
+My role at iconik has been about making a solid design system to act as source of truth for the whole team, a design system that can scale and speed up workflows and feature adoption for the end users. 
 
 ![Error](@@baseUrl@@/assets/images/posts/design_system/001.png)
 

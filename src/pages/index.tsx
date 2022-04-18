@@ -47,7 +47,7 @@ const Index = (props: IBlogGalleryProps) => {
               </h2>
               <p className="text-center py-5">
                 {
-                  "My name is Pablo and I'm a passionate UI Designer and Graphic Artist. Often I find myself taking pictures or screenshots to extract color palettes. Yeah, I don't know if that's normal but I enjoy it. I expend lots of time playing with color, shape, composition and trying to make sense of it."
+                  "My name is Pablo and I'm a passionate UI Designer and Graphic Artist. Often I find myself taking screenshots or pictures of things to extract color palettes. Yeah, I don't know if that's normal but I enjoy it. I expend lots of time playing with color, shape, composition and trying to make sense of it."
                 }
               </p>
 
