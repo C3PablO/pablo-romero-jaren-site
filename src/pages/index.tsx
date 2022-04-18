@@ -47,7 +47,7 @@ const Index = (props: IBlogGalleryProps) => {
               </h2>
               <p className="text-center py-5">
                 {
-                  "My name is Pablo and I'm a passionate UI Designer and Graphic Artist. Often I find myself taking pictures or screenshots to extract color palettes. Yeah, I don't know if that's normal but I enjoy it. I expend lots of time playing with colors, shapes, composition and trying to make sense of it."
+                  "My name is Pablo and I'm a passionate UI Designer and Graphic Artist. Often I find myself taking pictures or screenshots to extract color palettes. Yeah, I don't know if that's normal but I enjoy it. I expend lots of time playing with color, shape, composition and trying to make sense of it."
                 }
               </p>
 
@@ -63,7 +63,7 @@ const Index = (props: IBlogGalleryProps) => {
                     rel="noreferrer"
                   >
                     <svg
-                      className="fill-indigo-800 hover:fill-indigo-300"
+                      className="fill-indigo-800 hover:fill-indigo-500"
                       xmlns="http://www.w3.org/2000/svg"
                       width="100%"
                       viewBox="0 0 24 24"
@@ -79,7 +79,7 @@ const Index = (props: IBlogGalleryProps) => {
                     rel="noreferrer"
                   >
                     <svg
-                      className="fill-indigo-800 hover:fill-indigo-300"
+                      className="fill-indigo-800 hover:fill-indigo-500"
                       xmlns="http://www.w3.org/2000/svg"
                       width="100%"
                       viewBox="0 0 24 24"
@@ -95,7 +95,7 @@ const Index = (props: IBlogGalleryProps) => {
                     rel="noreferrer"
                   >
                     <svg
-                      className="fill-indigo-800 hover:fill-indigo-300"
+                      className="fill-indigo-800 hover:fill-indigo-500"
                       xmlns="http://www.w3.org/2000/svg"
                       width="100%"
                       viewBox="0 0 24 24"

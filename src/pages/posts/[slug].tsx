@@ -44,7 +44,7 @@ const DisplayPost = (props: IPostProps) => (
       <Navbar>
         <ul className="flex w-full divide-x">
           <li className="mr-6 transition ease-in-out hover:scale-110 duration-200 cursor-pointer">
-            <Link href="/">
+            <Link href="/#gallery">
               <a className="flex">
                 <svg
                   className="mr-2"
@@ -86,9 +86,9 @@ const DisplayPost = (props: IPostProps) => (
         />
       </Content>
     </div>
-    <div className="flex content-center">
-      <Link href="/">
-        <a className="text-xl md:text-2xl pt-8 pb-10 inline-block text-zinc-100 transition ease-in-out hover:scale-110 duration-200 cursor-pointer">
+    <div className="flex justify-center">
+      <Link href="/#gallery">
+        <a className="text-xl md:text-2xl px-8 py-5 m-8 rounded-md inline-block text-zinc-100 transition ease-in-out hover:scale-110 duration-200 cursor-pointer bg-indigo-800 hover:bg-indigo-500 hover:no-underline">
           See more work
         </a>
       </Link>

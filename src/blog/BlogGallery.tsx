@@ -12,7 +12,7 @@ export type IBlogGalleryProps = {
 
 const BlogGallery = (props: IBlogGalleryProps) => (
   <>
-    <ul className=" grid grid-cols-1 sm:grid-cols-2 gap-4">
+    <ul className=" grid grid-cols-1 sm:grid-cols-2 gap-4" id="gallery">
       {props.posts.map((elt) => (
         <li
           key={elt.slug}
