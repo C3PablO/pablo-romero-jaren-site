@@ -29,7 +29,7 @@ const Index = (props: IBlogGalleryProps) => {
           <div className="bg-amber-50 pt-5">
             <div className="max-w-screen-md mx-auto px-3 md:px-0">
               <BlogGallery posts={props.posts} pagination={props.pagination} />
-              <h2 className="font-semibold text-2xl md:text-5xl text-center py-5">
+              <h2 className="font-semibold text-3xl md:text-5xl text-center py-5">
                 Who am I?
               </h2>
               <p className="text-center py-5">
@@ -41,7 +41,7 @@ const Index = (props: IBlogGalleryProps) => {
 
             <div className="contact"></div>
             <div className="max-w-screen-md mx-auto px-3 md:px-0">
-              <h2 className="font-semibold text-2xl md:text-5xl text-center py-5">
+              <h2 className="font-semibold text-3xl md:text-5xl text-center py-5">
                 Thanks for visiting!
               </h2>
               <p className="text-center py-5">
