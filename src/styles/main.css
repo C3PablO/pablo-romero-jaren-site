@@ -108,6 +108,15 @@ a:hover {
   ;
 }
 
+.basedIn {
+  width: 100vw;
+  height: 90vh;
+  background: url('/assets/others/stockholm.svg');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center bottom;
+}
+
 .custom_header #item1 {
   transform-box: fill-box;
   transform-origin: center;

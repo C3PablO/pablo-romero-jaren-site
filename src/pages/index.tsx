@@ -39,7 +39,7 @@ const Index = (props: IBlogGalleryProps) => {
         }
       >
         <div className="pt-[89vh] relative z-25">
-          <div className="bg-amber-50 py-5">
+          <div className="bg-amber-50 pt-5">
             <div className="max-w-screen-md mx-auto px-3 md:px-0">
               <BlogGallery posts={props.posts} pagination={props.pagination} />
               <h2 className="font-semibold text-xl md:text-3xl text-center py-5">
@@ -105,15 +105,16 @@ const Index = (props: IBlogGalleryProps) => {
                   </a>
                 </li>
               </ul>
-              <p className="font-semibold text-xl md:text-3xl text-center py-5">
-                Thanks for passing by!
+              <h2 className="font-semibold text-xl md:text-3xl text-center py-5">
+                Thanks for visiting!
+              </h2>
+              <p className="text-center py-5">
+                {
+                  "I'm based in Stockholm. Ping me if you want to meet for a coffee."
+                }
               </p>
-              <img
-                src="assets/header/me.svg"
-                className="max-w-[40vw] md:max-w-[15vw] mx-auto"
-                alt="Thanks for passing by!"
-              />
             </div>
+            <div className="basedIn"></div>
           </div>
         </div>
       </Main>
