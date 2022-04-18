@@ -5,21 +5,22 @@ type INavbarProps = {
 };
 
 const Navbar = (props: INavbarProps) => (
-  <ul className="navbar flex flex-wrap text-xl">
+  <nav className="bg-indigo-800 navbar flex text-xl p-2">
     {props.children}
 
     <style jsx>
       {`
         .navbar :global(a) {
-          @apply text-gray-700;
+          @apply text-indigo-200;
+          @apply font-semibold;
         }
 
         .navbar :global(a:hover) {
-          @apply no-underline text-gray-900;
+          @apply no-underline text-zinc-100;
         }
       `}
     </style>
-  </ul>
+  </nav>
 );
 
 export { Navbar };
