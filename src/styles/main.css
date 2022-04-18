@@ -222,9 +222,9 @@ a:hover {
     width: 100vw;
     height: 90vh;
     position: fixed;
-    background: url('/assets/header/me.svg'), url('/assets/header/floor_fence_bg.svg'), url('/assets/header/trees_bg.svg'), url('/assets/header/boat_bg.svg'), url('/assets/header/landscape_bg.svg'),  url('/assets/header/mountain_bg.svg');
+    background: url('/assets/header/me.svg'), url('/assets/header/floor_bg.svg'), url('/assets/header/trees_bg.svg'), url('/assets/header/boat_bg.svg'), url('/assets/header/landscape_bg.svg'),  url('/assets/header/mountain_bg.svg');
     background-repeat: no-repeat, repeat-x, no-repeat, no-repeat, repeat-x, no-repeat;
-    background-size: auto 25%, auto  26%, auto 80%, auto 80%, auto 80%, auto 100%;
+    background-size: auto 25%, auto  25%, auto 80%, auto 80%, auto 80%, auto 100%;
     background-position: center bottom, left bottom, left bottom, right bottom, center bottom, center bottom;
     background-color: #fffbeb;
     ;
