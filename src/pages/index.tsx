@@ -14,9 +14,6 @@ import { getAllPosts } from '../utils/Content';
 const Index = (props: IBlogGalleryProps) => {
   return (
     <>
-      <div className="custom_header">
-        <Logo className="mx-auto my-0 w-full pt-8 max-w-[200px] md:max-w-[300px] lg:max-w-[350px]" />
-      </div>
       <Main
         meta={
           <Meta
@@ -25,7 +22,10 @@ const Index = (props: IBlogGalleryProps) => {
           />
         }
       >
-        <div className="pt-[89vh] relative z-25">
+        <div className="relative z-25">
+          <div className="custom_header">
+            <Logo className="mx-auto my-0 w-full pt-8 max-w-[200px] md:max-w-[300px] lg:max-w-[350px]" />
+          </div>
           <div className="bg-amber-50 pt-5">
             <div className="max-w-screen-md mx-auto px-3 md:px-0">
               <BlogGallery posts={props.posts} pagination={props.pagination} />
