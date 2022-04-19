@@ -32,7 +32,7 @@ const Index = (props: IBlogGalleryProps) => {
               <h2 className="font-semibold text-3xl md:text-5xl text-center py-5">
                 Who am I?
               </h2>
-              <p className="text-center py-5">
+              <p className="text-center pb-5">
                 {
                   "I'm an alien from outer space. Nah! I'm kidding. My name is Pablo and I'm a passionate UI Designer and Graphic Artist. Often I find myself taking screenshots or pictures of things to extract color palettes. Yeah, I don't know if that's normal but I enjoy it. I expend lots of time playing with color, shape, composition and trying to make sense of it. When I'm not doing that I enjoy climbing, running or playing Legos with Bea and Violeta. I don't have a cat."
                 }
@@ -44,7 +44,7 @@ const Index = (props: IBlogGalleryProps) => {
               <h2 className="font-semibold text-3xl md:text-5xl text-center py-5">
                 Thanks for visiting!
               </h2>
-              <p className="text-center py-5">
+              <p className="text-center pb-5">
                 {
                   "Btw, I'm based in Stockholm. It is a nice place to live in if you like nature, cycle around and you are ok with cold weather and long months of darkness. If you want to meet in person ping me for a coffee. I don't know what else to say so: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua and have a happy life."
                 }
