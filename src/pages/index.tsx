@@ -106,6 +106,9 @@ const Index = (props: IBlogGalleryProps) => {
             </ul>
 
             <div className="basedIn"></div>
+            <div className="bg-indigo-800 text-zinc-100 text-center text-sm flex p-4">
+              <p>Pablo Romero Jarén 2022</p>
+            </div>
           </div>
         </div>
       </Main>
