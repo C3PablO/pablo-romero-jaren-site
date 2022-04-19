@@ -94,7 +94,7 @@ const DisplayPost = (props: IPostProps) => (
       </Link>
     </div>
     <div className="bg-indigo-800 text-zinc-100 text-center text-sm flex p-4">
-      <p>Pablo Romero Jarén 2022</p>
+      <p>(ɔ) Pablo Romero Jarén 2022</p>
     </div>
   </Main>
 );

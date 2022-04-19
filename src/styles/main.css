@@ -98,7 +98,7 @@ a:hover {
 
 .custom_header {
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   background: url('/assets/header/me.svg'), url('/assets/header/work.svg'),  url('/assets/header/mountain_bg.svg');
   background-repeat: no-repeat, repeat-x, no-repeat;
   background-size: auto 25%,  auto 80%, auto 100%;
