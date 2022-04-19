@@ -100,29 +100,44 @@ a:hover {
   width: 100vw;
   height: 90vh;
   position: fixed;
-  background: url('/assets/header/me.svg'), url('/assets/header/floor_bg.svg'), url('/assets/header/landscape_bg.svg'),  url('/assets/header/mountain_bg.svg');
-  background-repeat: no-repeat, repeat-x, repeat-x, no-repeat;
-  background-size: auto 25%, auto  25%, auto 80%, auto 100%;
-  background-position: center bottom, left bottom, center bottom, center bottom;
+  background: url('/assets/header/me.svg'), url('/assets/header/work.svg'),  url('/assets/header/mountain_bg.svg');
+  background-repeat: no-repeat, repeat-x, no-repeat;
+  background-size: auto 25%,  auto 80%, auto 100%;
+  background-position: center bottom, center bottom, center bottom;
   background-color: #fffbeb;
   ;
 }
 
+@media screen and (min-width: 900px) {
+  .custom_header {
+    width: 100vw;
+    height: 90vh;
+    position: fixed;
+    background: url('/assets/header/me.svg'), url('/assets/header/trees_bg.svg'), url('/assets/header/boat_bg.svg'), url('/assets/header/work.svg'),  url('/assets/header/mountain_bg.svg');
+    background-repeat: no-repeat,  no-repeat, no-repeat, repeat-x, no-repeat;
+    background-size: auto 25%,  auto 80%, auto 80%, auto 80%, auto 100%;
+    background-position: center bottom, left bottom, right bottom, center bottom, center bottom;
+    background-color: #fffbeb;
+    ;
+  }
+}
+
+
 .basedIn {
   width: 100vw;
   height: 90vh;
-  background: url('/assets/others/stockholm.svg');
-  background-repeat: no-repeat;
-  background-size: auto 100%;
+  background: url('/assets/header/me.svg'), url('/assets/others/stockholm.svg');
+  background-repeat: no-repeat,  repeat;
+  background-size: auto 25%, auto 100%;
   background-position: center bottom;
 }
 
 .contact {
   width: 100vw;
   height: 90vh;
-  background: url('/assets/others/myworld.svg');
-  background-repeat: no-repeat;
-  background-size: auto 100%;
+  background: url('/assets/header/me.svg'), url('/assets/others/myworld.svg');
+  background-repeat: no-repeat,  repeat;
+  background-size: auto 25%, auto 100%;
   background-position: center bottom;
 }
 
@@ -214,20 +229,6 @@ a:hover {
 
   90% {
     transform: scale(1);
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .custom_header {
-    width: 100vw;
-    height: 90vh;
-    position: fixed;
-    background: url('/assets/header/me.svg'), url('/assets/header/floor_bg.svg'), url('/assets/header/trees_bg.svg'), url('/assets/header/boat_bg.svg'), url('/assets/header/landscape_bg.svg'),  url('/assets/header/mountain_bg.svg');
-    background-repeat: no-repeat, repeat-x, no-repeat, no-repeat, repeat-x, no-repeat;
-    background-size: auto 25%, auto  25%, auto 80%, auto 80%, auto 80%, auto 100%;
-    background-position: center bottom, left bottom, left bottom, right bottom, center bottom, center bottom;
-    background-color: #fffbeb;
-    ;
   }
 }
 
