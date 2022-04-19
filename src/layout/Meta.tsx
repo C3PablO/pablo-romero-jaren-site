@@ -29,6 +29,10 @@ const Meta = (props: IMetaProps) => {
           content="width=device-width,initial-scale=1"
           key="viewport"
         />
+        <meta property="og:image" content="/assets/others/og.svg" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1800" />
+        <meta property="og:image:height" content="900" />
         <link
           rel="apple-touch-icon"
           href={`${router.basePath}/apple-touch-icon.png`}
