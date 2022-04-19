@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   }, []);
   const startIndex = 2;
   const animation = animations[startIndex];
-  const exitBefore = true;
+  const exitBefore = false;
 
   return (
     <div className="app-wrap bg-amber-50">
