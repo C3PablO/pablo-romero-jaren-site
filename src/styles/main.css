@@ -103,8 +103,6 @@ a:hover {
   background-size: auto 25%,  auto 80%, auto 100%;
   background-position: center bottom, center bottom, center bottom;
   background-color: #fffbeb;
-  background-attachment: fixed;
-  ;
 }
 
 @media screen and (min-width: 1000px) {
