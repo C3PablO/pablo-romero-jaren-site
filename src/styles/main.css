@@ -231,10 +231,6 @@ a:hover {
   }
 }
 
-.navbar {
-  animation: movedown 1s ease-out;
-}
-
 
 
 @-webkit-keyframes fadeInFromNone {
@@ -251,17 +247,5 @@ a:hover {
   100% {
       display: block;
       opacity: 1;
-  }
-}
-
-@keyframes movedown {
-  from {
-      transform : translateY(-100%);
-  }
-  75% {
-    transform : translateY(-100%);
-  }
-  to {
-    transform : translateY(0%);
   }
 }

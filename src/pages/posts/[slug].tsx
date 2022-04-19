@@ -40,7 +40,7 @@ const DisplayPost = (props: IPostProps) => (
       />
     }
   >
-    <div className="sticky top-0 z-50 relative w-full">
+    <div className="fixed top-0 z-50 w-full">
       <Navbar>
         <ul className="flex w-full divide-x">
           <li className="mr-6 transition ease-in-out hover:scale-110 duration-200 cursor-pointer">
@@ -76,7 +76,7 @@ const DisplayPost = (props: IPostProps) => (
       </Navbar>
     </div>
     <div
-      className={`max-w-screen-md mx-auto  px-3 md:px-0 ${props.containerClass}`}
+      className={`max-w-screen-md mx-auto  px-3 pt-8 md:px-0 ${props.containerClass}`}
     >
       <Content>
         <div
