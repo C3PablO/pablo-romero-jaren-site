@@ -32,10 +32,19 @@ type IPostProps = {
   containerClass?: string;
 };
 
+const customLoader = ({ src }: { src: string }) => {
+  return src;
+};
+
 const components = {
   img: (props: ImageProps) => (
     // height and width are part of the props, so they get automatically passed here with {...props}
-    <Image {...props} layout="responsive" loading="lazy" />
+    <Image
+      {...props}
+      layout="responsive"
+      loading="lazy"
+      loader={customLoader}
+    />
   ),
 };
 
