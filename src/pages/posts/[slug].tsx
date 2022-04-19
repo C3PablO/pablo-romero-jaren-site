@@ -37,7 +37,7 @@ const customLoader = ({ src }: { src: string }) => {
 };
 
 const shimmer = (w: number, h: number) => `
-<svg width="${w}" height="${h}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="${w}" height="${h}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style={{ opacity: .2 }}>
   <defs>
     <linearGradient id="g">
       <stop stop-color="#333" offset="20%" />
