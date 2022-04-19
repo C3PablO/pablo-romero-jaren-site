@@ -1,14 +1,21 @@
+// https://ironeko.com/posts/how-to-use-next-js-image-with-markdown-or-mdx
+
+// investigar: https://plaiceholder.co/docs/examples/next
+
 import React from 'react';
 
 import { GetStaticPaths, GetStaticProps } from 'next';
+import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
+import { serialize } from 'next-mdx-remote/serialize';
+import Image, { ImageProps } from 'next/image';
 import Link from 'next/link';
+import imageSize from 'rehype-img-size';
 
 import { Content } from '../../content/Content';
 import { Meta } from '../../layout/Meta';
 import { Navbar } from '../../navigation/Navbar';
 import { Main } from '../../templates/Main';
 import { getAllPosts, getPostBySlug } from '../../utils/Content';
-import { markdownToHtml } from '../../utils/Markdown';
 
 type IPostUrl = {
   slug: string;
@@ -20,9 +27,16 @@ type IPostProps = {
   date: string;
   modified_date: string;
   image: string;
-  content: string;
+  content: MDXRemoteSerializeResult;
   background?: string;
   containerClass?: string;
+};
+
+const components = {
+  img: (props: ImageProps) => (
+    // height and width are part of the props, so they get automatically passed here with {...props}
+    <Image {...props} layout="responsive" loading="lazy" />
+  ),
 };
 
 const DisplayPost = (props: IPostProps) => (
@@ -79,11 +93,7 @@ const DisplayPost = (props: IPostProps) => (
       className={`max-w-screen-md mx-auto  px-3 pt-8 md:px-0 ${props.containerClass}`}
     >
       <Content>
-        <div
-          className="text-center space-y-10 md:space-y-20 text-sm md:text-base py-5"
-          // eslint-disable-next-line react/no-danger
-          dangerouslySetInnerHTML={{ __html: props.content }}
-        />
+        <MDXRemote {...props.content} components={components as any} />
       </Content>
     </div>
     <div className="flex justify-center">
@@ -126,7 +136,12 @@ export const getStaticProps: GetStaticProps<IPostProps, IPostUrl> = async ({
     'content',
     'slug',
   ]);
-  const content = await markdownToHtml(post.content || '');
+
+  const mdxSource = await serialize(post.content, {
+    mdxOptions: {
+      rehypePlugins: [[imageSize as any, { dir: 'public' }]],
+    },
+  });
 
   return {
     props: {
@@ -137,7 +152,7 @@ export const getStaticProps: GetStaticProps<IPostProps, IPostUrl> = async ({
       background: post.background,
       containerClass: post.containerClass,
       image: post.image,
-      content,
+      content: mdxSource,
     },
   };
 };

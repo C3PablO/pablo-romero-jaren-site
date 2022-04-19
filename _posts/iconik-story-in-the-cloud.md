@@ -8,16 +8,16 @@ containerClass: 'text-zinc-100'
 image: /assets/images/posts/thumbnails/cloud.png
 ---
 
-![Error](@@baseUrl@@/assets/images/posts/story_cloud/000.png)
+![Alt text](/assets/images/posts/story_cloud/000.png)
 
 iconik likes to celebrate! For a special occasion something unique was wanted. It had to be different from the ordinary branding but still connected to the iconik spirit. I did this screensaver and stickers to give to customers, partners and employees
 
-![Error](@@baseUrl@@/assets/images/posts/story_cloud/001.png)
+![Alt text](/assets/images/posts/story_cloud/001.png)
 
-![Error](@@baseUrl@@/assets/images/posts/story_cloud/002.png)
+![Alt text](/assets/images/posts/story_cloud/002.png)
 
-![Error](@@baseUrl@@/assets/images/posts/story_cloud/003.png)
+![Alt text](/assets/images/posts/story_cloud/003.png)
 
-![Error](@@baseUrl@@/assets/images/posts/story_cloud/005.png)
+![Alt text](/assets/images/posts/story_cloud/005.png)
 
-![Error](@@baseUrl@@/assets/images/posts/story_cloud/006.png)
+![Alt text](/assets/images/posts/story_cloud/006.png)

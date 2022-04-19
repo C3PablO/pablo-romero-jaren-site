@@ -8,20 +8,20 @@ containerClass: 'text-gray-900'
 image: /assets/images/posts/thumbnails/olivia.png
 ---
 
-![Error](@@baseUrl@@/assets/images/posts/olivia/h1.png)
+![Alt text](/assets/images/posts/olivia/h1.png)
 
 Olivia is an awesome kid with awesome parents. They wanted for her to have a painting on a wall in her room depicting not just her family but her roots and what they love as a family. I was honored to get the commission of portraying them.
 
-![Error](@@baseUrl@@/assets/images/posts/olivia/001.png)
+![Alt text](/assets/images/posts/olivia/001.png)
 
-![Error](@@baseUrl@@/assets/images/posts/olivia/002.png)
+![Alt text](/assets/images/posts/olivia/002.png)
 
-![Error](@@baseUrl@@/assets/images/posts/olivia/h3.png)
+![Alt text](/assets/images/posts/olivia/h3.png)
 
-![Error](@@baseUrl@@/assets/images/posts/olivia/003.png)
+![Alt text](/assets/images/posts/olivia/003.png)
 
-![Error](@@baseUrl@@/assets/images/posts/olivia/004.png)
+![Alt text](/assets/images/posts/olivia/004.png)
 
-![Error](@@baseUrl@@/assets/images/posts/olivia/005.png)
+![Alt text](/assets/images/posts/olivia/005.png)
 
-![Error](@@baseUrl@@/assets/images/posts/olivia/h3.png)
+![Alt text](/assets/images/posts/olivia/h3.png)
