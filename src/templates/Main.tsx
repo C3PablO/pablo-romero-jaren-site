@@ -12,7 +12,7 @@ const Main = (props: IMainProps) => (
     style={props.style}
   >
     {props.meta}
-    <div className="min-h-screen font-sans">
+    <div className="min-h-screen font-sans w-full overflow-hidden">
       <div className="text-xl">{props.children}</div>
     </div>
   </div>
