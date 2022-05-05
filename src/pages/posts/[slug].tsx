@@ -2,7 +2,7 @@
 
 // investigar: https://plaiceholder.co/docs/examples/next
 
-import React from 'react';
+import React, { useState } from 'react';
 
 import MarkdownIt from 'markdown-it';
 import { GetStaticPaths, GetStaticProps } from 'next';
@@ -39,21 +39,50 @@ const customLoader = ({ src }: { src: string }) => {
   return src;
 };
 
-const components = {
-  img: (props: ImageProps) => {
-    const updatedProps = { ...props, 'aria-placeholder': undefined };
-    return (
-      // height and width are part of the props, so they get automatically passed here with {...props}
+const ImageComp = (props: ImageProps) => {
+  const [loaded, setLoaded] = useState(false);
+  const updatedProps = { ...props, 'aria-placeholder': undefined };
+  let css = {};
+  if (props['aria-placeholder']) {
+    css = JSON.parse(props['aria-placeholder']);
+  }
+
+  return (
+    // height and width are part of the props, so they get automatically passed here with {...props}
+    <div style={{ position: 'relative', display: 'block', overflow: 'hidden' }}>
+      {loaded ? (
+        ''
+      ) : (
+        <div
+          style={{
+            position: 'absolute',
+            top: 0,
+            right: 0,
+            bottom: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            transform: 'scale(1.5)',
+            filter: 'blur(30px)',
+            ...css,
+          }}
+        />
+      )}
+
       <Image
         {...updatedProps}
         alt=""
-        layout="responsive"
-        placeholder="blur"
         loader={customLoader}
-        blurDataURL={props['aria-placeholder']}
+        onLoadingComplete={() => {
+          setLoaded(true);
+        }}
       />
-    );
-  },
+    </div>
+  );
+};
+
+const components = {
+  img: ImageComp,
 };
 
 const DisplayPost = (props: IPostProps) => (
@@ -182,18 +211,19 @@ export const getStaticProps: GetStaticProps<IPostProps, IPostUrl> = async ({
     });
   const placeholders = await Promise.all(
     imagePaths.map(async (src: string) => {
-      const { base64 } = await getPlaiceholder(src, { size: 10 });
+      const { css } = await getPlaiceholder(src, { size: 4 });
 
       return {
-        base64,
+        css: JSON.stringify(css),
         src,
       };
     })
   ).then((values) => values);
 
   const placeholdersObj: { [key: string]: string } = {};
-  placeholders.forEach((item: { src: string; base64: string }) => {
-    placeholdersObj[item.src] = item.base64;
+  placeholders.forEach((item: { src: string; css: string }) => {
+    console.log('!!!!!', item.css, '!!!!');
+    placeholdersObj[item.src] = item.css;
   });
 
   const mdxSource = await serialize(post.content, {
