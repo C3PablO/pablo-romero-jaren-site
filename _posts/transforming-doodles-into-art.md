@@ -8,14 +8,14 @@ containerClass: 'text-gray-900'
 image: /assets/images/posts/thumbnails/doodles.png
 ---
 
-![Alt text](/assets/images/posts/doodles/00.png)
+![](/assets/images/posts/doodles/00.png)
 
 Here is the final project for an illustration course I took from one of my favorite Swedish artists, Mattias Adolfsson. The course goes through his creative process and how to achieve beautiful illustrations just from appreciating small things in life and a bit of imagination.
 
-![Alt text](/assets/images/posts/doodles/01.png)
+![](/assets/images/posts/doodles/01.png)
 
-![Alt text](/assets/images/posts/doodles/02.png)
+![](/assets/images/posts/doodles/02.png)
 
-![Alt text](/assets/images/posts/doodles/03.png)
+![](/assets/images/posts/doodles/03.png)
 
-![Alt text](/assets/images/posts/doodles/04.png)
+![](/assets/images/posts/doodles/04.png)

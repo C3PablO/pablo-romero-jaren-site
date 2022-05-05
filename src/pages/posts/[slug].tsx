@@ -4,12 +4,15 @@
 
 import React from 'react';
 
+import MarkdownIt from 'markdown-it';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { serialize } from 'next-mdx-remote/serialize';
 import Image, { ImageProps } from 'next/image';
 import Link from 'next/link';
+import { getPlaiceholder } from 'plaiceholder';
 import imageSize from 'rehype-img-size';
+import { visit } from 'unist-util-visit';
 
 import { Content } from '../../content/Content';
 import { Meta } from '../../layout/Meta';
@@ -36,30 +39,21 @@ const customLoader = ({ src }: { src: string }) => {
   return src;
 };
 
-// const shimmer = (w: number, h: number) => `
-// <svg width="${w}" height="${h}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style={{ opacity: .5 }}>
-//   <defs>
-//     <linearGradient id="g">
-//       <stop stop-color="#333" offset="20%" />
-//       <stop stop-color="#222" offset="50%" />
-//       <stop stop-color="#333" offset="70%" />
-//     </linearGradient>
-//   </defs>
-//   <rect width="${w}" height="${h}" fill="#333" />
-//   <rect id="r" width="${w}" height="${h}" fill="url(#g)" />
-//   <animate xlink:href="#r" attributeName="x" from="-${w}" to="${w}" dur="1s" repeatCount="indefinite"  />
-// </svg>`;
-
-// const toBase64 = (str: string) =>
-//   typeof window === 'undefined'
-//     ? Buffer.from(str).toString('base64')
-//     : window.btoa(str);
-
 const components = {
-  img: (props: ImageProps) => (
-    // height and width are part of the props, so they get automatically passed here with {...props}
-    <Image {...props} layout="responsive" loader={customLoader} />
-  ),
+  img: (props: ImageProps) => {
+    const updatedProps = { ...props, 'aria-placeholder': undefined };
+    return (
+      // height and width are part of the props, so they get automatically passed here with {...props}
+      <Image
+        {...updatedProps}
+        alt=""
+        layout="responsive"
+        placeholder="blur"
+        loader={customLoader}
+        blurDataURL={props['aria-placeholder']}
+      />
+    );
+  },
 };
 
 const DisplayPost = (props: IPostProps) => (
@@ -145,6 +139,20 @@ export const getStaticPaths: GetStaticPaths<IPostUrl> = async () => {
   };
 };
 
+function setPlaceholders(options: { placeholders: { [key: string]: string } }) {
+  function transformer(tree: any) {
+    function visitor(node: any) {
+      if (node.tagName === 'img') {
+        // eslint-disable-next-line no-param-reassign
+        node.properties['aria-placeholder'] =
+          options.placeholders[node.properties.src];
+      }
+    }
+    visit(tree, 'element', visitor);
+  }
+  return transformer;
+}
+
 export const getStaticProps: GetStaticProps<IPostProps, IPostUrl> = async ({
   params,
 }) => {
@@ -160,9 +168,40 @@ export const getStaticProps: GetStaticProps<IPostProps, IPostUrl> = async ({
     'slug',
   ]);
 
+  const mdi = new MarkdownIt();
+  const result = mdi.parse(post.content, {});
+  const imagePaths = result
+    .filter(
+      (item: any) =>
+        item.content.startsWith('!') &&
+        item.content.includes('/assets/images/posts/')
+    )
+    .map((item: any) => {
+      // improve this. it can easily break images
+      return item.content.slice(0, -1).slice(4);
+    });
+  const placeholders = await Promise.all(
+    imagePaths.map(async (src: string) => {
+      const { base64 } = await getPlaiceholder(src, { size: 10 });
+
+      return {
+        base64,
+        src,
+      };
+    })
+  ).then((values) => values);
+
+  const placeholdersObj: { [key: string]: string } = {};
+  placeholders.forEach((item: { src: string; base64: string }) => {
+    placeholdersObj[item.src] = item.base64;
+  });
+
   const mdxSource = await serialize(post.content, {
     mdxOptions: {
-      rehypePlugins: [[imageSize as any, { dir: 'public' }]],
+      rehypePlugins: [
+        [imageSize as any, { dir: 'public' }],
+        [setPlaceholders, { placeholders: placeholdersObj }],
+      ],
     },
   });
 
