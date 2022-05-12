@@ -156,6 +156,10 @@ const Meta = (props: IMetaProps) => {
             />
           </>
         )}
+        <link
+          rel="stylesheet"
+          href="https://use.typekit.net/mpl2avx.css"
+        ></link>
       </Head>
     </>
   );

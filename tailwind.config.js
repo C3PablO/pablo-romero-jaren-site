@@ -19,6 +19,9 @@ module.exports = {
       '5xl': '3rem',
       '6xl': '4rem',
     },
+    fontFamily: {
+      display: ['confiteria-script', 'sans-serif'],
+    },
     extend: {
       colors: {
         gray: {
