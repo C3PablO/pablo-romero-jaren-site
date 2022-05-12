@@ -2,6 +2,8 @@
 
 // investigar: https://plaiceholder.co/docs/examples/next
 
+import path from 'path';
+
 import React, { useState } from 'react';
 
 import MarkdownIt from 'markdown-it';
@@ -10,7 +12,6 @@ import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { serialize } from 'next-mdx-remote/serialize';
 import Image, { ImageProps } from 'next/image';
 import Link from 'next/link';
-import { getPlaiceholder } from 'plaiceholder';
 import imageSize from 'rehype-img-size';
 import { visit } from 'unist-util-visit';
 
@@ -19,6 +20,8 @@ import { Meta } from '../../layout/Meta';
 import { Navbar } from '../../navigation/Navbar';
 import { Main } from '../../templates/Main';
 import { getAllPosts, getPostBySlug } from '../../utils/Content';
+
+const ColorThief = require('colorthief');
 
 type IPostUrl = {
   slug: string;
@@ -42,29 +45,20 @@ const customLoader = ({ src }: { src: string }) => {
 const ImageComp = (props: ImageProps) => {
   const [loaded, setLoaded] = useState(false);
   const updatedProps = { ...props, 'aria-placeholder': undefined };
-  let css = {};
-  if (props['aria-placeholder']) {
-    css = JSON.parse(props['aria-placeholder']);
-  }
 
   return (
     // height and width are part of the props, so they get automatically passed here with {...props}
-    <div style={{ position: 'relative', display: 'block', overflow: 'hidden' }}>
+    <div
+      style={{ position: 'relative', display: 'block', overflow: 'hidden' }}
+      className="relative block overflow-hidden"
+    >
       {loaded ? (
         ''
       ) : (
         <div
+          className="animate-pulse absolute top-0 left-0 right-0 bottom-0 w-full h-full"
           style={{
-            position: 'absolute',
-            top: 0,
-            right: 0,
-            bottom: 0,
-            left: 0,
-            width: '100%',
-            height: '100%',
-            transform: 'scale(1.5)',
-            filter: 'blur(30px)',
-            ...css,
+            background: props['aria-placeholder'],
           }}
         />
       )}
@@ -72,6 +66,7 @@ const ImageComp = (props: ImageProps) => {
       <Image
         {...updatedProps}
         alt=""
+        unoptimized={true}
         loader={customLoader}
         onLoadingComplete={() => {
           setLoaded(true);
@@ -209,20 +204,23 @@ export const getStaticProps: GetStaticProps<IPostProps, IPostUrl> = async ({
       // improve this. it can easily break images
       return item.content.slice(0, -1).slice(4);
     });
-  const placeholders = await Promise.all(
-    imagePaths.map(async (src: string) => {
-      const { css } = await getPlaiceholder(src, { size: 4 });
 
+  const gradients = await Promise.all(
+    imagePaths.map(async (src: string) => {
+      path.join(__dirname, '../', `public${src}`);
+      const colors = await ColorThief.getPalette(
+        path.join(__dirname, '../../../../', 'public', src),
+        4
+      );
       return {
-        css: JSON.stringify(css),
         src,
+        css: `linear-gradient(180deg, rgb(${colors[0].toString()}) 0%, rgb(${colors[0].toString()}) 25%, rgb(${colors[1].toString()}) 25.1%, rgb(${colors[1].toString()}) 50%, rgb(${colors[2].toString()}) 50.1%, rgb(${colors[2].toString()}) 75%, rgb(${colors[3].toString()}) 75.1%, rgb(${colors[3].toString()}) 100%)`,
       };
     })
   ).then((values) => values);
 
   const placeholdersObj: { [key: string]: string } = {};
-  placeholders.forEach((item: { src: string; css: string }) => {
-    console.log('!!!!!', item.css, '!!!!');
+  gradients.forEach((item: { src: string; css: string }) => {
     placeholdersObj[item.src] = item.css;
   });
 
