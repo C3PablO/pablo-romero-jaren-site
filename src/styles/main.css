@@ -95,29 +95,261 @@ a:hover {
   animation: fadeInFromNone 1.5s ease-out;
 }
 
-.custom_header {
-  width: 100vw;
-  height: 90vh;
-  background: url('/assets/header/me.svg'), url('/assets/header/work.svg'),  url('/assets/header/mountain_bg.svg');
-  background-repeat: no-repeat, repeat-x, no-repeat;
-  background-size: auto 25%,  auto 100%, auto 100%;
-  background-position: center bottom, center bottom, center bottom;
-  background-color: #fffbeb;
-}
-
 @media screen and (min-width: 1000px) {
   .custom_header {
     width: 100vw;
     height: 90vh;
-    background: url('/assets/header/me.svg'), url('/assets/header/trees_bg.svg'), url('/assets/header/boat_bg.svg'), url('/assets/header/work.svg'),  url('/assets/header/mountain_bg.svg');
-    background-repeat: no-repeat,  no-repeat, no-repeat, repeat-x, no-repeat;
-    background-size: auto 25%,  auto 80%, auto 80%, auto 100%, auto 100%;
-    background-position: center bottom, left bottom, right bottom, center bottom, center bottom;
+    position: relative;
     background-color: #fffbeb;
-    background-attachment: fixed, scroll, , scroll, scroll, scroll;
+  }
+
+  .custom_header .trees_left {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background: url('/assets/parallax_header/trees_left.png');
+    background-repeat: no-repeat;
+    background-size: auto 35%;
+    background-position: 8% 66%;
+    background-attachment: fixed;
+    animation: trees_left_animation 60s infinite linear;
+  }
+
+  @keyframes trees_left_animation{
+    0% {
+      background-position: 8% 66%;
+    }
+    100% {
+      background-position: -100% 66%;
+    }
+  }
+
+  .custom_header .fence_back {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background: url('/assets/parallax_header/fence_back.png');
+    background-repeat: repeat-x;
+    background-size: auto 5%;
+    background-position: 0% 77%;
+    background-attachment: fixed;
+    animation: fence_back_animation 55s infinite linear;
+  }
+
+  @keyframes fence_back_animation{
+    0% {
+      background-position: 0% 77%;
+    }
+    100% {
+      background-position: -100% 77%;
+    }
+  }
+
+  .custom_header .ground {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background: url('/assets/parallax_header/ground.png');
+    background-repeat: repeat-x;
+    background-size: auto 10%;
+    background-position: 0% 87%;
+    background-attachment: fixed;
+    animation: ground_animation 50s infinite linear;
+  }
+
+  @keyframes ground_animation {
+    0% {
+      background-position: 0% 87%;
+    }
+    100% {
+      background-position: -100% 87%;
+    }
+  }
+
+  .custom_header .fence_front {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background: url('/assets/parallax_header/fence_front.png');
+    background-repeat: repeat-x;
+    background-size: auto 6%;
+    background-position: 0% 89%;
+    background-attachment: fixed;
+    animation: fence_front_animation 45s infinite linear;
+  }
+
+  @keyframes fence_front_animation{
+    0% {
+      background-position: 0% 89%;
+    }
+    100% {
+        background-position: -100% 89%;
+    }
+  }
+
+  .custom_header .water {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background: url('/assets/parallax_header/water.png');
+    background-repeat: repeat-x;
+    background-size: auto 14%;
+    background-position: 0% 75%;
+    background-attachment: fixed;
+    animation: water_animation 50s infinite linear;
+  }
+
+  @keyframes water_animation {
+    0% {
+      background-position: 0% 75%;
+    }
+    100% {
+      background-position: -100% 75%;
+    }
+  }
+
+  .custom_header .island {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background: url('/assets/parallax_header/island.png');
+    background-repeat: no-repeat;
+    background-size: auto 35%;
+    background-position: 95% 55%;
+    background-attachment: fixed;
+    animation: island_animation 110s infinite linear;
+  }
+
+  @keyframes island_animation {
+    0% {
+      background-position: 95% 55%;
+    }
+    100% {
+      background-position: -100% 55%;
+    }
+  }
+  
+
+  .custom_header .back_weeds {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background: url('/assets/parallax_header/back_weeds.png');
+    background-repeat: repeat-x;
+    background-size: auto 2%;
+    background-position: 0% 64%;
+    background-attachment: fixed;
+    animation: back_weeds_animation 200s infinite linear;
+  }
+
+  @keyframes back_weeds_animation {
+    0% {
+      background-position: 0% 64%;
+    }
+    100% {
+      background-position: -100% 64%;
+    }
+  }
+  
+  .custom_header .houses {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background: url('/assets/parallax_header/houses.png');
+    background-repeat: repeat-x;
+    background-size: auto 18%;
+    background-position: 0% 58%;
+    background-attachment: fixed;
+    
+  }
+
+  @keyframes houses_animation {
+    0% {
+      background-position: 0% 58%;
+    }
+    100% {
+      background-position: 100% 58%;
+    }
+  }
+  
+  
+  .custom_header .trees_bg_01 {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background: url('/assets/parallax_header/trees_bg_01.png');
+    background-repeat: repeat-x;
+    background-size: auto 13%;
+    background-position: 0% 59%;
+    background-attachment: fixed;
+  }
+  
+  .custom_header .trees_bg_02 {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background: url('/assets/parallax_header/trees_bg_02.png');
+    background-repeat: repeat-x;
+    background-size: auto 13%;
+    background-position: 0% 61%;
+    background-attachment: fixed;
+  }
+  
+  .custom_header .mountains_bg_01 {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background: url('/assets/parallax_header/mountains_bg_01.png');
+    background-repeat: repeat-x;
+    background-size: auto 11%;
+    background-position: left 59%;
+    background-attachment: fixed;
+  }
+  
+  .custom_header .mountains_bg_02 {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background: url('/assets/parallax_header/mountains_bg_01_1.png');
+    background-repeat: repeat-x;
+    background-size: auto 30%;
+    background-position: left 43%;
+    background-attachment: fixed;
+  }
+  
+  .custom_header .back_mountain {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background: url('/assets/parallax_header/back_mountain.png');
+    background-repeat: no-repeat;
+    background-size: auto 37%;
+    background-position: center 34%;
+    background-attachment: fixed;
+  }
+  
+  .custom_header .clouds_back {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background: url('/assets/parallax_header/clouds_back.png');
+    background-repeat: repeat-x;
+      background-size: auto 49%;
+      background-position: 0% 42%;
+    background-attachment: fixed;
+  }
+  
+  .custom_header .sun {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background: url('/assets/parallax_header/sun.png');
+    background-repeat: no-repeat;
+    background-size: auto 12%;
+    background-position: center 6%;
+    background-attachment: fixed;
   }
 }
-
 
 .basedIn {
   width: 100vw;

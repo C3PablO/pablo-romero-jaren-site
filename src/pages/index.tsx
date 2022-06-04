@@ -24,7 +24,22 @@ const Index = (props: IBlogGalleryProps) => {
       >
         <div className="relative z-25">
           <div className="custom_header">
-            <Logo className="mx-auto my-0 w-full pt-8 max-w-[200px] md:max-w-[300px] lg:max-w-[350px]" />
+            <div className="sun" />
+            <div className="clouds_back" />
+            <div className="back_mountain" />
+            <div className="mountains_bg_02" />
+            <div className="mountains_bg_01" />
+            <div className="trees_bg_02" />
+            <div className="trees_bg_01" />
+            <div className="houses" />
+            <div className="back_weeds" />
+            <div className="water" />
+            <div className="island" />
+            <div className="trees_left" />
+            <div className="fence_back" />
+            <div className="ground" />
+            <div className="fence_front" />
+            <Logo className="mx-auto my-0 w-full pt-8 max-w-[200px] md:max-w-[300px] lg:max-w-[350px] relative" />
           </div>
           <div className="bg-amber-50 pt-5">
             <div className="max-w-screen-md mx-auto px-3 md:px-0">
