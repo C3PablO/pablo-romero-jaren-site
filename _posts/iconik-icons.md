@@ -15,5 +15,3 @@ Iconik is a cloud-native solution that gathers and organizes media securely from
 ![](/assets/images/posts/icons/iconik_icons_01.png)
 
 ![](/assets/images/posts/icons/iconik_icons_02.png)
-
-![](/assets/images/posts/icons/iconik_icons_03.png)
