@@ -24,4 +24,4 @@ Olivia is an awesome kid with awesome parents. They wanted for her to have a pai
 
 ![](/assets/images/posts/olivia/005.png)
 
-![](/assets/images/posts/olivia/h3.png)
+![](/assets/images/posts/olivia/h2.png)
