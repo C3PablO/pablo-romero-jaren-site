@@ -140,38 +140,38 @@ a:hover {
 .custom_header #item1 {
   transform-box: fill-box;
   transform-origin: center;
-  animation: bounce .75s;
+  animation: fadeInFromNone .75s;
   animation-timing-function: ease-out;
 }
 
 .custom_header #item2 {
   transform-box: fill-box;
   transform-origin: center;
-  animation: bounce 1s;
+  animation: fadeInFromNone .75s;
   animation-timing-function: ease-out;
 }
 
 .custom_header #item3 {
   transform-box: fill-box;
   transform-origin: center;
-  animation: bounce 1.75s;
+  animation: fadeInFromNone .75s;
   animation-timing-function: ease-out;
 }
 
 .custom_header #item4 {
-  animation: slideDown 1.2s;
+  animation: slideDown .75s;
   animation-timing-function: ease-out;
 }
 
 .custom_header #item5 {
-  animation: slideDown 1.5s;
+  animation: slideDown 1s;
   animation-timing-function: ease-out;
 }
 
 .custom_header #item6 {
   transform-box: fill-box;
   transform-origin: center;
-  animation: scaleUp 2s;
+  animation: fadeInFromNone 2s;
   animation-timing-function: ease-out;
 }
 
