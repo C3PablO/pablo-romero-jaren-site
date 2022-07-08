@@ -17,6 +17,7 @@ import { visit } from 'unist-util-visit';
 import ImageComp from '../../components/image_comp';
 import { Content } from '../../content/Content';
 import { Meta } from '../../layout/Meta';
+import { roughGradient4 } from '../../lib/utils';
 import { Navbar } from '../../navigation/Navbar';
 import { Main } from '../../templates/Main';
 import { getAllPosts, getPostBySlug } from '../../utils/Content';
@@ -176,7 +177,7 @@ export const getStaticProps: GetStaticProps<IPostProps, IPostUrl> = async ({
       );
       return {
         src,
-        css: `linear-gradient(180deg, rgb(${colors[0].toString()}) 0%, rgb(${colors[0].toString()}) 25%, rgb(${colors[1].toString()}) 25.1%, rgb(${colors[1].toString()}) 50%, rgb(${colors[2].toString()}) 50.1%, rgb(${colors[2].toString()}) 75%, rgb(${colors[3].toString()}) 75.1%, rgb(${colors[3].toString()}) 100%)`,
+        css: roughGradient4(colors),
       };
     })
   ).then((values) => values);

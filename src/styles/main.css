@@ -175,21 +175,6 @@ a:hover {
   animation-timing-function: ease-out;
 }
 
-@keyframes bounce {
-  0% {
-  opacity: 0;
-  transform: scale(1.2, 1.2);
-  }
-  30% {
-    opacity: 0;
-    transform: scale(1.2, 1.2);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1, 1);
-  }
-}
-
 @keyframes slideDown {
   0% {
   opacity: 0;
@@ -204,30 +189,6 @@ a:hover {
     transform: translateY(0px);
   }
 }
-
-@keyframes scaleUp {
-  0% {
-  opacity: 0;
-  transform: scale(.3);
-  }
-  75% {
-    opacity: 0;
-    transform: scale(.3);
-  }
-  80% {
-    opacity: 1;
-    transform: scale(1.2);
-  }
-
-  85% {
-    transform: scale(1);
-  }
-
-  90% {
-    transform: scale(1);
-  }
-}
-
 
 
 @-webkit-keyframes fadeInFromNone {
@@ -245,4 +206,8 @@ a:hover {
       display: block;
       opacity: 1;
   }
+}
+
+.ta {
+  background: linear-gradient(180deg, rgb(#fefbeb) 0%, rgb(#fefbeb) 25%, rgb(a78ec9) 25.1%, rgb(a78ec9) 50%, rgb(#f2adcc) 50.1%, rgb(#f2adcc) 75%, rgb(#e56c89) 75.1%, rgb(#e56c89) 100%)
 }

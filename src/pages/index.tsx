@@ -4,6 +4,7 @@ import React from 'react';
 import { GetStaticProps } from 'next';
 
 import { BlogGallery, IBlogGalleryProps } from '../blog/BlogGallery';
+import BGLoader from '../components/bg_loader';
 import Logo from '../components/header_logo';
 import { Meta } from '../layout/Meta';
 import { IPaginationProps } from '../pagination/Pagination';
@@ -23,9 +24,17 @@ const Index = (props: IBlogGalleryProps) => {
         }
       >
         <div className="relative z-25">
-          <div className="custom_header">
-            <Logo className="mx-auto my-0 w-full pt-8 max-w-[200px] md:max-w-[300px] lg:max-w-[350px]" />
-          </div>
+          <BGLoader
+            className="custom_header relative"
+            placeholderColor={[
+              '254, 251, 235',
+              '167, 142, 201',
+              '242, 173, 204',
+              '229, 108, 137',
+            ]}
+          >
+            <Logo className="mx-auto my-0 w-full pt-8 max-w-[200px] md:max-w-[300px] lg:max-w-[350px] relative" />
+          </BGLoader>
           <div className="bg-amber-50 pt-5">
             <div className="max-w-screen-md mx-auto px-3 md:px-0">
               <BlogGallery posts={props.posts} pagination={props.pagination} />
