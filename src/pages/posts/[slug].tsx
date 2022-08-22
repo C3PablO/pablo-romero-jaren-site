@@ -52,9 +52,6 @@ const components = {
 };
 
 const DisplayPost = (props: IPostProps) => {
-  if (!props.date) {
-    return '';
-  }
   return (
     <>
       <Main
