@@ -1,16 +1,17 @@
 @tailwind base;
 
 a {
-  @apply text-blue-700;
+  @apply text-inherit underline font-bold;
 }
 
 a:hover {
-  @apply underline;
+  @apply underline hover:opacity-80;
 }
 
 @tailwind components;
 
 @tailwind utilities;
+
 
 
 .zoomIn img {
@@ -97,7 +98,7 @@ a:hover {
 
 .custom_header {
   width: 100vw;
-  height: 90vh;
+  height: 88vh;
   background: url('/assets/header/me.svg'), url('/assets/header/work.svg'),  url('/assets/header/mountain_bg.svg');
   background-repeat: no-repeat, repeat-x, no-repeat;
   background-size: auto 25%,  auto 100%, auto 100%;
@@ -108,7 +109,7 @@ a:hover {
 @media screen and (min-width: 1000px) {
   .custom_header {
     width: 100vw;
-    height: 90vh;
+    height: 88vh;
     background: url('/assets/header/me.svg'), url('/assets/header/trees_bg.svg'), url('/assets/header/boat_bg.svg'), url('/assets/header/work.svg'),  url('/assets/header/mountain_bg.svg');
     background-repeat: no-repeat,  no-repeat, no-repeat, repeat-x, no-repeat;
     background-size: auto 25%,  auto 80%, auto 80%, auto 100%, auto 100%;
@@ -121,7 +122,7 @@ a:hover {
 
 .basedIn {
   width: 100vw;
-  height: 90vh;
+  height: 88vh;
   background: url('/assets/header/me.svg'), url('/assets/others/stockholm.svg');
   background-repeat: no-repeat,  repeat;
   background-size: auto 25%, auto 100%;
@@ -130,7 +131,7 @@ a:hover {
 
 .contact {
   width: 100vw;
-  height: 90vh;
+  height: 88vh;
   background: url('/assets/header/me.svg'), url('/assets/others/myworld.svg'),  url('/assets/others/myworld2.svg');
   background-repeat: no-repeat,  repeat, no-repeat;
   background-size: auto 25%, auto 100%, auto 100%;
@@ -158,20 +159,10 @@ a:hover {
   animation-timing-function: ease-out;
 }
 
-.custom_header #item4 {
-  animation: slideDown .75s;
-  animation-timing-function: ease-out;
-}
-
-.custom_header #item5 {
-  animation: slideDown 1s;
-  animation-timing-function: ease-out;
-}
-
 .custom_header #item6 {
   transform-box: fill-box;
   transform-origin: center;
-  animation: fadeInFromNone 2s;
+  animation: fadeInFromNone 1.5s;
   animation-timing-function: ease-out;
 }
 

@@ -11,8 +11,18 @@ import { IPaginationProps } from '../pagination/Pagination';
 import { Main } from '../templates/Main';
 import { AppConfig } from '../utils/AppConfig';
 import { getAllPosts } from '../utils/Content';
+import {
+  DEFAULT_LOCALE,
+  SupportedLocales,
+  localeMessages,
+  LocaleMessages,
+} from '../utils/lang';
 
-const Index = (props: IBlogGalleryProps) => {
+type ILocaleProps = {
+  localeMessages: LocaleMessages;
+  locale: SupportedLocales;
+};
+const Index = (props: IBlogGalleryProps & ILocaleProps) => {
   return (
     <>
       <Main
@@ -37,31 +47,30 @@ const Index = (props: IBlogGalleryProps) => {
           </BGLoader>
           <div className="bg-amber-50 pt-5">
             <div className="max-w-screen-md mx-auto px-3 md:px-0">
+              <h2 className="font-display font-bold text-3xl md:text-5xl text-center pb-5 text-indigo-800">
+                {props.localeMessages[props.locale]['page.index.title.work']}
+              </h2>
               <BlogGallery posts={props.posts} pagination={props.pagination} />
               <h2 className="font-display font-bold text-3xl md:text-5xl text-center py-5 text-indigo-800">
-                Who am I?
+                {props.localeMessages[props.locale]['page.index.title.whoami']}
               </h2>
               <p className="text-center pb-5">
-                {
-                  "I'm an alien from outer space. Nah! I'm kidding. My name is Pablo and I'm a passionate UI Designer and Graphic Artist. Often I find myself taking screenshots or pictures of things to extract color palettes. Yeah, I don't know if that's normal but I enjoy it. I spend lots of time playing with color, shape, composition and trying to make sense of it. When I'm not doing that I enjoy climbing, running or playing Legos with Bea and Violeta. I don't have a cat."
-                }
+                {props.localeMessages[props.locale]['page.index.text.whoami']}
               </p>
             </div>
 
             <div className="contact"></div>
             <div className="max-w-screen-md mx-auto px-3 md:px-0">
               <h2 className="font-display font-bold text-3xl md:text-5xl text-center py-5 text-indigo-800">
-                Thanks for visiting!
+                {props.localeMessages[props.locale]['page.index.title.contact']}
               </h2>
               <p className="text-center pb-5">
-                {
-                  "Btw, I'm based in Stockholm. It is a nice place if you like nature, cycling and you are ok with cold rainy weather and long months of darkness. If you want to meet in person ping me for a coffee. I don't know what else to say so: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua and have a happy life."
-                }
+                {props.localeMessages[props.locale]['page.index.text.contact']}
               </p>
             </div>
-            <p className="text-center pb-5">
-              {'You can find me online where most people is:'}
-            </p>
+            <h3 className="text-center pb-5">
+              {props.localeMessages[props.locale]['page.index.h3.contact']}
+            </h3>
 
             <ul className="flex py-8 w-full max-w-[50vw] md:max-w-[20vw] mx-auto">
               <li className="mr-2  transition ease-in-out hover:scale-110 duration-200 cursor-pointer px-1">
@@ -125,18 +134,24 @@ const Index = (props: IBlogGalleryProps) => {
   );
 };
 
-export const getStaticProps: GetStaticProps<IBlogGalleryProps> = async () => {
-  const posts = getAllPosts(['title', 'date', 'slug', 'image']);
+export const getStaticProps: GetStaticProps<IBlogGalleryProps> = async (
+  context
+) => {
+  const locales = context.locales || [DEFAULT_LOCALE];
+  const currentLocale = (context.locale || DEFAULT_LOCALE) as SupportedLocales;
+  const posts = getAllPosts(['title', 'date', 'slug', 'image'], locales);
   const pagination: IPaginationProps = {};
 
-  if (posts.length > AppConfig.pagination_size) {
+  if (posts[currentLocale].length > AppConfig.pagination_size) {
     pagination.next = '/page2';
   }
 
   return {
     props: {
-      posts: posts.slice(0, AppConfig.pagination_size),
+      posts: posts[currentLocale].slice(0, AppConfig.pagination_size),
       pagination,
+      localeMessages,
+      locale: currentLocale,
     },
   };
 };

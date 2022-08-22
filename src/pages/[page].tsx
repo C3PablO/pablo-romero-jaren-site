@@ -8,6 +8,7 @@ import { IPaginationProps } from '../pagination/Pagination';
 import { Main } from '../templates/Main';
 import { AppConfig } from '../utils/AppConfig';
 import { getAllPosts } from '../utils/Content';
+import { DEFAULT_LOCALE, SupportedLocales } from '../utils/lang';
 import { convertTo2D } from '../utils/Pagination';
 
 type IPageUrl = {
@@ -20,10 +21,11 @@ const PaginatePosts = (props: IBlogGalleryProps) => (
   </Main>
 );
 
-export const getStaticPaths: GetStaticPaths<IPageUrl> = async () => {
-  const posts = getAllPosts(['slug']);
+export const getStaticPaths: GetStaticPaths<IPageUrl> = async (context) => {
+  const locales = context.locales || [DEFAULT_LOCALE];
+  const posts = getAllPosts(['slug'], locales);
 
-  const pages = convertTo2D(posts, AppConfig.pagination_size);
+  const pages = convertTo2D(posts.en, AppConfig.pagination_size);
 
   return {
     paths: pages.slice(1).map((_, ind) => ({
@@ -41,11 +43,13 @@ export const getStaticPaths: GetStaticPaths<IPageUrl> = async () => {
 export const getStaticProps: GetStaticProps<
   IBlogGalleryProps,
   IPageUrl
-> = async ({ params }) => {
-  const posts = getAllPosts(['title', 'date', 'slug']);
+> = async (context) => {
+  const currentLocale = (context.locale ?? DEFAULT_LOCALE) as SupportedLocales;
+  const locales = context.locales || [DEFAULT_LOCALE];
+  const posts = getAllPosts(['title', 'date', 'slug'], locales);
 
-  const pages = convertTo2D(posts, AppConfig.pagination_size);
-  const currentPage = Number(params!.page.replace('page', ''));
+  const pages = convertTo2D(posts[currentLocale], AppConfig.pagination_size);
+  const currentPage = Number(context.params!.page.replace('page', ''));
   const currentInd = currentPage - 1;
 
   const pagination: IPaginationProps = {};

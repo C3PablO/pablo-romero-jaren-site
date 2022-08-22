@@ -9,13 +9,21 @@ export type PostItems = {
   [key: string]: string;
 };
 
-export function getPostSlugs() {
-  return fs.readdirSync(postsDirectory);
+export function getPostSlugs(locales: string[]) {
+  const slugsByLocale: { [key: string]: string[] } = {};
+  locales.forEach((locale) => {
+    slugsByLocale[locale] = fs.readdirSync(`${postsDirectory}/${locale}`);
+  });
+  return slugsByLocale;
 }
 
-export function getPostBySlug(slug: string, fields: string[] = []) {
+export function getPostBySlug(
+  slug: string,
+  locale: string,
+  fields: string[] = []
+) {
   const realSlug = slug.replace(/\.md$/, '');
-  const fullPath = join(postsDirectory, `${realSlug}.md`);
+  const fullPath = join(postsDirectory, `/${locale}`, `${realSlug}.md`);
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const { data, content } = matter(fileContents);
   const items: PostItems = {};
@@ -37,11 +45,14 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
   return items;
 }
 
-export function getAllPosts(fields: string[] = []) {
-  const slugs = getPostSlugs();
-  const posts = slugs
-    .map((slug) => getPostBySlug(slug, fields))
-    // sort posts by date in descending order
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
-  return posts;
+export function getAllPosts(fields: string[] = [], locales: string[] = []) {
+  const postsByLocale: { [key: string]: PostItems[] } = {};
+  const slugsByLocale = getPostSlugs(locales);
+  Object.keys(slugsByLocale).forEach((locale) => {
+    postsByLocale[locale] = slugsByLocale[locale]
+      .map((slug) => getPostBySlug(slug, locale, fields))
+      .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
+  });
+
+  return postsByLocale;
 }

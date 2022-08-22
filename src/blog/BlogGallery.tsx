@@ -19,7 +19,7 @@ const BlogGallery = (props: IBlogGalleryProps) => (
           className="mb-3 flex justify-between rounded overflow-hidden"
         >
           <Link href="/posts/[slug]" as={`/posts/${elt.slug}`}>
-            <a className="hover:no-underline zoomIn">
+            <a className="zoomIn hover:no-underline font-normal no-underline">
               <img src={elt.image} alt={elt.title} />
               <h2 className="bg-indigo-800 text-zinc-100 p-3 relative truncate text-xs md:text-lg">
                 {elt.title}
