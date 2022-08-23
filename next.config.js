@@ -4,13 +4,9 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 });
 
 module.exports = withBundleAnalyzer({
-  i18n: {
-    locales: ['en', 'es'],
-    defaultLocale: 'en',
-    localeDetection: false,
-  },
   images: {
     loader: 'custom',
   },
+  trailingSlashes: true,
   reactStrictMode: true,
 });
