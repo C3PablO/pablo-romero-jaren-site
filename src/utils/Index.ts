@@ -1,4 +1,4 @@
-import { GetStaticProps } from 'next';
+import { GetStaticProps } from 'next/types';
 
 import { IBlogGalleryProps } from '../blog/BlogGallery';
 import { IPaginationProps } from '../pagination/Pagination';

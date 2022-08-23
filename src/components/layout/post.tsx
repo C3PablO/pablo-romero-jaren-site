@@ -22,7 +22,6 @@ export type IPostProps = {
   background?: string;
   containerClass?: string;
 };
-
 const LayoutPost = (props: IPostProps) => {
   return (
     <>
@@ -30,7 +29,7 @@ const LayoutPost = (props: IPostProps) => {
         <Navbar>
           <ul className="flex w-full divide-x">
             <li className="mr-6 transition ease-in-out hover:scale-110 duration-200 cursor-pointer">
-              <Link href="/">
+              <Link href={`/${props.locale}`}>
                 <a className="flex no-underline">
                   <svg
                     className="mr-2"
@@ -69,7 +68,7 @@ const LayoutPost = (props: IPostProps) => {
         </Content>
       </div>
       <div className="flex justify-center">
-        <Link href="/">
+        <Link href={`/${props.locale}`}>
           <a className="text-xl md:text-2xl px-8 py-5 m-8 rounded-md inline-block text-zinc-100 transition ease-in-out hover:scale-110 duration-200 cursor-pointer bg-indigo-800 hover:bg-indigo-500 hover:no-underline no-underline font-normal">
             {props.localeMessages[props.locale]['page.work.button.bottom']}
           </a>

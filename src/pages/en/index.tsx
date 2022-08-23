@@ -16,6 +16,7 @@ type ILocaleProps = {
   localeMessages: LocaleMessages;
   locale: SupportedLocales;
 };
+
 const Index = (props: IBlogGalleryProps & ILocaleProps) => {
   return (
     <>

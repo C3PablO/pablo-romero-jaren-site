@@ -1,40 +1,40 @@
 import path from 'path';
 
 import MarkdownIt from 'markdown-it';
-import { GetStaticPaths, GetStaticProps } from 'next';
 import { serialize } from 'next-mdx-remote/serialize';
+import { GetStaticProps } from 'next/types';
 import imageSize from 'rehype-img-size';
 import { visit } from 'unist-util-visit';
 
 import { IPostProps } from '../components/layout/post';
 import { roughGradient4 } from '../lib/utils';
-import { getAllPosts, getPostBySlug } from './Content';
+import { getPostBySlug } from './Content';
 import { localeMessages, locales, SupportedLocales } from './lang';
 
 const ColorThief = require('colorthief');
 
-type IPostUrl = {
+export type IPostUrl = {
   slug: string;
 };
 
-export const getPostStaticPaths: () => GetStaticPaths<IPostUrl> =
-  () => async () => {
-    const posts = getAllPosts(['slug'], Object.values(locales));
+// export const getPostStaticPaths: () => GetStaticPaths<IPostUrl> =
+//   () => async () => {
+//     const posts = getAllPosts(['slug'], Object.values(locales));
 
-    const paths = Object.keys(posts)
-      .map((locale) =>
-        posts[locale].map((post) => ({
-          params: {
-            slug: post.slug,
-          },
-        }))
-      )
-      .flat();
-    return {
-      paths,
-      fallback: true,
-    };
-  };
+//     const paths = Object.keys(posts)
+//       .map((locale) =>
+//         posts[locale].map((post) => ({
+//           params: {
+//             slug: post.slug,
+//           },
+//         }))
+//       )
+//       .flat();
+//     return {
+//       paths,
+//       fallback: true,
+//     };
+//   };
 
 function setPlaceholders(options: { placeholders: { [key: string]: string } }) {
   function transformer(tree: any) {

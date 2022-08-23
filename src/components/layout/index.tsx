@@ -27,7 +27,11 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             <h2 className="font-display font-bold text-3xl md:text-5xl text-center pb-5 text-indigo-800">
               {props.localeMessages[props.locale]['page.index.title.work']}
             </h2>
-            <BlogGallery posts={props.posts} pagination={props.pagination} />
+            <BlogGallery
+              posts={props.posts}
+              pagination={props.pagination}
+              path={props.localeMessages[props.locale]['route.work']}
+            />
             <h2 className="font-display font-bold text-3xl md:text-5xl text-center py-5 text-indigo-800">
               {props.localeMessages[props.locale]['page.index.title.whoami']}
             </h2>
