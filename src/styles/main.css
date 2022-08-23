@@ -78,24 +78,6 @@ a:hover {
   z-index: 1;
 }
 
-.app-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
-}
-
-.page-wrap {
-  display: flex;
-  position: absolute;
-  height: 100%;
-  width: 100vw;
-}
-
-.page-wrap.first {
-  animation: fadeInFromNone 1.5s ease-out;
-}
-
 .custom_header {
   width: 100vw;
   height: 88vh;
