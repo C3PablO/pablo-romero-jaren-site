@@ -12,15 +12,15 @@ const ImageComp = (props: ImageProps) => {
 
   return (
     // height and width are part of the props, so they get automatically passed here with {...props}
-    <div
+    <span
       style={{ position: 'relative', display: 'block', overflow: 'hidden' }}
       className="relative block overflow-hidden"
     >
       {loaded ? (
         ''
       ) : (
-        <div
-          className="animate-pulse absolute top-0 left-0 right-0 bottom-0 w-full h-full"
+        <span
+          className="block animate-pulse absolute top-0 left-0 right-0 bottom-0 w-full h-full"
           style={{
             background: props['aria-placeholder'],
           }}
@@ -36,7 +36,7 @@ const ImageComp = (props: ImageProps) => {
           setLoaded(true);
         }}
       />
-    </div>
+    </span>
   );
 };
 

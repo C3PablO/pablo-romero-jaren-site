@@ -9,6 +9,7 @@ import { addTrailingSlash } from '../utils/Url';
 type IMetaProps = {
   title: string;
   description: string;
+  locale?: string;
   canonical?: string;
   post?: {
     image: string;
@@ -81,7 +82,11 @@ const Meta = (props: IMetaProps) => {
           }
           key="og:description"
         />
-        <meta property="og:locale" content={AppConfig.locale} key="og:locale" />
+        <meta
+          property="og:locale"
+          content={props.locale ?? AppConfig.locale}
+          key="og:locale"
+        />
         <meta
           property="og:site_name"
           content={AppConfig.site_name}

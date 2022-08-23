@@ -10,7 +10,8 @@ image: /assets/images/posts/thumbnails/demc.png
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc001.png)
 
-(Where is my sock?) Children's book for 3+ year old and new readers. Publishing on November 2022 through crowdfounding in Verkami. The campaing will launch the 15th of September [here](https://www.verkami.com/projects/33313-donde-esta-mi-calcetin). Join the campaign and get awesome rewards!
+¿Dónde Está Mi Calcetín? Es un libro ilustrado a partir de 3 años y nuevos lectores. Se publicará en 2022 a través *crowdfounding* en Verkami. La campaña se lanzará el 15 de septiembre [aquí](https://www.verkami.com/projects/33313-donde-esta-mi-calcetin). Únete y consigue fantásticas recompensas!
+
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc002.png)
 
