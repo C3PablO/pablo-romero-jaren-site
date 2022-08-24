@@ -163,7 +163,7 @@ const Meta = (props: IMetaProps) => {
         )}
         <link
           rel="stylesheet"
-          href="https://use.typekit.net/mpl2avx.css"
+          href="https://use.typekit.net/brz5xed.css"
         ></link>
       </Head>
     </>

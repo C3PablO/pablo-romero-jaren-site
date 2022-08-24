@@ -18,8 +18,10 @@ module.exports = {
       '4xl': '2.25rem',
       '5xl': '3rem',
       '6xl': '4rem',
+      'vw-5xl': '8vw',
     },
     fontFamily: {
+      sans: ['ff-real-text-pro-2', 'sans-serif'],
       display: ['confiteria-script', 'sans-serif'],
     },
     extend: {

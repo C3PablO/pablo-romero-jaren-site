@@ -24,7 +24,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
         </BGLoader>
         <div className="bg-amber-50 pt-5">
           <div className="max-w-screen-md mx-auto px-3 md:px-0">
-            <h2 className="font-display font-bold text-3xl md:text-5xl text-center pb-5 text-indigo-800">
+            <h2 className="font-display font-bold text-4xl md:text-6xl text-center pb-5 text-indigo-800">
               {props.localeMessages[props.locale]['page.index.title.work']}
             </h2>
             <BlogGallery
@@ -32,7 +32,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               pagination={props.pagination}
               path={props.localeMessages[props.locale]['route.work']}
             />
-            <h2 className="font-display font-bold text-3xl md:text-5xl text-center py-5 text-indigo-800">
+            <h2 className="font-display font-bold text-4xl md:text-6xl text-center py-5 text-indigo-800">
               {props.localeMessages[props.locale]['page.index.title.whoami']}
             </h2>
             <p className="text-center pb-5">
@@ -42,7 +42,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
 
           <div className="contact"></div>
           <div className="max-w-screen-md mx-auto px-3 md:px-0">
-            <h2 className="font-display font-bold text-3xl md:text-5xl text-center py-5 text-indigo-800">
+            <h2 className="font-display font-bold text-4xl md:text-6xl text-center py-5 text-indigo-800">
               {props.localeMessages[props.locale]['page.index.title.contact']}
             </h2>
             <p className="text-center pb-5">

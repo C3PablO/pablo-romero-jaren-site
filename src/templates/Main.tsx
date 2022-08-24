@@ -32,8 +32,8 @@ const Main = (props: IMainProps) => {
       style={props.style}
     >
       {props.meta}
-      <div className="font-sans w-full overflow-hidden">
-        <div className="text-xl">{props.children}</div>
+      <div className="w-full overflow-hidden">
+        <div className="text-lg md:text-xl">{props.children}</div>
       </div>
     </div>
   );

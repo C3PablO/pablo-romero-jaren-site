@@ -1,5 +1,12 @@
 @tailwind base;
 
+@layer base {
+  html {
+    font-family: ff-real-text-pro-2, sans-serif;
+    font-weight: 300;
+  }
+}
+
 a {
   @apply text-inherit underline font-bold;
 }
