@@ -10,22 +10,23 @@ image: /assets/images/posts/thumbnails/demc.png
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc001.png)
 
-¿Dónde Está Mi Calcetín? Es un libro ilustrado a partir de 3 años y nuevos lectores. Se publicará en 2022 a través *crowdfounding* en Verkami. La campaña se lanzará el 15 de septiembre [aquí](https://www.verkami.com/projects/33313-donde-esta-mi-calcetin). Únete y consigue fantásticas recompensas!
+¿Dónde Está Mi Calcetín? Es un libro ilustrado a partir de 3 años y nuevos lectores. Se publicará en 2022 a través *crowdfounding* en Verkami. La campaña se lanzará el 15 de septiembre [en este enlace](https://www.verkami.com/projects/33313-donde-esta-mi-calcetin). Únete y consigue fantásticas recompensas!
 
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc002.png)
 
-It looks like someone has lost a sock. Perhaps the octopus under the bed took it? or maybe the ghost in the library has seen it? Regardless where it is, finding this sock is going to be an adventure.
+Parece que alguien ha perdido su calcetín ¿Lo tendrá el pulpo que vive debajo de la cama? Quizás lo haya visto el fantasma de la biblioteca. Sin duda, encontrarlo va a ser toda una aventura.
 
-Follow the wonderful story of four charismatic creatures looking for a missing sock and explore the enjoinment of searching and finding even though the things one finds are not always the ones expected.
+Sigue la increíble historia de cuatro carismáticas criaturas buscando un calcetín perdido y explora la alegría de buscar y encontrar aunque lo que se encuentra muchas veces no es lo que se espera.
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc003.png)
 
-*¿Dónde Está Mi Calcetín?* is for anyone who likes fantasy but specially for 3+ year old children or new readers. It is also good for people starting to learn Spanish.
+¿Dónde Está Mi Calcetín? es para cualquier persona que disfrute de un poco de fantasía aunque enfocado a niñ@s a partir de 3 años. Con un lenguaje sencillo es también accesible a primer@s lectores.
 
-The creation of this self publishing book it’s been a long journey of more than 2 years where lots of love have been invested. The story got inspiration from Violeta, the author’s daughter.
+La creación de este libro auto editado ha sido un largo proceso al que se ha puesto mucho cariño durante mas de 2 años. La historia ha encontrado inspiración en Violeta, la hija del autor.
 
-The book is written in Spanish and contains a cheatsheet in English. Hardcover DIN A5 landscape (closed) printed on high quality paper. 36 pages with fantastic and misterious illustrations full of surprises. Sustainably printed and bound in Alicante (Spain).
+El libro está escrito en español. Tapa dura, A5 apaisado. Impreso en papel de alta calidad. 36 páginas con fantásticas y misteriosas ilustraciones llenas de sorpresas. Ha sido impreso y encuadernado de forma sostenible en Alicante (España).
+
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc004.png)
 
