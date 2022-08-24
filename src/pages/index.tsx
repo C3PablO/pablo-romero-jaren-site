@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 import { useRouter } from 'next/router';
 
-import { languageDetector, DEFAULT_LOCALE } from '../utils/lang';
+import { languageDetector, DEFAULT_LOCALE } from '../lib/lang';
 
 export const useRedirect = () => {
   const router = useRouter();

@@ -7,7 +7,7 @@ import imageSize from 'rehype-img-size';
 import { visit } from 'unist-util-visit';
 
 import { IPostProps } from '../components/layout/post';
-import { roughGradient4 } from '../lib/utils';
+import { roughGradient4 } from './color';
 import { getAllPosts, getPostBySlug } from './Content';
 import { localeMessages, locales, SupportedLocales } from './lang';
 

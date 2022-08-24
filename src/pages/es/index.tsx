@@ -3,14 +3,14 @@ import React from 'react';
 import { IBlogGalleryProps } from '../../blog/BlogGallery';
 import IndexPage from '../../components/layout';
 import { Meta } from '../../layout/Meta';
-import { Main } from '../../templates/Main';
-import { getIndexStaticProps } from '../../utils/Index';
+import { getIndexStaticProps } from '../../lib/Index';
 import {
   SupportedLocales,
   LocaleMessages,
   locales,
   localeMessages,
-} from '../../utils/lang';
+} from '../../lib/lang';
+import { Main } from '../../templates/Main';
 
 type ILocaleProps = {
   localeMessages: LocaleMessages;

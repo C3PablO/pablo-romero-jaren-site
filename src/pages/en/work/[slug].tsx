@@ -4,10 +4,10 @@ import { GetStaticPaths } from 'next/types';
 
 import LayoutPost, { IPostProps } from '../../../components/layout/post';
 import { Meta } from '../../../layout/Meta';
+import { getAllPosts } from '../../../lib/Content';
+import { locales } from '../../../lib/lang';
+import { getPostStaticProps, IPostUrl } from '../../../lib/Post';
 import { Main } from '../../../templates/Main';
-import { getAllPosts } from '../../../utils/Content';
-import { locales } from '../../../utils/lang';
-import { getPostStaticProps, IPostUrl } from '../../../utils/Post';
 
 const getStaticProps = getPostStaticProps(locales.en);
 

@@ -2,8 +2,8 @@ import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 import Link from 'next/link';
 
 import { Content } from '../../content/Content';
+import { LocaleMessages, SupportedLocales } from '../../lib/lang';
 import { Navbar } from '../../navigation/Navbar';
-import { LocaleMessages, SupportedLocales } from '../../utils/lang';
 import ImageComp from '../image_comp';
 
 const components = {

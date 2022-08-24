@@ -3,7 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import { SupportedLocales } from '../utils/lang';
+import { SupportedLocales } from '../lib/lang';
 
 type ILinkComponent = {
   skipLocaleHandling?: boolean;

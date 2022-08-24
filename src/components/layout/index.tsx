@@ -1,5 +1,5 @@
 import { IBlogGalleryProps, BlogGallery } from '../../blog/BlogGallery';
-import { LocaleMessages, SupportedLocales } from '../../utils/lang';
+import { LocaleMessages, SupportedLocales } from '../../lib/lang';
 import BGLoader from '../bg_loader';
 import Logo from '../header_logo';
 

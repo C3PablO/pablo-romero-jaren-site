@@ -2,7 +2,7 @@ import React, { ReactNode, useEffect } from 'react';
 
 import { useRouter } from 'next/router';
 
-import { DEFAULT_LOCALE, languageDetector } from '../utils/lang';
+import { DEFAULT_LOCALE, languageDetector } from '../lib/lang';
 
 type IMainProps = {
   meta: ReactNode;

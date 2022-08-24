@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-import { roughGradient4 } from '../lib/utils';
+import { roughGradient4 } from '../lib/color';
 
 interface WrapperProps extends React.HTMLAttributes<HTMLDivElement> {
   placeholderColor: string[];

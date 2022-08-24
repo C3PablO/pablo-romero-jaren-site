@@ -2,8 +2,8 @@ import React from 'react';
 
 import Link from 'next/link';
 
+import { PostItems } from '../lib/Content';
 import { Pagination, IPaginationProps } from '../pagination/Pagination';
-import { PostItems } from '../utils/Content';
 
 export type IBlogGalleryProps = {
   posts: PostItems[];
