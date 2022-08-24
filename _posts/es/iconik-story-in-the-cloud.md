@@ -1,6 +1,6 @@
 ---
-title: 'Story in The Cloud'
-description: "iconik likes to celebrate! For a special occasion something unique was wanted. It had to be different from the ordinary branding but still connected to the iconik spirit. I did this screensaver and stickers to give to customers, partners and employees"
+title: 'Historia en la nube'
+description: "A iconik le guta celebrar! Para una ocasión especial se querían una image única. Tenía que ser diferente al *branding* habitual pero mantener la conexión con el espíritu de iconik. Hice este fondo de pantalla y pegatinas para dar a clientes, socios y empleados"
 date: '2022-04-12'
 modified_date: '2022-04-12'
 background: '#1C1F26'
@@ -10,7 +10,7 @@ image: /assets/images/posts/thumbnails/cloud.png
 
 ![](/assets/images/posts/story_cloud/000.png)
 
-iconik likes to celebrate! For a special occasion something unique was wanted. It had to be different from the ordinary branding but still connected to the iconik spirit. I did this screensaver and stickers to give to customers, partners and employees
+¡A iconik le guta celebrar! Para una ocasión especial se querían una image única. Tenía que ser diferente al *branding* habitual pero mantener la conexión con el espíritu de iconik. Hice este fondo de pantalla y pegatinas para dar a clientes, socios y empleados.
 
 ![](/assets/images/posts/story_cloud/001.png)
 

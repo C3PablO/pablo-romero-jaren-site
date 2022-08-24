@@ -1,6 +1,6 @@
 ---
 title: "La habitación de Olivia"
-description: "Commission to design and paint a mural for Olivia's room representing her family."
+description: "Olivia es un peque increible con unos padres maravillosos. Ellos querían que tuviese un mural en su habitación describiendo no solo su familia si no también sus raices y lo que les gusta como familia. Tuve la suete de recibir la comisión de retratarles."
 date: '2022-04-10'
 modified_date: '2022-04-10'
 background: '#F9F6E7'
@@ -10,8 +10,7 @@ image: /assets/images/posts/thumbnails/olivia.png
 
 ![](/assets/images/posts/olivia/h1.png)
 
-Olivia is an awesome kid with awesome parents. They wanted for her to have a painting on a wall in her room depicting not just her family but her roots and what they love as a family. I was honored to get the commission of portraying them.
-
+Olivia es un peque increible con unos padres maravillosos. Ellos querían que tuviese un mural en su habitación describiendo no solo su familia si no también sus raices y lo que les gusta como familia. Tuve la suete de recibir la comisión de retratarles.
 ![](/assets/images/posts/olivia/001.png)
 
 ![](/assets/images/posts/olivia/002.png)
