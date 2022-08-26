@@ -18,8 +18,8 @@ module.exports = {
       '4xl': '2.25rem',
       '5xl': '3rem',
       '6xl': '4rem',
-      'vw-4xl': '6vw',
-      'vw-5xl': '9vw',
+      'vw-4xl': '7vw',
+      'vw-5xl': '13vw',
     },
     fontFamily: {
       sans: ['ff-real-text-pro-2', 'sans-serif'],

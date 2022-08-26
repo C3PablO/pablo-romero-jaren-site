@@ -1,7 +1,6 @@
 import { IBlogGalleryProps, BlogGallery } from '../../blog/BlogGallery';
 import { LocaleMessages, SupportedLocales } from '../../lib/lang';
 import BGLoader from '../bg_loader';
-import Logo from '../header_logo';
 
 type ILocaleProps = {
   localeMessages: LocaleMessages;
@@ -20,12 +19,11 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             '229, 108, 137',
           ]}
         >
-          <h1 className="logo-1 font-display ligatures font-black leading-none text-vw-5xl md:text-vw-4xl text-center pt-5 text-indigo-800 relative z-50">
+          <h1 className="logo-1 font-display ligatures font-black leading-none text-vw-5xl md:text-vw-4xl text-center pt-10 text-indigo-800 relative z-50">
             Pablo
             <br /> Romero
             <br /> Jarén
           </h1>
-          <Logo className="logo-2 mx-auto my-0 w-full pt-8 max-w-[8vw] md:max-w-[5vw] relative" />
         </BGLoader>
         <div className="bg-amber-50 pt-5">
           <div className="max-w-screen-md mx-auto px-3 md:px-0">
