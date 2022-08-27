@@ -22,13 +22,13 @@ const BGLoader: React.FC<WrapperProps> = (props: WrapperProps) => {
   useEffect(() => {
     if (container.current) {
       const bg = window.getComputedStyle(container.current).background;
-      const result = bg
-        .match(/\bhttps?:\/\/\S+/gi)
-        ?.map((url) => url.replace('")', ''));
+      const urlArr = (bg.match(/(url\(".*?"\))/g) ?? []).map((str) => {
+        return str.replace('url("', '').replace('")', '');
+      });
 
-      totalImages = result?.length ?? 0;
+      totalImages = urlArr.length ?? 0;
 
-      result?.forEach((src) => {
+      urlArr?.forEach((src) => {
         const image = new Image();
         images.push(image);
         image.addEventListener('load', imageLoaded);
