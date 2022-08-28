@@ -4,10 +4,11 @@ import { roughGradient4 } from '../lib/color';
 
 interface WrapperProps extends React.HTMLAttributes<HTMLDivElement> {
   placeholderColor: string[];
+  callback: () => void;
 }
 
 const BGLoader: React.FC<WrapperProps> = (props: WrapperProps) => {
-  const { children, placeholderColor, ...rest } = props;
+  const { children, placeholderColor, callback, ...rest } = props;
   const [loaded, setLoaded] = useState(false);
   const container = useRef(null);
   const images: HTMLImageElement[] = [];
@@ -19,6 +20,7 @@ const BGLoader: React.FC<WrapperProps> = (props: WrapperProps) => {
       setLoaded(true);
     }
   };
+
   useEffect(() => {
     if (container.current) {
       const bg = window.getComputedStyle(container.current).background;
@@ -39,12 +41,21 @@ const BGLoader: React.FC<WrapperProps> = (props: WrapperProps) => {
       images.forEach((i) => i.removeEventListener('load', imageLoaded));
     };
   }, []);
+
+  useEffect(() => {
+    if (loaded && callback) {
+      callback();
+    }
+  }, [loaded]);
+
   return (
     <div {...rest} ref={container}>
       {loaded ? undefined : (
         <div
           style={{ background: roughGradient4(placeholderColor) }}
-          className="absolute top-0 left-0 right-0 bottom-0 w-full h-full"
+          className={`${
+            loaded ? 'bg_loader_loaded' : ''
+          } absolute top-0 left-0 right-0 bottom-0 w-full h-full`}
         />
       )}
       {children}

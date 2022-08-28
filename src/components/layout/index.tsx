@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import { IBlogGalleryProps, BlogGallery } from '../../blog/BlogGallery';
 import { LocaleMessages, SupportedLocales } from '../../lib/lang';
 import BGLoader from '../bg_loader';
@@ -7,19 +9,25 @@ type ILocaleProps = {
   locale: SupportedLocales;
 };
 const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
+  const [topLoaded, setTopLoaded] = useState(false);
   return (
     <>
       <div className="relative z-25">
         <BGLoader
-          className="custom_header relative"
+          callback={() => {
+            setTopLoaded(true);
+          }}
+          className={`custom_header ${
+            topLoaded ? 'custom_header_loaded' : ''
+          } relative`}
           placeholderColor={[
             '254, 251, 235',
-            '167, 142, 201',
-            '242, 173, 204',
-            '229, 108, 137',
+            '254, 251, 235',
+            '254, 251, 235',
+            '254, 251, 235',
           ]}
         >
-          <h1 className="logo-1 font-display ligatures font-black leading-none text-vw-5xl md:text-vw-4xl text-center pt-10 text-indigo-800 relative z-50">
+          <h1 className="font-display ligatures font-black leading-none text-vw-5xl md:text-vw-4xl lg:text-[100px] text-center pt-10 text-indigo-800 relative z-50">
             Pablo
             <br /> Romero
             <br /> Jarén

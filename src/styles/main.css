@@ -97,6 +97,58 @@ a:hover {
   background-size: auto 25%,  auto 100%, auto 100%;
   background-position: center bottom, center bottom, center bottom;
   background-color: #fffbeb;
+  
+  transition: .5s ease-in-out;
+  opacity: 0;
+  filter: blur(5px);
+}
+
+.custom_header_loaded {
+  transition: .5s ease-in-out;
+  opacity: 1;
+  filter: blur(0px);
+}
+
+.custom_header h1 {
+  background-image: linear-gradient(360deg, rgba(56,48,163,1) 0%, rgba(56,48,163,1) 49.9%, rgba(108,101,210,1) 50%, rgba(108,101,210,1) 54.9%, rgba(183,180,233,1) 55%, rgba(183,180,233,1) 59.9%, rgba(247,247,253,1) 60%, rgba(247,247,253,0) 65%);
+  background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  background-size: 100% 250%;
+  opacity: 0;
+}
+
+.custom_header_loaded h1 {
+  background-position: 100% 85%;
+  opacity: 1;
+  animation: custom_header_loaded_h1 2.5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes custom_header_loaded_h1 {
+  0% {
+    opacity: 0;
+    filter: blur(5px);
+    background-position: 100% -5%;
+    transform: translateY(20px);
+  }
+  25% {
+    opacity: 0;
+    filter: blur(5px);
+    background-position: 100% -5%;
+    transform: translateY(30px);
+  }
+  30% {
+    filter: blur(0px);
+    transform: translateY(20px);
+    background-position: 100% -5%;
+  }
+  90% {
+    opacity: 1;
+    background-position: 100% 85%;
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -128,20 +180,6 @@ a:hover {
   background-repeat: no-repeat,  repeat, no-repeat;
   background-size: auto 25%, auto 100%, auto 100%;
   background-position: center bottom;
-}
-
-.custom_header .logo-1 {
-  transform-box: fill-box;
-  transform-origin: center;
-  animation: fadeInFromNone .75s;
-  animation-timing-function: ease-out;
-}
-
-.custom_header .logo-2 {
-  transform-box: fill-box;
-  transform-origin: center;
-  animation: fadeInFromNone 1.5s;
-  animation-timing-function: ease-out;
 }
 
 @keyframes slideDown {
@@ -180,3 +218,5 @@ a:hover {
 .ta {
   background: linear-gradient(180deg, rgb(#fefbeb) 0%, rgb(#fefbeb) 25%, rgb(a78ec9) 25.1%, rgb(a78ec9) 50%, rgb(#f2adcc) 50.1%, rgb(#f2adcc) 75%, rgb(#e56c89) 75.1%, rgb(#e56c89) 100%)
 }
+
+
