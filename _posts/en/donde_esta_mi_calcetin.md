@@ -27,7 +27,7 @@ The book is meant for anyone who enjoys fantasy and looks to have fun reading. I
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc004.png)
 
-To create this story I was inspired by my daughter Violeta who loves taking off her socks at any time since she was a baby and like the one in the book her socks would end up in all sort of unexpected places. She has a very creative mind and if she doesn't know where the socks are she would tell us an ingenious story when we ask.
+To create this story I was inspired by my daughter Violeta who loves taking off her socks at any time since she was a baby and like the one in the book her socks end up in all sort of unexpected places. Violeta has a very creative mind and if she doesn't know where the socks are she tell us ingenious stories when we ask.
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc005.png)
 
