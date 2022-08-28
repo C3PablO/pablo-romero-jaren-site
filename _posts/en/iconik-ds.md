@@ -10,7 +10,7 @@ image: /assets/images/posts/thumbnails/icons.png
 
 ![](/assets/images/posts/design_system/000.png)
 
-Iconik is a tool for media management and collaboration. The streamlined design allows you to get where  you want to go fast. Leading brands are already adopting iconik because it’s a tool that entire organizations can use. 
+Iconik is a cloud-native solution that gathers and organizes media securely from any storage. You also get hassle-free media collaboration and powerful automation features. Iconik is easy to use from any device.
 
 For several years I contributed to this project designing and developing the interface and the design system of its different applications.
 

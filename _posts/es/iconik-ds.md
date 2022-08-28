@@ -13,6 +13,8 @@ image: /assets/images/posts/thumbnails/icons.png
 
 Iconik es una herramienta enfocada en administración de medios digitales y colaboración. Su diseño aerodinámico permite a los usuarios llegar rápido donde quieren ir. Marcas líderes han adoptado iconik porque es una herramienta que puede usar una organización entera gracias a su versatilidad.
 
+Iconik es una solucion cloud-native que organiza archivos multimedia the forma segura desde cualquier tipo de almacenamiento. También ofrece herramientas de colaboración y funciones de automatización. Iconik es fácil de usar desde cualquier dispositivo.
+
 Durante varios años he contribuido a este proyecto diseñando y desarrollando la interfaz de usuario y el sistema de diseño de sus distintas aplicaciones.
 
 
