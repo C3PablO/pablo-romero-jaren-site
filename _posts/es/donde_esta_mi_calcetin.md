@@ -1,6 +1,6 @@
 ---
 title: "¿Dónde está mi calcetín?"
-description: "(Where is my sock) Self publishing children's book"
+description: "Self-publishing picture book"
 date: "2022-06-10"
 modified_date: "2022-06-10"
 background: "#1a1a2b"
@@ -10,25 +10,23 @@ image: /assets/images/posts/thumbnails/demc.png
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc001.png)
 
-¿Dónde Está Mi Calcetín? Es un libro ilustrado a partir de 3 años y nuevos lectores. Se publicará en 2022 a través *crowdfounding* en Verkami. La campaña se lanzará el 15 de septiembre [en este enlace](https://www.verkami.com/projects/33313-donde-esta-mi-calcetin). Únete y consigue fantásticas recompensas!
-
-
-![](/assets/images/posts/donde_esta_mi_calcetin/demc002.png)
-
 Parece que alguien ha perdido su calcetín ¿Lo tendrá el pulpo que vive debajo de la cama? Quizás lo haya visto el fantasma de la biblioteca. Sin duda, encontrarlo va a ser toda una aventura.
 
 Sigue la increíble historia de cuatro carismáticas criaturas buscando un calcetín perdido y explora la alegría de buscar y encontrar aunque lo que se encuentra muchas veces no es lo que se espera.
 
+![](/assets/images/posts/donde_esta_mi_calcetin/demc002.png)
+
+*¿Dónde está mi calcetín?* &nbsp;es un libro autopublicado escrito en español y enfocado a niñ@s a partir de 3 años y principiantes en la lectura. La campaña de *crowdfunding* se lanzará en Verkami el 15 de septiembre. Hasta entonces, puedes suscribirte desde el botón que se encuentra a continuación y recibirás una notificación cuando todo comience ¡Únete a la campaña y consigue fabulosas recompensas! <div className="flex justify-center"><a target="_blank" className="text-xl md:text-2xl px-8 py-5 m-8 rounded-md inline-block text-zinc-100 transition ease-in-out hover:scale-110 duration-200 cursor-pointer bg-indigo-800 hover:bg-indigo-500 hover:no-underline no-underline font-normal" href="https://www.verkami.com/projects/33313-donde-esta-mi-calcetin">Visit the campaign</a></div>
+
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc003.png)
 
-¿Dónde Está Mi Calcetín? es para cualquier persona que disfrute de un poco de fantasía aunque enfocado a niñ@s a partir de 3 años. Con un lenguaje sencillo es también accesible a primer@s lectores.
+El libro es perfecto para cualquiera que disfrute de fantasía y busque pasarlo bien leyendo. Será publicado en tapa dura, A5 apaisado (cerrado). Impreso en papel de alta calidad. 36 páginas con fantásticas y misteriosas ilustraciones llenas de sorpresas. Será impreso y encuadernado de forma sostenible en Alicante (España).
 
-La creación de este libro auto editado ha sido un largo proceso al que se ha puesto mucho cariño durante mas de 2 años. La historia ha encontrado inspiración en Violeta, la hija del autor.
-
-El libro está escrito en español. Tapa dura, A5 apaisado. Impreso en papel de alta calidad. 36 páginas con fantásticas y misteriosas ilustraciones llenas de sorpresas. Ha sido impreso y encuadernado de forma sostenible en Alicante (España).
 
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc004.png)
+
+Para crear esta historia me inspiré en mi hija Violeta que desde bien pequeña se quita los calcetines en cualquier lugar. Al igual que el calcetín del libro los suyos acaban en sitios inesperados. Tiene una mente creativa, por lo que si no sabe dónde están sus calcetines nos responde con ingeniosas historias cuando le preguntamos por ellos.
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc005.png)
 

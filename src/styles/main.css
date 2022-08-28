@@ -15,10 +15,6 @@ a {
   @apply text-inherit underline font-bold;
 }
 
-a:hover {
-  @apply underline hover:opacity-80;
-}
-
 @tailwind components;
 
 @tailwind utilities;
