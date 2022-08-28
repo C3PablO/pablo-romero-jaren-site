@@ -28,7 +28,7 @@ const Main = (props: IMainProps) => {
   useLanguage();
   return (
     <div
-      className="antialiased w-full text-gray-700 overflow-auto"
+      className="post w-full text-gray-700 overflow-auto"
       style={props.style}
     >
       {props.meta}
