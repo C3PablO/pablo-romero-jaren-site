@@ -1,6 +1,6 @@
 ---
 title: 'Historia en la nube'
-description: "A iconik le guta celebrar! Para una ocasión especial se querían una image única. Tenía que ser diferente al *branding* habitual pero mantener la conexión con el espíritu de iconik. Hice este fondo de pantalla y pegatinas para dar a clientes, socios y empleados"
+description: "A iconik le guta celebrar! Para una ocasión especial se quería una image única. Tenía que ser diferente al *branding* habitual pero mantener la conexión con el espíritu de iconik. Hice este fondo de pantalla y pegatinas para dar a clientes, socios y empleados"
 date: '2022-04-12'
 modified_date: '2022-04-12'
 background: '#1C1F26'
