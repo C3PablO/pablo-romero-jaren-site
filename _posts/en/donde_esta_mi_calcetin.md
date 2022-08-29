@@ -1,6 +1,6 @@
 ---
 title: "¿Dónde está mi calcetín?"
-description: "(Where is my sock) self-publishing picture book"
+description: "(Where is my sock?) self-publishing picture book"
 date: "2022-06-10"
 modified_date: "2022-06-10"
 background: "#1a1a2b"
