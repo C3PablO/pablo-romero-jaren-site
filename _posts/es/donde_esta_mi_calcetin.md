@@ -16,7 +16,7 @@ Sigue la increíble historia de cuatro carismáticas criaturas buscando un calce
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc002.png)
 
-*¿Dónde está mi calcetín?* &nbsp;es un libro autoeditado escrito en español enfocado a niñ@s a partir de 3 años y principiantes en la lectura. La campaña de *crowdfunding* se lanzará en Verkami el 15 de septiembre. Hasta entonces, puedes suscribirte desde el botón que se encuentra a continuación y recibirás una notificación cuando todo comience ¡Únete a la campaña y consigue fabulosas recompensas! <div className="flex justify-center"><a target="_blank" className="text-xl md:text-2xl px-8 py-5 m-8 rounded-md inline-block text-zinc-100 transition ease-in-out hover:scale-110 duration-200 cursor-pointer bg-indigo-800 hover:bg-indigo-500 hover:no-underline no-underline font-normal" href="https://www.verkami.com/projects/33313-donde-esta-mi-calcetin">Ver la campaña</a></div>
+*¿Dónde está mi calcetín?* &nbsp;es un libro autoeditado escrito en español enfocado a niños y niñas a partir de 3 años y principiantes en la lectura. La campaña de *crowdfunding* se lanzará en Verkami el 15 de septiembre. Hasta entonces, puedes suscribirte desde el botón que se encuentra a continuación y recibirás una notificación cuando todo comience ¡Únete a la campaña y consigue fabulosas recompensas! <div className="flex justify-center"><a target="_blank" className="text-xl md:text-2xl px-8 py-5 m-8 rounded-md inline-block text-zinc-100 transition ease-in-out hover:scale-110 duration-200 cursor-pointer bg-indigo-800 hover:bg-indigo-500 hover:no-underline no-underline font-normal" href="https://www.verkami.com/projects/33313-donde-esta-mi-calcetin">Ver la campaña</a></div>
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc003.png)
 
