@@ -17,7 +17,7 @@ Follow the wonderful story of four charismatic creatures looking for a missing s
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc002.png)
 
 
-*¿Dónde está mi calcetín?* (Where is my sock?) is a self-published picture book written in Spanish (with a cheatsheet in English) for 3+ year olds and beginner readers. The crowdfunding campaign will launch on Verkami on September 15th. Until then, you can subscribe using the button below and get notified when everything starts. Join the campaign and get awesome rewards! <div className="flex justify-center"><a target="_blank" className="text-xl md:text-2xl px-8 py-5 m-8 rounded-md inline-block text-zinc-100 transition ease-in-out hover:scale-110 duration-200 cursor-pointer bg-indigo-800 hover:bg-indigo-500 hover:no-underline no-underline font-normal" href="https://www.verkami.com/projects/33313-donde-esta-mi-calcetin">Visit the campaign</a></div>
+*¿Dónde está mi calcetín?* (Where is my sock?) is a self-published picture book written in Spanish (with a cheatsheet in English) for 3+ year olds and beginner readers. The crowdfunding campaign will launch on Verkami on 2022 September 15th. Until then, you can subscribe using the button below and get notified when everything starts. Join the campaign and get awesome rewards! <div className="flex justify-center"><a target="_blank" className="text-xl md:text-2xl px-8 py-5 m-8 rounded-md inline-block text-zinc-100 transition ease-in-out hover:scale-110 duration-200 cursor-pointer bg-indigo-800 hover:bg-indigo-500 hover:no-underline no-underline font-normal" href="https://www.verkami.com/projects/33313-donde-esta-mi-calcetin">Visit the campaign</a></div>
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc003.png)
 
