@@ -2,7 +2,7 @@
 
 @layer base {
   html {
-    font-family: ff-real-text-pro-2, sans-serif;
+    font-family: Roboto Mono, sans-serif;
     font-weight: 300;
   }
   font-variant-ligatures: discretionary-ligatures;

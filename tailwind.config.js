@@ -22,8 +22,8 @@ module.exports = {
       'vw-5xl': '13vw',
     },
     fontFamily: {
-      sans: ['ff-real-text-pro-2', 'sans-serif'],
-      display: ['confiteria-script', 'sans-serif'],
+      sans: ['Roboto Mono', 'monospace', 'sans-serif'],
+      display: ['Rubik', 'sans-serif'],
     },
     extend: {
       colors: {
