@@ -168,7 +168,7 @@ const Meta = (props: IMetaProps) => {
           crossOrigin="true"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto+Mono:ital,wght@1,300&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto+Mono:wght@300&display=swap"
           rel="stylesheet"
         />
       </Head>
