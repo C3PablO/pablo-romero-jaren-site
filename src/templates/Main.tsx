@@ -27,12 +27,9 @@ export const useLanguage = () => {
 const Main = (props: IMainProps) => {
   useLanguage();
   return (
-    <div
-      className="post w-full text-gray-700 overflow-auto"
-      style={props.style}
-    >
+    <div className="post w-full text-gray-700" style={props.style}>
       {props.meta}
-      <div className="w-full overflow-hidden">
+      <div className="w-full">
         <div className="text-lg md:text-xl">{props.children}</div>
       </div>
     </div>

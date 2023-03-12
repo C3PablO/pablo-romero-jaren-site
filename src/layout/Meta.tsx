@@ -161,16 +161,16 @@ const Meta = (props: IMetaProps) => {
             />
           </>
         )}
-        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
           crossOrigin="true"
-        ></link>
+        />
         <link
-          href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Rubik:wght@900&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto+Mono:ital,wght@1,300&display=swap"
           rel="stylesheet"
-        ></link>
+        />
       </Head>
     </>
   );

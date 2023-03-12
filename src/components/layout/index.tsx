@@ -27,15 +27,15 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             '254, 251, 235',
           ]}
         >
-          <h1 className="font-display ligatures font-black leading-none text-vw-5xl md:text-vw-4xl lg:text-[100px] text-center pt-10 text-indigo-800 relative z-50">
+          <h1 className="font-display ligatures font-black leading-snug text-vw-5xl md:text-vw-4xl lg:text-[100px] text-center pt-10 text-indigo-800 relative z-50">
             Pablo
             <br /> Romero
             <br /> Jarén
           </h1>
         </BGLoader>
-        <div className="bg-amber-50 pt-5">
+        <div className="bg-amber-50">
           <div className="max-w-screen-md mx-auto px-3 md:px-0">
-            <h2 className="font-display font-bold text-4xl md:text-5xl text-center pb-5 text-indigo-800">
+            <h2 className="font-display font-bold text-4xl md:text-6xl text-center pb-5 text-indigo-800">
               {props.localeMessages[props.locale]['page.index.title.work']}
             </h2>
             <BlogGallery

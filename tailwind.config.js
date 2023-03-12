@@ -23,7 +23,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Roboto Mono', 'monospace', 'sans-serif'],
-      display: ['Rubik', 'sans-serif'],
+      display: ['Bungee Shade', 'sans-serif'],
     },
     extend: {
       colors: {
