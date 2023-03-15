@@ -10,7 +10,7 @@ image: /assets/images/posts/thumbnails/doodles.png
 
 ![](/assets/images/posts/doodles/00.png)
 
-Here is the final project for an illustration course I took from one of my favorite Swedish artists, Mattias Adolfsson. The course goes through his creative process and how to achieve beautiful illustrations just from appreciating small things in life and a bit of imagination.
+Here is my final project for an illustration course that I took from one of my favorite Swedish artists, Mattias Adolfsson. The course guides you through his creative process and teaches you how to create beautiful illustrations simply by appreciating the small things in life and using your imagination.
 
 ![](/assets/images/posts/doodles/01.png)
 

@@ -10,7 +10,7 @@ image: /assets/images/posts/thumbnails/cloud.png
 
 ![](/assets/images/posts/story_cloud/000.png)
 
-iconik likes to celebrate! For a special occasion something unique was wanted. It had to be different from the ordinary branding but still connected to the iconik spirit. I did this screensaver and stickers to give to customers, partners and employees
+At iconik, we love to celebrate! For a special occasion, we wanted something unique that was different from our ordinary branding but still connected to the iconik spirit. To achieve this, I created a screensaver and stickers to give to our customers, partners, and employees.
 
 ![](/assets/images/posts/story_cloud/001.png)
 
