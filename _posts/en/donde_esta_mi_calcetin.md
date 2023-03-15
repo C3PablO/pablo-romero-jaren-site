@@ -19,11 +19,13 @@ Follow the wonderful story of four charismatic creatures looking for a missing s
 
 *¿Dónde está mi calcetín?* (Where is my sock?) is a self-published picture book written in Spanish (with a cheatsheet in English) for 3+ year olds and beginner readers. The crowdfunding campaign will launch on Verkami on 2022 September 15th. Until then, you can subscribe using the button below and get notified when everything starts. Join the campaign and get awesome rewards! <div className="flex justify-center"><a target="_blank" className="text-xl md:text-2xl px-8 py-5 m-8 rounded-md inline-block text-zinc-100 transition ease-in-out hover:scale-110 duration-200 cursor-pointer bg-indigo-800 hover:bg-indigo-500 hover:no-underline no-underline font-normal" href="https://www.verkami.com/projects/33313-donde-esta-mi-calcetin">Visit the campaign</a></div>
 
+![](/assets/images/posts/donde_esta_mi_calcetin/demc007.png)
+
+![](/assets/images/posts/donde_esta_mi_calcetin/demc008.png)
+
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc003.png)
 
 The book is meant for anyone who enjoys fantasy and looks to have fun reading. It will be published in hardcover DIN A5 landscape (closed) printed on high quality paper. There are 36 pages containing fantastic and mysterious illustrations full of surprises sustainably printed and bound in Alicante (Spain).
-
-
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc004.png)
 
