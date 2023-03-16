@@ -50,6 +50,10 @@ module.exports = {
           900: '#2a4365',
         },
       },
+      boxShadow: {
+        threed: '0.5rem 0.5rem rgb(55 48 163)',
+        'threed-2': '0.2rem 0.2rem rgb(55 48 163)',
+      },
     },
   },
   variants: {},
