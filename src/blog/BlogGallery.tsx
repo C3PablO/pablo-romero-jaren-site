@@ -12,10 +12,13 @@ export type IBlogGalleryProps = {
 
 const BlogGallery = (props: IBlogGalleryProps & { path: string }) => (
   <>
-    <ul className=" grid grid-cols-1 sm:grid-cols-2 gap-4" id="gallery">
+    <ul
+      className=" grid grid-cols-1 gap-1 sm:grid-cols-2 sm:gap-5"
+      id="gallery"
+    >
       {props.posts.map((elt) => (
         <li key={elt.slug} className="grid-item">
-          <h3 className="text-indigo-800 p-3 relative truncate text-xs md:text-lg">
+          <h3 className="text-indigo-800 p-2 relative truncate text-xs md:text-lg">
             {elt.title}
           </h3>
           <Link href={`/${props.path}/${elt.slug}`}>

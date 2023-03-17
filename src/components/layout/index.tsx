@@ -27,7 +27,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             '254, 251, 235',
           ]}
         >
-          <h1 className="font-display ligatures leading-snug text-vw-5xl md:text-vw-4xl lg:text-[100px] text-center pt-10 text-indigo-800 relative z-50">
+          <h1 className="font-display ligatures leading-snug text-vw-5xl md:text-[100px] text-center pt-10 text-indigo-800 relative z-50">
             Pablo
             <br /> Romero
             <br /> Jarén
