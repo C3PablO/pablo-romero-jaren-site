@@ -10,10 +10,18 @@ image: /assets/images/posts/thumbnails/icons.png
 
 ![](/assets/images/posts/design_system/000.png)
 
+<br/>
 Iconik is a cloud-native solution that securely gathers and organizes media from any storage, while also providing hassle-free media collaboration and powerful automation features. The platform is designed to be user-friendly on any device.
+<br/>
 
+![](/assets/images/posts/design_system/iconik_agent.png)
+
+<br/>
 I contributed to this project for several years by designing and developing the UI, iconography and design system for its various applications.
-
-![](/assets/images/posts/design_system/002.png)
+<br/>
 
 ![](/assets/images/posts/design_system/001.png)
+
+![](/assets/images/posts/design_system/iconik.png)
+
+![](/assets/images/posts/design_system/002.png)
