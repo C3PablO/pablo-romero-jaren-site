@@ -16,9 +16,7 @@ Iconik es una solucion cloud-native que organiza medios digitales de forma segur
 
 ![](/assets/images/posts/design_system/iconik_agent.png)
 
-<br/>
 Durante varios años he contribuido a este proyecto diseñando y desarrollando la interfaz de usuario y el sistema de diseño de sus distintas aplicaciones.
-<br/>
 
 ![](/assets/images/posts/design_system/001.png)
 
