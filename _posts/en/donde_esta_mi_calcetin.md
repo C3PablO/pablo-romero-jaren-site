@@ -1,5 +1,5 @@
 ---
-title: "¿Dónde está mi calcetín?"
+title: "¿Dónde Está Mi Calcetín?"
 description: "(Where is my sock?) self-published picture book"
 date: "2022-06-10"
 modified_date: "2022-06-10"
@@ -8,7 +8,7 @@ containerClass: "text-zinc-100"
 image: /assets/images/posts/thumbnails/demc.png
 ---
 
-![](/assets/images/posts/donde_esta_mi_calcetin/demc001.png)
+![](/assets/images/posts/donde_esta_mi_calcetin/calcetincover.png)
 
 It looks like someone has lost a sock. Perhaps the octopus under the bed took it? Or maybe the ghost in the library has seen it? Regardless of where it is, finding this sock is going to be an adventure.
 

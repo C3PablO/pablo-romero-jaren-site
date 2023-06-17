@@ -1,5 +1,5 @@
 ---
-title: 'iconik'
+title: 'Iconik'
 description: "For several years I contributed to this project designing and developing the interface and the design system for its different applications"
 date: '2022-04-13'
 modified_date: '2022-04-13'
@@ -16,10 +16,14 @@ Iconik is a cloud-native solution that securely gathers and organizes media from
 
 ![](/assets/images/posts/design_system/iconik_agent.png)
 
+<small style={{ display: "block", textAlign: "right", opacity: ".6", fontSize: "12px" }}>Picture by [iconik.io](https://iconik.io/)</small>
+
 I contributed to this project for several years by designing and developing the UI, iconography and design system for its various applications.
 
 ![](/assets/images/posts/design_system/001.png)
 
 ![](/assets/images/posts/design_system/iconik.png)
+
+<small style={{ display: "block", textAlign: "right", opacity: ".6", fontSize: "12px" }}>Picture by [iconik.io](https://iconik.io/)</small>
 
 ![](/assets/images/posts/design_system/002.png)

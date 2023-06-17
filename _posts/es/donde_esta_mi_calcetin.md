@@ -1,5 +1,5 @@
 ---
-title: "¿Dónde está mi calcetín?"
+title: "¿Dónde Está Mi Calcetín?"
 description: "Libro autoeditado"
 date: "2022-06-10"
 modified_date: "2022-06-10"
@@ -8,7 +8,7 @@ containerClass: "text-zinc-100"
 image: /assets/images/posts/thumbnails/demc.png
 ---
 
-![](/assets/images/posts/donde_esta_mi_calcetin/demc001.png)
+![](/assets/images/posts/donde_esta_mi_calcetin/calcetincover.png)
 
 Parece que alguien ha perdido su calcetín ¿Lo tendrá el pulpo que vive debajo de la cama? Quizás lo haya visto el fantasma de la biblioteca. Sin duda, encontrarlo va a ser toda una aventura.
 
