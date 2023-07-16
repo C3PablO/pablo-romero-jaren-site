@@ -80,7 +80,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                 rel="noreferrer"
               >
                 <Linkedin />
-                <ButtonLabel>Linkedin</ButtonLabel>
+                <ButtonLabel>LinkedIn</ButtonLabel>
                 <ArrowRight />
               </Button>
             </Link>
