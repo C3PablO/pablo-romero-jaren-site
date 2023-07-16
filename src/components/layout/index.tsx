@@ -1,8 +1,15 @@
 import { useState } from 'react';
 
+import Link from 'next/link';
+
 import { IBlogGalleryProps, BlogGallery } from '../../blog/BlogGallery';
 import { LocaleMessages, SupportedLocales } from '../../lib/lang';
 import BGLoader from '../bg_loader';
+import Button from '../button';
+import ButtonLabel from '../button_label';
+import ArrowRight from '../icons/arrow_right';
+import Instagram from '../icons/instagram';
+import Linkedin from '../icons/linkedin';
 
 type ILocaleProps = {
   localeMessages: LocaleMessages;
@@ -64,27 +71,32 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             {props.localeMessages[props.locale]['page.index.h3.contact']}
           </h3>
 
-          <ul className="text-center">
-            <li className="mr-2 pb-2">
-              <a
-                href="https://www.linkedin.com/in/pabloromerojaren/"
+          <div className="w-80 flex flex-col gap-5 w-72 max-w-full m-auto">
+            <Link href="https://www.linkedin.com/in/pabloromerojaren/" passHref>
+              <Button
+                markup="a"
+                widthType="w-auto"
                 target="_blank"
                 rel="noreferrer"
               >
-                LinkedIn
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/rawromero/"
+                <Linkedin />
+                <ButtonLabel>Linkedin</ButtonLabel>
+                <ArrowRight />
+              </Button>
+            </Link>
+            <Link href="https://www.instagram.com/rawromero/" passHref>
+              <Button
+                markup="a"
+                widthType="w-auto"
                 target="_blank"
                 rel="noreferrer"
               >
-                Instagram
-              </a>
-            </li>
-          </ul>
-
+                <Instagram />
+                <ButtonLabel>Instagram</ButtonLabel>
+                <ArrowRight />
+              </Button>
+            </Link>
+          </div>
           <div className="basedIn"></div>
           <div className="bg-indigo-800 text-zinc-100 text-center text-sm flex p-4">
             <p>(ɔ) Pablo Romero Jarén 2022</p>

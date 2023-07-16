@@ -62,7 +62,33 @@ a {
 }
 
 .button {
-  @apply text-xl md:text-2xl px-8 py-5 border-2 border-indigo-800 rounded-full text-amber-100 cursor-pointer bg-indigo-600 no-underline font-normal shadow-threed hover:shadow-threed-2 ease-in-out duration-300 flex
+  @apply
+    cursor-pointer
+    no-underline
+
+    flex
+    gap-2
+    items-center
+
+    text-amber-100
+    text-xl
+    md:text-2xl
+    font-normal
+
+    px-8
+    py-5
+
+    border-2
+    border-indigo-800
+    rounded-full
+
+    bg-indigo-600
+
+    shadow-threed
+    hover:shadow-threed-2
+    
+    ease-in-out
+    duration-300
 }
 
 .button:hover {
