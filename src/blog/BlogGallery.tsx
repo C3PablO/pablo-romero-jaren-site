@@ -21,10 +21,8 @@ const BlogGallery = (props: IBlogGalleryProps & { path: string }) => (
           <h3 className="text-indigo-800 p-2 relative truncate text-xs md:text-lg">
             {elt.title}
           </h3>
-          <Link href={`/${props.path}/${elt.slug}`}>
-            <a className="zoomIn">
-              <img src={elt.image} alt={elt.title} />
-            </a>
+          <Link href={`/${props.path}/${elt.slug}`} className="zoomIn">
+            <img src={elt.image} alt={elt.title} />
           </Link>
         </li>
       ))}

@@ -31,8 +31,8 @@ const LinkComponent = ({
 
   return (
     <>
-      <Link href={href}>
-        <a {...rest}>{children}</a>
+      <Link href={href} {...rest}>
+        {children}
       </Link>
     </>
   );

@@ -1,7 +1,5 @@
 import { useState } from 'react';
 
-import Link from 'next/link';
-
 import { IBlogGalleryProps, BlogGallery } from '../../blog/BlogGallery';
 import { LocaleMessages, SupportedLocales } from '../../lib/lang';
 import BGLoader from '../bg_loader';
@@ -72,30 +70,29 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
           </h3>
 
           <div className="w-80 flex flex-col gap-5 w-72 max-w-full m-auto">
-            <Link href="https://www.linkedin.com/in/pabloromerojaren/" passHref>
-              <Button
-                markup="a"
-                widthType="w-auto"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Linkedin />
-                <ButtonLabel>LinkedIn</ButtonLabel>
-                <ArrowRight />
-              </Button>
-            </Link>
-            <Link href="https://www.instagram.com/rawromero/" passHref>
-              <Button
-                markup="a"
-                widthType="w-auto"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Instagram />
-                <ButtonLabel>Instagram</ButtonLabel>
-                <ArrowRight />
-              </Button>
-            </Link>
+            <Button
+              href="https://www.linkedin.com/in/pabloromerojaren/"
+              markup="a"
+              widthType="w-auto"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Linkedin />
+              <ButtonLabel>LinkedIn</ButtonLabel>
+              <ArrowRight />
+            </Button>
+
+            <Button
+              markup="a"
+              href="https://www.instagram.com/rawromero/"
+              widthType="w-auto"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Instagram />
+              <ButtonLabel>Instagram</ButtonLabel>
+              <ArrowRight />
+            </Button>
           </div>
           <div className="basedIn"></div>
           <div className="bg-indigo-800 text-zinc-100 text-center text-sm flex p-4">

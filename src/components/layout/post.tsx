@@ -1,5 +1,4 @@
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
-import Link from 'next/link';
 
 import { Content } from '../../content/Content';
 import { LocaleMessages, SupportedLocales } from '../../lib/lang';
@@ -35,16 +34,14 @@ const LayoutPost = (props: IPostProps) => {
         </Content>
       </div>
       <div className="flex justify-center p-8 pb-12">
-        <Link href={`/${props.locale}#work`} passHref>
-          <div className="fixed top-5 left-5 navbar">
-            <Button markup="a">
-              <ArrowLeft />
-              <ButtonLabel>
-                {props.localeMessages[props.locale]['page.work.button.bottom']}
-              </ButtonLabel>
-            </Button>
-          </div>
-        </Link>
+        <div className="fixed top-5 left-5 navbar">
+          <Button markup="a" href={`/${props.locale}#work`}>
+            <ArrowLeft />
+            <ButtonLabel>
+              {props.localeMessages[props.locale]['page.work.button.bottom']}
+            </ButtonLabel>
+          </Button>
+        </div>
       </div>
       <div className="bg-indigo-800 text-zinc-100 text-center text-sm flex p-4">
         <p>(ɔ) Pablo Romero Jarén 2022</p>

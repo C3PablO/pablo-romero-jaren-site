@@ -179,6 +179,7 @@ a {
 }
 
 .post {
+  animation-delay: 3s;
   animation: fadeInFromNone 1s; 
 }
 
@@ -198,7 +199,7 @@ a {
 }
 
 
-@-webkit-keyframes fadeInFromNone {
+@keyframes fadeInFromNone {
   0% {
       display: none;
       opacity: 0;
