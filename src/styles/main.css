@@ -112,7 +112,7 @@ a {
 .custom_header_loaded h1 {
   background-position: 100% 85%;
   opacity: 1;
-  animation: custom_header_loaded_h1 2s;
+  animation: custom_header_loaded_h1 1.5s;
   animation-timing-function: ease-out;
 }
 
