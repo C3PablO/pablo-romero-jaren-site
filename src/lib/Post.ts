@@ -1,8 +1,8 @@
 import path from 'path';
 
 import MarkdownIt from 'markdown-it';
-import { serialize } from 'next-mdx-remote/serialize';
 import { GetStaticPaths, GetStaticProps } from 'next/types';
+import { serialize } from 'next-mdx-remote/serialize';
 import imageSize from 'rehype-img-size';
 import { visit } from 'unist-util-visit';
 

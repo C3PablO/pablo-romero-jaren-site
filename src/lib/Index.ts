@@ -1,10 +1,10 @@
 import { GetStaticProps } from 'next/types';
 
-import { IBlogGalleryProps } from '../blog/BlogGallery';
-import { IPaginationProps } from '../pagination/Pagination';
 import { AppConfig } from './AppConfig';
 import { getAllPosts } from './Content';
 import { localeMessages, locales, SupportedLocales } from './lang';
+import { IBlogGalleryProps } from '../blog/BlogGallery';
+import { IPaginationProps } from '../pagination/Pagination';
 
 export const getIndexStaticProps: (
   locale: SupportedLocales
