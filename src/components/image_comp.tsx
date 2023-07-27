@@ -14,7 +14,7 @@ const ImageComp = (props: ImageProps) => {
     // height and width are part of the props, so they get automatically passed here with {...props}
     <span
       style={{ position: 'relative', display: 'block', overflow: 'hidden' }}
-      className="relative block overflow-hidden"
+      className="relative block overflow-hidden mt-10 mb-10"
     >
       {loaded ? (
         ''
@@ -26,7 +26,6 @@ const ImageComp = (props: ImageProps) => {
           }}
         />
       )}
-
       <Image
         {...updatedProps}
         alt=""
