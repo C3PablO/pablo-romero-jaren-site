@@ -40,7 +40,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
         </BGLoader>
         <div className="bg-amber-50" id="work">
           <div className="max-w-screen-md mx-auto px-3 md:px-0">
-            <h2 className="font-display text-4xl md:text-6xl text-center pb-5 text-indigo-800">
+            <h2 className="font-display text-4xl md:text-6xl text-center pb-5 pt-5 text-indigo-800">
               {props.localeMessages[props.locale]['page.index.title.work']}
             </h2>
             <BlogGallery
