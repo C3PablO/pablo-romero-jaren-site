@@ -18,12 +18,14 @@ const BlogGallery = (props: IBlogGalleryProps & { path: string }) => (
     >
       {props.posts.map((elt) => (
         <li key={elt.slug} className="grid-item">
-          <Link href={`/${props.path}/${elt.slug}`} className="zoomIn">
-            <img src={elt.image} alt={elt.title} />
+          <Link href={`/${props.path}/${elt.slug}`}>
+            <div className="zoomIn">
+              <img src={elt.image} alt={elt.title} />
+            </div>
+            <h3 className="text-indigo-800 p-2 relative truncate text-xs md:text-lg">
+              {elt.title}
+            </h3>
           </Link>
-          <h3 className="text-indigo-800 p-2 relative truncate text-xs md:text-lg">
-            {elt.title}
-          </h3>
         </li>
       ))}
     </ul>
