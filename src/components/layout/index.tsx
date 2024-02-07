@@ -8,6 +8,7 @@ import ButtonLabel from '../button_label';
 import ArrowRight from '../icons/arrow_right';
 import Instagram from '../icons/instagram';
 import Linkedin from '../icons/linkedin';
+import ArrowDown from '../icons/arrow_down';
 
 type ILocaleProps = {
   localeMessages: LocaleMessages;
@@ -32,19 +33,27 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             '254, 251, 235',
           ]}
         >
-          <header className="font-display text-vw-5xl md:text-[110px] text-center pt-10 text-indigo-900 relative z-50">
-            <h1 className="leading-none">
+          <header className="flex flex-col items-center pt-10 text-indigo-900 relative z-50">
+            <h1 className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] text-center leading-none">
               PABLO
               <br /> ROMERO
               <br /> JARÉN
             </h1>
-            <hr className="w-1/3 mx-auto my-5 border-indigo-900 border-2" />
-            <h2 className="text-xl md:text-[40px]">UI/Graphic Artist</h2>
+            <h2 className="flex flex-col md:flex-row gap-3 text-2xl text-center md:text-[40px]">
+              <span>UI/Graphic Artist</span>
+
+              <a
+                href="#work"
+                className="inline-block m-auto p-2 bg-[#491763] text-white rounded-full animate-pulse"
+              >
+                <ArrowDown width={18} height={18} />
+              </a>
+            </h2>
           </header>
         </BGLoader>
         <div className="bg-amber-50" id="work">
           <div className="max-w-screen-md mx-auto px-3 md:px-0">
-            <h2 className="font-display text-vw-5xl md:text-[110px] md:text-6xl text-center pb-5 pt-5 text-indigo-900">
+            <h2 className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center pb-5 pt-5 text-indigo-900">
               {props.localeMessages[props.locale]['page.index.title.work']}
             </h2>
             <BlogGallery
@@ -55,7 +64,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
           </div>
 
           <div className="contact flex flex-col items-center justify-center -mt-[15vh]">
-            <h2 className="font-display text-vw-5xl md:text-[110px] md:text-6xl text-center py-5 text-indigo-900">
+            <h2 className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900">
               {props.localeMessages[props.locale]['page.index.title.whoami']}
             </h2>
           </div>
@@ -70,7 +79,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
 
           <div className="basedIn flex flex-col items-center justify-start bg-fixed">
             <div className="max-w-screen-md mx-auto px-3 md:px-0">
-              <h2 className="font-display text-vw-5xl md:text-[110px] md:text-6xl text-center py-5 text-indigo-900">
+              <h2 className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900">
                 {props.localeMessages[props.locale]['page.index.title.contact']}
               </h2>
             </div>
