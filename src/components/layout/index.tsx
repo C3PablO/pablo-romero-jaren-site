@@ -110,7 +110,10 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             </div>
           </div>
           <div className="bg-indigo-900 text-zinc-100 text-center text-sm flex p-4">
-            <p>(ɔ) Pablo Romero Jarén 2022</p>
+            <a href="#" className="animate-pulse rotate-180">
+              <ArrowDown width={18} height={18} />
+            </a>
+            <p className="w-full">(ɔ) Pablo Romero Jarén 2024</p>
           </div>
         </div>
       </div>
