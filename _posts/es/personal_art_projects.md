@@ -1,6 +1,6 @@
 ---
 title: "Personal artistic projects"
-description: "As a passionate illustrator I alaway find a excuse to do my thing"
+description: "As a passionate illustrator I alaway find a excuse to do my thing."
 date: '2021-04-08'
 modified_date: '2021-04-08'
 background: '#F9F6E7'
