@@ -8,7 +8,7 @@ containerClass: 'text-indigo-900'
 image: /assets/images/posts/thumbnails/electrolux.png
 ---
 
-![](/assets/images/posts/electrolux/004.png)
+![](/assets/images/posts/electrolux/005.png)
 
 # SHAPE design system
 
@@ -20,7 +20,7 @@ My contributions as a UI Designer have been multifaceted. I've been instrumental
 
 I've also taken a special interest in developing themes for various brands and modes, ensuring that our design system can adapt to different brand identities while maintaining consistency and usability. Organizing design resources and aligning with users of the design system have been crucial in fostering a cohesive and efficient design environment.
 
-![](/assets/images/posts/electrolux/003.png)
+![](/assets/images/posts/electrolux/004.png)
 
 
 ## Design Technologist
@@ -39,7 +39,7 @@ In my capacity as a Visual Designer, I've been responsible for creating the visu
 
 Developing the design system portal has been a significant part of my responsibilities. Using the [Supernova](https://www.supernova.io/) platform, I've built a central hub for the design system that is not only informative but also automatically updated through various automations. This portal has become a key resource for contributors from different design fields within the organization.
 
-![](/assets/images/posts/electrolux/005.png)
+![](/assets/images/posts/electrolux/002.png)
 
 ## Other Activities
 
