@@ -32,15 +32,19 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             '254, 251, 235',
           ]}
         >
-          <h1 className="font-display ligatures leading-snug text-vw-5xl md:text-[100px] text-center pt-10 text-indigo-800 relative z-50">
-            Pablo
-            <br /> Romero
-            <br /> Jarén
-          </h1>
+          <header className="font-display text-vw-5xl md:text-[110px] text-center pt-10 text-indigo-900 relative z-50">
+            <h1 className="leading-none">
+              PABLO
+              <br /> ROMERO
+              <br /> JARÉN
+            </h1>
+            <hr className="w-1/3 mx-auto my-5 border-indigo-900 border-2" />
+            <h2 className="text-xl md:text-[40px]">UI/Graphic Artist</h2>
+          </header>
         </BGLoader>
         <div className="bg-amber-50" id="work">
           <div className="max-w-screen-md mx-auto px-3 md:px-0">
-            <h2 className="font-display text-4xl md:text-6xl text-center pb-5 pt-5 text-indigo-800">
+            <h2 className="font-display text-4xl md:text-6xl text-center pb-5 pt-5 text-indigo-900">
               {props.localeMessages[props.locale]['page.index.title.work']}
             </h2>
             <BlogGallery
@@ -48,7 +52,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               pagination={props.pagination}
               path={props.localeMessages[props.locale]['route.work']}
             />
-            <h2 className="font-display text-4xl md:text-6xl text-center py-5 text-indigo-800">
+            <h2 className="font-display text-4xl md:text-6xl text-center py-5 text-indigo-900">
               {props.localeMessages[props.locale]['page.index.title.whoami']}
             </h2>
             <p className="text-center pb-5">
@@ -58,7 +62,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
 
           <div className="contact"></div>
           <div className="max-w-screen-md mx-auto px-3 md:px-0">
-            <h2 className="font-display text-4xl md:text-6xl text-center py-5 text-indigo-800">
+            <h2 className="font-display text-4xl md:text-6xl text-center py-5 text-indigo-900">
               {props.localeMessages[props.locale]['page.index.title.contact']}
             </h2>
             <p className="text-center pb-5">
@@ -95,7 +99,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             </Button>
           </div>
           <div className="basedIn"></div>
-          <div className="bg-indigo-800 text-zinc-100 text-center text-sm flex p-4">
+          <div className="bg-indigo-900 text-zinc-100 text-center text-sm flex p-4">
             <p>(ɔ) Pablo Romero Jarén 2022</p>
           </div>
         </div>

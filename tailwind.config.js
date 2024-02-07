@@ -22,8 +22,8 @@ module.exports = {
       'vw-5xl': '13vw',
     },
     fontFamily: {
-      sans: ['var(--font-roboto)'],
-      display: ['var(--font-bungee)'],
+      sans: ['var(--font-inter)'],
+      display: ['var(--font-fraunces)'],
     },
     extend: {
       colors: {

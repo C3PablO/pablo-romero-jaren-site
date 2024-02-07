@@ -43,7 +43,7 @@ const LayoutPost = (props: IPostProps) => {
           </Button>
         </div>
       </div>
-      <div className="bg-indigo-800 text-zinc-100 text-center text-sm flex p-4">
+      <div className="bg-indigo-900 text-zinc-100 text-center text-sm flex p-4">
         <p>(ɔ) Pablo Romero Jarén 2022</p>
       </div>
     </>

@@ -5,7 +5,7 @@ type INavbarProps = {
 };
 
 const Navbar = (props: INavbarProps) => (
-  <nav className="bg-indigo-800 navbar flex text-xl p-2">
+  <nav className="bg-indigo-900 navbar flex text-xl p-2">
     {props.children}
 
     <style jsx>

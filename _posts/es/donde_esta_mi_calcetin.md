@@ -1,33 +1,44 @@
 ---
 title: "¿Dónde Está Mi Calcetín?"
-description: "Libro autoeditado"
-date: "2022-06-10"
+description: "(Where is my sock?) self-published picture book."
+date: '2022-04-12'
 modified_date: "2022-06-10"
 background: "#1a1a2b"
 containerClass: "text-zinc-100"
 image: /assets/images/posts/thumbnails/demc.png
 ---
 
-![](/assets/images/posts/donde_esta_mi_calcetin/calcetincover.png)
+![](/assets/images/posts/donde_esta_mi_calcetin/demc003.png)
+# ¿Dónde está mi calcetín? 
 
-Parece que alguien ha perdido su calcetín ¿Lo tendrá el pulpo que vive debajo de la cama? Quizás lo haya visto el fantasma de la biblioteca. Sin duda, encontrarlo va a ser toda una aventura.
+This picture book is a dream come true within my personal projects.
 
-Sigue la increíble historia de cuatro carismáticas criaturas buscando un calcetín perdido y explora la alegría de buscar y encontrar aunque lo que se encuentra muchas veces no es lo que se espera.
+## The book
+
+It looks like someone has lost a sock. Perhaps the octopus under the bed took it? Or maybe the ghost in the library has seen it? Regardless of where it is, finding this sock is going to be an adventure.
+
+
+Join the wonderful story of four charismatic creatures on their search for a missing sock, and discover the joy of searching and finding, even when the things found are not always the ones expected.
+
+
+*¿Dónde está mi calcetín?* (Where is my sock?) is a self-published picture book written in Spanish for children aged 3 and above, as well as beginner readers. The crowdfunding campaign was launched on Verkami on September 15th, 2022, and was published in November 2022 with the help of arpund 200 pledges.
+
+![](/assets/images/posts/donde_esta_mi_calcetin/demc008.png)
+
+![](/assets/images/posts/donde_esta_mi_calcetin/demc007.png)
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc002.png)
 
-*¿Dónde está mi calcetín?* &nbsp;es un libro autoeditado escrito en español enfocado a niños y niñas a partir de 3 años y principiantes en la lectura. La campaña de *crowdfunding* se lanzará en Verkami el 15 de septiembre. Hasta entonces, puedes suscribirte desde el botón que se encuentra a continuación y recibirás una notificación cuando todo comience ¡Únete a la campaña y consigue fabulosas recompensas! <div className="flex justify-center"><a target="_blank" className="text-xl md:text-2xl px-8 py-5 m-8 rounded-md inline-block text-zinc-100 transition ease-in-out hover:scale-110 duration-200 cursor-pointer bg-indigo-800 hover:bg-indigo-500 hover:no-underline no-underline font-normal" href="https://www.verkami.com/projects/33313-donde-esta-mi-calcetin">Ver la campaña</a></div>
-
-![](/assets/images/posts/donde_esta_mi_calcetin/demc003.png)
-
-El libro es perfecto para cualquiera que disfrute de la fantasía y busque pasarlo bien leyendo. Será publicado en tapa dura, A5 apaisado (cerrado). Impreso en papel de alta calidad. 36 páginas con fantásticas y misteriosas ilustraciones llenas de sorpresas. Será impreso y encuadernado de forma sostenible en Alicante (España).
-
-
+The book is intended for anyone who enjoys fantasy and likes to have fun while reading. It contains 36 pages filled with fantastic and mysterious illustrations that are full of surprises.
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc004.png)
 
-Para crear esta historia me inspiré en mi hija Violeta que desde bien pequeña se quita los calcetines en cualquier lugar. Al igual que el calcetín del libro los suyos acaban en sitios inesperados. Violeta tiene una mente creativa, por lo que si no sabe dónde están sus calcetines nos responde con ingeniosas historias cuando le preguntamos por ellos.
+## The story behind
+
+I was inspired to create this story by my daughter Violeta, who loves taking off her socks since she was a baby. Like the character in the book, her socks end up in unexpected places. Violeta has a very creative mind, and when we ask her where her socks are, she comes up with ingenious stories.
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc005.png)
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc006.png)
+
+![](/assets/images/posts/donde_esta_mi_calcetin/calcetincover.png)

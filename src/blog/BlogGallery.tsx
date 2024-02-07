@@ -22,7 +22,7 @@ const BlogGallery = (props: IBlogGalleryProps & { path: string }) => (
             <div className="zoomIn">
               <img src={elt.image} alt={elt.title} />
             </div>
-            <h3 className="text-indigo-800 p-2 relative truncate text-xs md:text-lg">
+            <h3 className="text-indigo-900 p-2 relative truncate text-xs md:text-lg">
               {elt.title}
             </h3>
           </Link>
