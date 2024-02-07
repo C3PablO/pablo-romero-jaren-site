@@ -26,7 +26,7 @@ const BlogGallery = (props: IBlogGalleryProps & { path: string }) => (
               <img src={elt.image} alt={elt.title} />
             </div>
             <div className="info bottom-0 w-full p-5">
-              <h3 className="text-indigo-900 truncate text-xs md:text-lg no-underline">
+              <h3 className="text-indigo-900 truncate md:text-lg no-underline">
                 {elt.title}
               </h3>
               <p className="text-sm"> {elt.description}</p>
