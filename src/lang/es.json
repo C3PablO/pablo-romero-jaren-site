@@ -1,13 +1,13 @@
 {
   "route.work": "es/trabajos",
-  "page.index.meta.title": "Trabajos destacados de Pablo Romero Jarén. Artista UI/Gráfico",
-  "page.index.meta.description": "Artista UI/Gráfico",
-  "page.index.title.work": "Artista UI/Gráfico",
-  "page.index.title.whoami": "¿Quien soy?",
-  "page.index.title.contact": "¡Nos vemos!",
-  "page.index.text.whoami": "Soy un alienígena del espacio exterior ¡Que no! Es una broma. Mi nombre es Pablo y soy un apasionado artista UI/ Gráfico. A menudo me encuentro haciendo pantallazos o fotos de cosas para extraer paletas de color. No se si es muy normal pero me lo paso bien. Paso mucho tiempo jugando con el color, forma, composición e intentando darle sentido. Cuando no estoy haciendo eso disfruto escalando, corriendo o jugando a los Legos con Bea y Violeta. No tengo gato.",
-  "page.index.text.contact": "Por cierto, me encuentro en Estocolmo. En un lugar encantador si te gusta la naturaleza, pedalear y no te importa el mal tiempo y unos cuantos meses de oscuridad. Si quieres quedar en persona, pégame un toque para echar un café. No se que más decir por lo que: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua y se feliz.",
-  "page.index.h3.contact": "Puedes encontrarme online por aquí:",
-  "page.work.button.top": "Trabajos",
-  "page.work.button.bottom": "Otros trabajos"
+  "page.index.meta.title": "Featured work by Pablo Romero Jarén. UI/Graphic Artist",
+  "page.index.meta.description": "UI/Graphic Artist",
+  "page.index.title.work": "My Work",
+  "page.index.title.whoami": "Who am I?",
+  "page.index.title.contact": "See you!",
+  "page.index.text.whoami": "As an experienced UI designer and graphic artist passionate about creativity, human-centered design, and design tools, I am eagerly looking forward to positively impacting society through my work. When I'm not doing that, I love to go rock climbing, running, or camping with Bea and Violeta.",
+  "page.index.text.contact": "Right now, I'm working on Design Systems for Electrolux, and I'm based in Stockholm. It's a pretty cool city if you're into nature, cycling, and don't mind the cold, rainy weather and long months of darkness. If you're ever around and want to catch up over coffee, just give me a shout!",
+  "page.index.h3.contact": "Find me online where most people is:",
+  "page.work.button.top": "Work",
+  "page.work.button.bottom": "Work"
 }

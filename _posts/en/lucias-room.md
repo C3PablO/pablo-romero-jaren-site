@@ -10,6 +10,7 @@ image: /assets/images/posts/thumbnails/lucia.png
 
 ![](/assets/images/posts/lucia/luciacover.png)
 
+# Lucia's Room
 Awaiting Lucia's arrival, I've painted a mural reflecting our unique global family, blending the different cultures we belong to. A celestial tapestry features northern and southern constellations and a diverse animal kingdom - our heritage embodied. This mural isn't just art, but a promise of unity and love across borders. To Lucia, may your life mirror this vibrant diversity.
 
 See more on [Instagram](https://www.instagram.com/stories/highlights/18071731465339249/)

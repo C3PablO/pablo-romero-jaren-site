@@ -96,9 +96,33 @@
   @apply hover:no-underline;
 }
 
-/* .zoomIn:hover {
-  translate: 5px 5px;
-} */
+
+@property --a {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 10deg;
+}
+
+.grid-item {
+  background: white;
+  padding: 4px; /* This will effectively be the border width */
+  border-radius: 14px
+}
+
+.grid-item:hover {
+  --a:0deg;
+  animation: slide 5s infinite;
+  background: conic-gradient(from var(--a), rgb(49, 46, 129), magenta 49.9%,rgb(49, 46, 129));
+}
+
+@keyframes slide {
+  0% {
+    --a: -0deg;
+  }
+  100% {
+    --a: -360deg;
+  }
+}
 
 .custom_header {
   width: 100vw;

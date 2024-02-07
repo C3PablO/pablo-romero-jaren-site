@@ -9,11 +9,7 @@ image: /assets/images/posts/thumbnails/demc.png
 ---
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc003.png)
-# ¿Dónde está mi calcetín? 
-
-This picture book is a dream come true within my personal projects.
-
-## The book
+# ¿Dónde Está Mi Calcetín?
 
 It looks like someone has lost a sock. Perhaps the octopus under the bed took it? Or maybe the ghost in the library has seen it? Regardless of where it is, finding this sock is going to be an adventure.
 

@@ -4,7 +4,7 @@ description: "An evolution in design and web development."
 date: '2022-04-13'
 modified_date: '2022-04-13'
 background: '#13161A'
-containerClass: 'text-zinc-100'
+containerClass: 'text-zinc-300'
 image: /assets/images/posts/thumbnails/icons.png
 ---
 

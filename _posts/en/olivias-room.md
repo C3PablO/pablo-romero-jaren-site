@@ -1,14 +1,16 @@
 ---
 title: "Olivia's Room"
-description: "A mural for Olivia's room representing her family."
+description: "Mural painting for Olivia's room representing her family."
 date: '2022-04-10'
 modified_date: '2022-04-10'
 background: '#F9F6E7'
-containerClass: 'text-gray-900'
+containerClass: 'text-blue-900'
 image: /assets/images/posts/thumbnails/olivia.png
 ---
 
 ![](/assets/images/posts/olivia/h1.png)
+
+# Olivia's Room
 
 Olivia is an amazing kid with wonderful parents. They wanted a painting for her room that not only depicted their family, but also their roots and the things they love as a family. I was honored to be commissioned to create this portrait for them.
 
