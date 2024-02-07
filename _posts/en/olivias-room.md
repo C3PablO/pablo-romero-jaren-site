@@ -1,6 +1,6 @@
 ---
 title: "Olivia's Room"
-description: "Commission to design and paint a mural for Olivia's room representing her family."
+description: "A mural for Olivia's room representing her family."
 date: '2022-04-10'
 modified_date: '2022-04-10'
 background: '#F9F6E7'
