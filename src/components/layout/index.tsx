@@ -41,13 +41,14 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             </h1>
             <h2 className="flex flex-col md:flex-row gap-3 text-2xl text-center md:text-[40px]">
               <span>UI/Graphic Artist</span>
-
-              <a
-                href="#work"
-                className="inline-block m-auto p-2 bg-[#491763] text-white rounded-full animate-bounce"
-              >
-                <ArrowDown width={18} height={18} />
-              </a>
+              <p>
+                <a
+                  href="#work"
+                  className="inline-block m-auto p-2 bg-[#491763] text-white rounded-full animate-bounce"
+                >
+                  <ArrowDown width={18} height={18} />
+                </a>
+              </p>
             </h2>
           </header>
         </BGLoader>

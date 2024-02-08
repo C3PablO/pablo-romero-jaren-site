@@ -201,53 +201,54 @@
 }
 
 .custom_header h1 {
-  background-image: linear-gradient(360deg, rgb(113, 21, 97) 0%, rgb(49, 46, 129) 49.9%, rgba(108,101,210,1) 50%, rgba(108,101,210,1) 54.9%, rgba(183,180,233,1) 55%, rgba(183,180,233,1) 59.9%, rgba(247,247,253,1) 60%, rgba(247,247,253,0) 65%);
+  background-image: linear-gradient(rgb(49, 46, 129) 20%, rgb(113, 21, 97) 100%);
   background-clip: text; 
   -webkit-text-fill-color: transparent;
-  background-size: 100% 250%;
+  background-size: 100% 100%;
   opacity: 0;
 }
 
 .custom_header_loaded h1 {
   background-position: 100% 85%;
   opacity: 1;
-  animation: custom_header_loaded_h1 1s;
+  animation: custom_header_loaded_h1 .8s;
   animation-timing-function: ease-out;
 }
 
 .custom_header_loaded h2 {
-  animation: custom_header_loaded_h2 .75s;
+  animation: custom_header_loaded_h2 .6s;
   animation-timing-function: ease-out;
   color: #491763
 }
 
-.custom_header_loaded hr {
-  animation: custom_header_loaded_hr .5s;
+.custom_header_loaded p {
+  animation: custom_header_loaded_cta .8s;
   animation-timing-function: ease-out;
-  border-color: #491763;
+
 }
 
 @keyframes custom_header_loaded_h1 {
   0% {
     opacity: 0;
-    filter: blur(5px);
-    background-position: 100% -5%;
+    background-size: 100% 300%;
     transform: translateY(30px);
+    filter: blur(20px);
   }
   20% {
     opacity: 0;
-    filter: blur(5px);
-    background-position: 100% -5%;
+    background-size: 100% 300%;
     transform: translateY(30px);
   }
   25% {
-    filter: blur(0px);
     transform: translateY(20px);
-    background-position: 100% -5%;
+    background-size: 100% 300%;
+  }
+  50% {
+    filter: blur(0px);
   }
   90% {
     opacity: 1;
-    background-position: 100% 85%;
+    background-size: 100% 100%;
   }
   100% {
     transform: translateY(0px);
@@ -257,15 +258,15 @@
 @keyframes custom_header_loaded_h2 {
   0% {
     opacity: 0;
-    transform: translateY(-30px);
+    transform: translateY(-20px);
   }
   10% {
     opacity: 0;
-    transform: translateY(-30px);
+    transform: translateY(-20px);
   }
-  55% {
+  45% {
     opacity: 0;
-    transform: translateY(-30px);
+    transform: translateY(-20px);
   }
   100% {
     opacity: 1;
@@ -273,12 +274,18 @@
   }
 }
 
-@keyframes custom_header_loaded_hr {
+@keyframes custom_header_loaded_cta {
   0% {
     opacity: 0;
+    transform: scale(.8);
+  }
+  60% {
+    opacity: 0;
+    transform: scale(.8);
   }
   100% {
     opacity: 1;
+    transform: scale(1);
   }
 }
 
