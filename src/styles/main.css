@@ -85,6 +85,7 @@
 .zoomIn {
   @apply 
     relative m-0
+    rounded-xl
     overflow-hidden
     bg-white
     font-normal

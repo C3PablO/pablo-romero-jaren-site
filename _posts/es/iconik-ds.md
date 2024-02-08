@@ -12,7 +12,7 @@ image: /assets/images/posts/thumbnails/icons.png
 
 
 # iconik.io
-[Iconik](http://www.iconi.io) is a cloud-native solution that securely gathers and organizes media from any storage, while also providing hassle-free media collaboration and powerful automation features. The platform is designed to be user-friendly on any device.
+[Iconik](http://www.iconik.io) is a cloud-native solution that securely gathers and organizes media from any storage, while also providing hassle-free media collaboration and powerful automation features. The platform is designed to be user-friendly on any device.
 
 ## My role
 

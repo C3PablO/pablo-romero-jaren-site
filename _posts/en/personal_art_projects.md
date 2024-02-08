@@ -1,5 +1,5 @@
 ---
-title: "Personal artistic projects"
+title: "Personal projects"
 description: "As a passionate illustrator I alaway find a excuse to do my thing."
 date: '2021-04-08'
 modified_date: '2021-04-08'
@@ -10,7 +10,14 @@ image: /assets/images/posts/thumbnails/doodles.png
 
 ![](/assets/images/posts/doodles/00.png)
 
-# Transforming doodles into art
+# Personal art projects
+
+Art and illustration have always been close to my heart, embodying both a passion and a personal journey of continuous discovery and expression. My fascination with drawing transcends the boundaries between the traditional and the digital, allowing me to explore the vast landscapes of creativity through different mediums.
+No matter how busy life gets, I always find time to doodle something. 
+
+
+
+## Transforming doodles into art
 Here is my final project for an illustration course that I took from one of my favorite Swedish artists, Mattias Adolfsson. The course guides you through his creative process and teaches you how to create beautiful illustrations simply by appreciating the small things in life and using your imagination.
 
 ![](/assets/images/posts/doodles/01.png)
@@ -21,7 +28,7 @@ Here is my final project for an illustration course that I took from one of my f
 
 ![](/assets/images/posts/doodles/04.png)
 
-# 6035
+## 6035
 
 After 60 years of learning and 35 years of teaching, Maria Jose retired, and her family wanted to celebrate her retirement and birthday party with an illustration that depicted her career as a talented preschool teacher and educator. The illustration was used for digital invitations, wine bottle labels, and was also framed as a present for her.
 

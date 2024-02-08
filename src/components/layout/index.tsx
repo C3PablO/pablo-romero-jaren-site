@@ -109,7 +109,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               </Button>
             </div>
           </div>
-          <div className="bg-indigo-900 text-zinc-100 text-center text-sm flex p-4">
+          <div className="bg-indigo-900 text-zinc-100 text-center text-sm flex items-center p-4">
             <a href="#" className="animate-pulse rotate-180">
               <ArrowDown width={18} height={18} />
             </a>

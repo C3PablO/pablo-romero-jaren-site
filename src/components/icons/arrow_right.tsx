@@ -1,6 +1,6 @@
 export interface Props extends React.ComponentPropsWithoutRef<'svg'> {}
 
-const ArrowLeft = (props: Props) => (
+const ArrowRight = (props: Props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -20,4 +20,4 @@ const ArrowLeft = (props: Props) => (
   </svg>
 );
 
-export default ArrowLeft;
+export default ArrowRight;
