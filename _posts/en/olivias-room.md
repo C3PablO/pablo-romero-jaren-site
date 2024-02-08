@@ -1,6 +1,6 @@
 ---
 title: "Olivia's Room"
-description: "Mural painting for Olivia's room representing her family."
+description: "Mural painting representing Olivia's family."
 date: '2022-04-10'
 modified_date: '2022-04-10'
 background: '#F9F6E7'
