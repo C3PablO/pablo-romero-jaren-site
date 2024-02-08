@@ -44,7 +44,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
 
               <a
                 href="#work"
-                className="inline-block m-auto p-2 bg-[#491763] text-white rounded-full animate-pulse"
+                className="inline-block m-auto p-2 bg-[#491763] text-white rounded-full animate-bounce"
               >
                 <ArrowDown width={18} height={18} />
               </a>
@@ -53,7 +53,11 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
         </BGLoader>
         <div className="bg-amber-50" id="work">
           <div className="max-w-screen-md mx-auto px-3 md:px-0">
-            <h2 className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center pb-5 pt-5 text-indigo-900">
+            <h2
+              data-aos="fade-up"
+              data-aos-once="false"
+              className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center pb-5 pt-5 text-indigo-900"
+            >
               {props.localeMessages[props.locale]['page.index.title.work']}
             </h2>
             <BlogGallery
@@ -64,7 +68,11 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
           </div>
 
           <div className="contact flex flex-col items-center justify-center -mt-[15vh]">
-            <h2 className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900">
+            <h2
+              data-aos="fade-up"
+              data-aos-once="false"
+              className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900"
+            >
               {props.localeMessages[props.locale]['page.index.title.whoami']}
             </h2>
           </div>
@@ -79,11 +87,19 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
 
           <div className="basedIn flex flex-col items-center justify-start bg-fixed">
             <div className="max-w-screen-md mx-auto px-3 md:px-0">
-              <h2 className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900">
+              <h2
+                data-aos="fade-up"
+                data-aos-once="false"
+                className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900"
+              >
                 {props.localeMessages[props.locale]['page.index.title.contact']}
               </h2>
             </div>
-            <div className="w-80 flex flex-col gap-5 w-72 max-w-full">
+            <div
+              data-aos="fade-up"
+              data-aos-once="false"
+              className="w-80 flex flex-col gap-5 w-72 max-w-full"
+            >
               <Button
                 href="https://www.linkedin.com/in/pabloromerojaren/"
                 markup="a"

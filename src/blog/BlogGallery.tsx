@@ -14,11 +14,12 @@ export type IBlogGalleryProps = {
 const BlogGallery = (props: IBlogGalleryProps & { path: string }) => (
   <>
     <ul
-      className=" grid grid-cols-1 gap-5 sm:grid-cols-2 relative z-1"
+      className=" grid grid-cols-1 gap-5 sm:grid-cols-2 relative z-100"
       id="gallery"
     >
       {props.posts.map((elt) => (
         <li
+          data-aos="fade-up"
           key={elt.slug}
           className="grid-item overflow-hidden shadow-md shadow-gray-950/20 relative"
         >

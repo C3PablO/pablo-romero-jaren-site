@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import { AppProps } from 'next/app';
 import { Fraunces, Inter } from 'next/font/google';
+import aos from 'aos';
+import 'aos/dist/aos.css';
 
 import '../styles/main.css';
 import '../styles/prism-a11y-dark.css';
@@ -22,6 +24,12 @@ const bungee = Fraunces({
 });
 
 function MyApp({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    aos.init({
+      duration: 800,
+      once: false,
+    });
+  }, []);
   return (
     <div
       className={`${bungee.variable} ${inter.variable} bg-amber-50 font-sans`}
