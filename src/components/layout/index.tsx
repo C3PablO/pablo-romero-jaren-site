@@ -76,7 +76,11 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               {props.localeMessages[props.locale]['page.index.title.whoami']}
             </h2>
           </div>
-          <div className="max-w-screen-md mx-auto px-3 md:px-0 mt-10">
+          <div
+            className="max-w-screen-md mx-auto px-3 md:px-0 mt-10"
+            data-aos="fade-up"
+            data-aos-once="false"
+          >
             <p className="text-center pb-5">
               {props.localeMessages[props.locale]['page.index.text.whoami']}
             </p>
