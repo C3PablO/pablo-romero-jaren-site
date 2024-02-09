@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { IBlogGalleryProps, BlogGallery } from '../../blog/BlogGallery';
 import { LocaleMessages, SupportedLocales } from '../../lib/lang';
@@ -16,6 +16,9 @@ type ILocaleProps = {
 };
 const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
   const [topLoaded, setTopLoaded] = useState(false);
+  useEffect(() => {
+    window.dispatchEvent(new Event('resize'));
+  }, []);
   return (
     <>
       <div className="relative z-25">
@@ -56,7 +59,6 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
           <div className="max-w-screen-md mx-auto px-3 md:px-0">
             <h2
               data-aos="fade-up"
-              data-aos-once="false"
               className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center pb-5 pt-5 text-indigo-900"
             >
               {props.localeMessages[props.locale]['page.index.title.work']}
@@ -71,7 +73,6 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
           <div className="contact flex flex-col items-center justify-center -mt-[15vh]">
             <h2
               data-aos="fade-up"
-              data-aos-once="false"
               className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900"
             >
               {props.localeMessages[props.locale]['page.index.title.whoami']}
@@ -80,7 +81,6 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
           <div
             className="max-w-screen-md mx-auto px-3 md:px-0 mt-10"
             data-aos="fade-up"
-            data-aos-once="false"
           >
             <p className="text-center pb-5">
               {props.localeMessages[props.locale]['page.index.text.whoami']}
@@ -94,7 +94,6 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             <div className="max-w-screen-md mx-auto px-3 md:px-0">
               <h2
                 data-aos="fade-up"
-                data-aos-once="false"
                 className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900"
               >
                 {props.localeMessages[props.locale]['page.index.title.contact']}
@@ -102,7 +101,6 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             </div>
             <div
               data-aos="fade-up"
-              data-aos-once="false"
               className="w-80 flex flex-col gap-5 w-72 max-w-full"
             >
               <Button
