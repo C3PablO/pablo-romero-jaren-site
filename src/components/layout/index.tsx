@@ -93,7 +93,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
           <div className="basedIn flex flex-col items-center justify-start bg-fixed">
             <div className="max-w-screen-md mx-auto px-3 md:px-0">
               <h2
-                data-aos="fade-up"
+                data-aos="flip-up"
                 className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900"
               >
                 {props.localeMessages[props.locale]['page.index.title.contact']}
