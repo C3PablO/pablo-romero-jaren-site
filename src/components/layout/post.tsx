@@ -35,7 +35,7 @@ const LayoutPost = (props: IPostProps) => {
         </Content>
       </div>
       <div className="flex justify-center p-8 pb-12">
-        <div className="fixed top-5 left-5 navbar">
+        <div className="fixed top-5 left-5 navbar z-100">
           <Button markup="a" href={`/${props.locale}#work`}>
             <ArrowLeft />
             <ButtonLabel>
