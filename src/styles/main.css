@@ -36,10 +36,6 @@
   @apply underline
 }
 
-.content img {
-  @apply rounded-lg;
-}
-
 .content {
   animation: fadeUp 1.5s;
 }
