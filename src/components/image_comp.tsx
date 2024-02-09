@@ -28,7 +28,7 @@ const ImageComp = (props: ImageProps) => {
       )}
       <Image
         {...updatedProps}
-        className="relative"
+        className="relative z-1"
         alt=""
         unoptimized={true}
         loader={customLoader}
