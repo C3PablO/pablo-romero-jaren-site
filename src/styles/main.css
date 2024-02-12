@@ -204,6 +204,11 @@
   opacity: 0;
 }
 
+.custom_header h2 {
+  opacity: 0;
+}
+
+
 .custom_header_loaded h1 {
   background-position: 100% 85%;
   opacity: 1;
@@ -213,6 +218,7 @@
 
 .custom_header_loaded h2 {
   animation: custom_header_loaded_h2 .6s;
+  opacity: 1;
   animation-timing-function: ease-out;
   color: #491763
 }
