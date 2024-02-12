@@ -36,8 +36,10 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
   };
 
   useEffect(() => {
-    window.dispatchEvent(new Event('resize'));
     window.addEventListener('scroll', handleScroll);
+    setTimeout(() => {
+      window.dispatchEvent(new Event('resize'));
+    }, 50);
 
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
