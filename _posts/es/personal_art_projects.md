@@ -41,3 +41,9 @@ After 60 years of learning and 35 years of teaching, Maria Jose retired, and her
 
 ![](/assets/images/posts/6035/000.png)
 
+## Kame Grill
+
+ I was thrilled to blend the worlds of culinary artistry and anime passion in a commission for a friend who not only masters the kitchen as a chef but also harbors a deep affection for the iconic universe of Dragon Ball. This artwork represents a unique fusion, where the fiery zeal of cooking meets the explosive energy of Dragon Ball's battles. By integrating elements of both realms, I aimed to capture the essence of my friend's dual passions, crafting a visual narrative that resonates with the intensity of a chef's flame and the dynamic power of a Super Saiyan. 
+
+ ![](/assets/images/posts/doodles/05.png)
+
