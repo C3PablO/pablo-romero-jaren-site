@@ -1,5 +1,5 @@
 ---
-title: "Personal projects"
+title: "Personal Projects"
 description: "As a passionate illustrator I alaway find a excuse to do my thing."
 date: '2021-04-08'
 modified_date: '2021-04-08'
@@ -10,7 +10,7 @@ image: /assets/images/posts/thumbnails/doodles.png
 
 ![](/assets/images/posts/doodles/00.png)
 
-# Personal projects
+# Personal Projects
 
 Art and illustration have always been close to my heart, embodying both a passion and a personal journey of continuous discovery and expression. My fascination with drawing transcends the boundaries between the traditional and the digital, allowing me to explore the vast landscapes of creativity through different mediums.
 No matter how busy life gets, I always find time to doodle something. 
