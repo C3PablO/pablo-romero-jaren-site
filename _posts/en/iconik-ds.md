@@ -19,9 +19,9 @@ image: /assets/images/posts/thumbnails/icons.png
 During my tenure at Iconik, a company renowned for its unique culture rooted in trust, ownership, and commitment, I had the invaluable opportunity to expand my expertise across multiple dimensions of product design. This environment nurtured my growth in UI design and development, UX, and graphic design, allowing me to contribute significantly to the product's evolution and impact.
 
 
-## UI/UX Designer
+## UX/UI/System Designer
 
-In my capacity as a UI Designer, my responsibilities were diverse and integral to the visual and functional coherence of Iconik's products. I developed Figma libraries to streamline the design process, ensuring efficiency and consistency across the team. My design of UI components was meticulously aligned with the Iconik brand, reinforcing the company's identity across our web-based product, desktop application, and admin tools. This alignment was crucial for maintaining a seamless user experience and a strong visual language across all platforms.
+In my capacity as a UI and System Designer, my responsibilities were diverse and integral to the visual and functional coherence of Iconik's products. I developed Figma libraries to streamline the design process, ensuring efficiency and consistency across the team. My design of UI components was meticulously aligned with the Iconik brand, reinforcing the company's identity across our web-based product, desktop application, and admin tools. This alignment was crucial for maintaining a seamless user experience and a strong visual language across all platforms.
 
 <br/>
 

@@ -71,7 +71,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               <br /> JARÉN
             </h1>
             <h2 className="flex flex-col md:flex-row gap-3 text-2xl text-center md:text-[40px]">
-              <span>UI/Graphic Artist</span>
+              <span>A Design Journey</span>
               <p>
                 <a
                   href="#work"
