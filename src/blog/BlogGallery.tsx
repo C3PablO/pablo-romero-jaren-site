@@ -25,7 +25,7 @@ const BlogGallery = (props: IBlogGalleryProps & { path: string }) => (
         >
           <Link
             href={`/${props.path}/${elt.slug}`}
-            className="block bg-white hover:no-underline rounded-xl overflow-hidden"
+            className="block bg-white hover:no-underline rounded-xl overflow-hidden h-full"
           >
             <div className="zoomIn border-solid border-2 border-white">
               <img src={elt.image} alt={elt.title} className="rounded-b-xl" />
