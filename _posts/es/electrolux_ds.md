@@ -29,7 +29,7 @@ As a Design Technologist, I've laid the groundwork for automating and optimizing
 
 Solving technical issues that arise between designers and developers has been another critical aspect of my role. By facilitating communication and understanding between these two groups, I've helped to smooth out the integration of design and development. Additionally, I've worked on translating different brand visual identities into aligned color palettes, ensuring that our design system can accommodate diverse brand aesthetics while maintaining a unified look and feel.
 
-![](/assets/images/posts/electrolux/001.png)
+![](/assets/images/posts/electrolux/006.png)
 
 ## Visual Designer
 
