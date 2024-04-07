@@ -68,6 +68,19 @@ export const getPostStaticProps: (
       'slug',
     ]);
 
+    const myposts = getAllPosts(['slug', 'date'], Object.values(locales))[
+      currentLocale
+    ];
+    const index = myposts.findIndex((item) => item.slug === params!.slug);
+    const prevIdex = index > 0 ? index - 1 : myposts.length - 1;
+    const nextIndex = index < myposts.length - 1 ? index + 1 : 0;
+
+    const prevSlug = myposts[prevIdex].slug;
+    const nextSlug = myposts[nextIndex].slug;
+
+    post.prev = prevSlug;
+    post.next = nextSlug;
+
     const mdi = new MarkdownIt();
     const result = mdi.parse(post.content, {});
     const imagePaths = result
@@ -128,6 +141,8 @@ export const getPostStaticProps: (
         content: mdxSource,
         localeMessages,
         locale: currentLocale,
+        prev: post.prev,
+        next: post.next,
       },
     };
   };

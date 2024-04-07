@@ -1,4 +1,5 @@
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
+import Link from 'next/link';
 
 import { Content } from '../../content/Content';
 import { LocaleMessages, SupportedLocales } from '../../lib/lang';
@@ -7,6 +8,7 @@ import ButtonLabel from '../button_label';
 import ArrowLeft from '../icons/arrow_left';
 import ImageComp from '../image_comp';
 import ArrowDown from '../icons/arrow_down';
+import ArrowRight from '../icons/arrow_right';
 
 const components = {
   img: ImageComp,
@@ -22,19 +24,41 @@ export type IPostProps = {
   localeMessages: LocaleMessages;
   locale: SupportedLocales;
   background?: string;
+  prev?: string;
+  next?: string;
   containerClass?: string;
 };
 const LayoutPost = (props: IPostProps) => {
   return (
     <>
       <div
+        key={props.title}
         className={`max-w-screen-md mx-auto  px-3 pt-8 md:px-0 ${props.containerClass}`}
       >
         <Content>
           <MDXRemote {...props.content} components={components as any} />
         </Content>
+        <div className="flex gap-4 justify-center w-full py-20">
+          <Link
+            className="flex gap-2 items-center"
+            href={`/${props.localeMessages[props.locale]['route.work']}/${
+              props.prev
+            }`}
+          >
+            <ArrowLeft /> Prev
+          </Link>
+          <span>|</span>
+          <Link
+            className="flex gap-2 items-center"
+            href={`/${props.localeMessages[props.locale]['route.work']}/${
+              props.next
+            }`}
+          >
+            Next <ArrowRight />
+          </Link>
+        </div>
       </div>
-      <div className="flex justify-center p-8 pb-12">
+      <div className="flex justify-center">
         <div className="fixed top-5 left-5 navbar z-100">
           <Button markup="a" href={`/${props.locale}#work`}>
             <ArrowLeft />
