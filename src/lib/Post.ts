@@ -143,6 +143,7 @@ export const getPostStaticProps: (
         locale: currentLocale,
         prev: post.prev,
         next: post.next,
+        slug: post.slug,
       },
     };
   };

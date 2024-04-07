@@ -21,6 +21,7 @@ const BlogGallery = (props: IBlogGalleryProps & { path: string }) => (
         <li
           data-aos="fade-up"
           key={elt.slug}
+          id={elt.slug}
           className="grid-item overflow-hidden shadow-md shadow-gray-950/20 relative"
         >
           <Link

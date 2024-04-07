@@ -27,6 +27,7 @@ export type IPostProps = {
   prev?: string;
   next?: string;
   containerClass?: string;
+  slug: string;
 };
 const LayoutPost = (props: IPostProps) => {
   return (
@@ -45,7 +46,8 @@ const LayoutPost = (props: IPostProps) => {
               props.prev
             }`}
           >
-            <ArrowLeft /> Prev
+            <ArrowLeft />{' '}
+            {props.localeMessages[props.locale]['page.work.button.prev']}
           </Link>
           <span>|</span>
           <Link
@@ -54,13 +56,14 @@ const LayoutPost = (props: IPostProps) => {
               props.next
             }`}
           >
-            Next <ArrowRight />
+            {props.localeMessages[props.locale]['page.work.button.next']}{' '}
+            <ArrowRight />
           </Link>
         </div>
       </div>
       <div className="flex justify-center">
         <div className="fixed top-5 left-5 navbar z-100">
-          <Button markup="a" href={`/${props.locale}#work`}>
+          <Button markup="a" href={`/${props.locale}#${props.slug}`}>
             <ArrowLeft />
             <ButtonLabel>
               {props.localeMessages[props.locale]['page.work.button.bottom']}

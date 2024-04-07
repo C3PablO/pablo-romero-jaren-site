@@ -39,6 +39,14 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
     window.addEventListener('scroll', handleScroll);
     setTimeout(() => {
       window.dispatchEvent(new Event('resize'));
+
+      const { hash } = window.location;
+      if (hash) {
+        const hashElement = document.getElementById(hash.replace('#', ''));
+        if (hashElement) {
+          hashElement.scrollIntoView();
+        }
+      }
     }, 50);
 
     return () => window.removeEventListener('scroll', handleScroll);
