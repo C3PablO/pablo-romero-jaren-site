@@ -97,10 +97,13 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             <div className="max-w-screen-md mx-auto px-3 md:px-0">
               <h2
                 data-aos="fade-up"
-                className="m-0 font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center pb-5 pt-5 text-indigo-900"
+                className="m-0 font-display text-vw-5xl min-[600px]:text-[80px] leading-none md:text-[110px] md:text-6xl text-center pb-5 pt-5 text-indigo-900"
               >
                 {props.localeMessages[props.locale]['page.index.title.work']}
               </h2>
+              <p data-aos="fade-up" className="mb-12 text-center">
+                {props.localeMessages[props.locale]['page.index.text.work']}
+              </p>
               <BlogGallery
                 posts={props.posts}
                 pagination={props.pagination}
