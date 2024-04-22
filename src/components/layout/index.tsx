@@ -101,9 +101,14 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               >
                 {props.localeMessages[props.locale]['page.index.title.work']}
               </h2>
-              <p data-aos="fade-up" className="mb-12 text-center">
-                {props.localeMessages[props.locale]['page.index.text.work']}
-              </p>
+              <div
+                className="flex items-center max-w-[600px] mx-auto mb-12"
+                data-aos="fade-up"
+              >
+                <p className="text-center">
+                  {props.localeMessages[props.locale]['page.index.text.work']}
+                </p>
+              </div>
               <BlogGallery
                 posts={props.posts}
                 pagination={props.pagination}
@@ -119,15 +124,76 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                 {props.localeMessages[props.locale]['page.index.title.whoami']}
               </h2>
             </div>
+
             <div
-              className="max-w-screen-md mx-auto px-3 md:px-0 mt-10"
+              className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-10"
               data-aos="fade-up"
             >
-              <p className="text-center pb-5">
-                {props.localeMessages[props.locale]['page.index.text.whoami']}
+              <p className="pb-5 text-center">
+                {
+                  'My design journey is about navigating uncharted territories, where the ultimate goal is to bring goodness through change and progress. Here are the waypoints that mark my adventure:'
+                }
               </p>
-              <p className="text-center pb-5">
-                {props.localeMessages[props.locale]['page.index.text.contact']}
+            </div>
+            <div
+              className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-10"
+              data-aos="fade-up"
+            >
+              <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
+                ⌛
+              </h2>
+              <p className="pb-5">
+                {"I've travelled the desing world for over a decade."}
+              </p>
+            </div>
+            <div
+              className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-4"
+              data-aos="fade-up"
+            >
+              <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
+                🌍
+              </h2>
+              <p className="pb-5">
+                {
+                  'My goal is to use my skills to forge paths that positively impact society.'
+                }
+              </p>
+            </div>
+            <div
+              className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-4"
+              data-aos="fade-up"
+            >
+              <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
+                🧳
+              </h2>
+              <p className="pb-5">
+                {
+                  'The suitcase I carry contains UI/UX Design, Design Systems, User-Centered Design, Frontend Development, and Illustration.'
+                }
+              </p>
+            </div>
+            <div
+              className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-4"
+              data-aos="fade-up"
+            >
+              <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
+                📍
+              </h2>
+              <p className="pb-5">
+                {
+                  'I am charting new territories at Electrolux, crafting Design Systems.'
+                }
+              </p>
+            </div>
+            <div
+              className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-4"
+              data-aos="fade-up"
+            >
+              <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
+                🏕️
+              </h2>
+              <p className="pb-5">
+                {'My basecamp is set in Stockholm, Sweeden (CEST).'}
               </p>
             </div>
 
