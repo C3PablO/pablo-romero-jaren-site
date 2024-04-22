@@ -1,6 +1,6 @@
 ---
 title: "SHAPE Design System"
-description: "Design at scale. When design systems enter the scene."
+description: "Bringing the goods of design systems when designing at scale."
 date: '2024-02-01'
 modified_date: '2022-04-12'
 background: '#F9FAFB'
