@@ -1,6 +1,6 @@
 ---
 title: 'iconik.io'
-description: "An evolution in design and web development."
+description: "An evolution in design and development using web technologies."
 date: '2022-04-13'
 modified_date: '2022-04-13'
 background: '#13161A'
