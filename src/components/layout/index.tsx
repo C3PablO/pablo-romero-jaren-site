@@ -137,7 +137,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             </div>
             <div
               className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-10"
-              data-aos="fade-up"
+              data-aos="fade-right"
             >
               <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
                 ⌛
@@ -148,7 +148,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             </div>
             <div
               className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-4"
-              data-aos="fade-up"
+              data-aos="fade-right"
             >
               <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
                 🌍
@@ -161,7 +161,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             </div>
             <div
               className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-4"
-              data-aos="fade-up"
+              data-aos="fade-right"
             >
               <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
                 🧳
@@ -174,7 +174,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             </div>
             <div
               className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-4"
-              data-aos="fade-up"
+              data-aos="fade-right"
             >
               <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
                 📍
@@ -187,7 +187,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             </div>
             <div
               className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-4"
-              data-aos="fade-up"
+              data-aos="fade-right"
             >
               <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
                 🏕️
