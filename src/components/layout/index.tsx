@@ -131,7 +131,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             >
               <p className="pb-5 text-center">
                 {
-                  'My design journey is about navigating uncharted territories, where the ultimate goal is to bring goodness through change and progress. Here are the waypoints that mark my adventure:'
+                  'My design journey is about navigating uncharted territories, where the ultimate goal is to bring goodness through change and progress. Here are the waypoints that mark my adventure.'
                 }
               </p>
             </div>
