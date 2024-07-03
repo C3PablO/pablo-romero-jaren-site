@@ -168,7 +168,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               </h2>
               <p className="pb-5">
                 {
-                  'The suitcase I carry contains UI/UX Design, Design Systems, User-Centered Design, Frontend Development, and Illustration.'
+                  'My backpack contains UI/UX Design, Design Systems, Frontend Development, and Illustration.'
                 }
               </p>
             </div>
