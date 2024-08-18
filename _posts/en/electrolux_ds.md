@@ -10,7 +10,7 @@ image: /assets/images/posts/thumbnails/electrolux.png
 
 ![](/assets/images/posts/electrolux/005.png)
 
-# Electrolux's SHAPE Design System.
+# SHAPE Design System at Electrolux.
 
 At Electrolux, within the SHAPE design system team, my role as a UX engineer has been a journey of continuous learning and contribution across various aspects of design and technology. SHAPE, an ambitious project distributed throughout the digital organization at Electrolux, spans three different platforms: web, mobile, and appliances. My involvement in SHAPE has allowed me to engage in numerous activities, offering me a unique opportunity to learn from different touchpoints within the organization.
 
