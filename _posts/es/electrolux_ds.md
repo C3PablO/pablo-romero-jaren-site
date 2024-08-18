@@ -12,18 +12,20 @@ image: /assets/images/posts/thumbnails/electrolux.png
 
 # Electrolux's SHAPE Design System.
 
-At Electrolux, within the SHAPE design system team, my role as a UI Designer and Design Technologist has been a journey of continuous learning and contribution across various aspects of design and technology. SHAPE, an ambitious project distributed throughout the entire organization, spans three different platforms: web, mobile, and appliances. My involvement in SHAPE has allowed me to engage in numerous activities, offering me a unique opportunity to learn from different touchpoints within the organization.
+At Electrolux, within the SHAPE design system team, my role as a UX engineer has been a journey of continuous learning and contribution across various aspects of design and technology. SHAPE, an ambitious project distributed throughout the digital organization at Electrolux, spans three different platforms: web, mobile, and appliances. My involvement in SHAPE has allowed me to engage in numerous activities, offering me a unique opportunity to learn from different touchpoints within the organization.
 
-## UI Designer
+During my time working with SHAPE, I have contributed to the following activities:
 
-My contributions as a UI Designer have been multifaceted. I've been instrumental in creating component libraries in Figma, focusing on the visual aspects, interaction patterns, usage guidelines, and comprehensive documentation for each component. My efforts have been particularly concentrated on components designed for native mobile, addressing the unique challenges and considerations of mobile UI design.
+## UI Design
 
-I've also taken a special interest in developing themes for various brands and modes, ensuring that our design system can adapt to different brand identities while maintaining consistency and usability. Organizing design resources and aligning with users of the design system have been crucial in fostering a cohesive and efficient design environment.
+I've been instrumental in creating design libraries and assets, focusing on the visual aspects, interaction and  documentation. My efforts have been particularly concentrated on reducing complexity and working closely with developers to ensure the best alignment possible between the components in Figma and the components in code.
+
+With focus on native mobile, I've also taken a special interest in creating themes for various brands and modes, ensuring that our design system can adapt to different brand identities while maintaining accessible and consistent experiences. Organizing design resources, and aligning with users of the design system thuough sync sessions and workshops have been crucial in ensuring adoption.
 
 ![](/assets/images/posts/electrolux/004.png)
 
 
-## Design Technologist
+## Design engineering
 
 As a Design Technologist, I've laid the groundwork for automating and optimizing our design processes. This has involved creating the necessary infrastructure and pipelines, utilizing scripts, and developing Figma plugins to streamline workflows. My leadership in the design tokens community has been vital in standardizing design elements and ensuring consistency across our platforms. [Token Studio](https://tokens.studio/), [Figma](https://www.figma.com/) and [Style Dictionary](https://amzn.github.io/style-dictionary/#/) have been vital tools working with design tokens.
 
@@ -31,11 +33,11 @@ Solving technical issues that arise between designers and developers has been an
 
 ![](/assets/images/posts/electrolux/006.png)
 
-## Visual Designer
+## Visual Design
 
 In my capacity as a Visual Designer, I've been responsible for creating the visual brand of the design system itself. This has involved applying our design principles and aesthetic to the documentation site, presentations, and communications, making the design system recognizable and accessible within the organization.
 
-## Web Developer
+## Web Development
 
 Developing the design system portal has been a significant part of my responsibilities. Using the [Supernova](https://www.supernova.io/) platform, I've built a central hub for the design system that is not only informative but also automatically updated through various automations. This portal has become a key resource for contributors from different design fields within the organization.
 
