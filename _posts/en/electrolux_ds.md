@@ -12,13 +12,25 @@ image: /assets/images/posts/thumbnails/electrolux.png
 
 # SHAPE Design System
 
-At Electrolux, within the SHAPE design system team, my role as a UX engineer has been a journey of continuous learning and contribution across various aspects of design and technology. SHAPE, an ambitious project distributed throughout the digital organization at Electrolux, spans three different platforms: web, mobile, and appliances. My involvement in SHAPE has allowed me to engage in numerous activities, offering me a unique opportunity to learn from different touchpoints within the organization.
+SHAPE is a design system for cohesive and efficient design experience and development serving to the digital organization at Electrolux.
 
-During my time working with SHAPE, I have contributed to the following activities:
+<br/>
+
+## My role.
+The project spans three different platforms: web, mobile, and appliances and my involvement in SHAPE has allowed me to engage in numerous activities, offering me a unique opportunity to contribute and learn across various aspects of design and technology.
+
+<br/>
 
 ## UI Design
 
-I've been instrumental in creating design libraries and assets, focusing on the visual aspects, interaction and  documentation. My efforts have been particularly concentrated on reducing complexity for the audience of the system and working closely with developers to ensure the best alignment possible between the components in Figma and the components in code. Organizing design resources, and aligning with users of the design system thuough sync sessions and workshops have been crucial in scalating adoption.
+I've been instrumental in creating design libraries and assets, focusing on the visual aspects, interaction and  documentation of UI components. My efforts have been particularly concentrated on: 
+<br/>
+- Reducing complexity for the audience of the system.
+- Working closely with developers to ensure the best alignment possible between design and code. 
+- Enabling adoption of the system though good communication and workshops.
+- Provide a good experience for the end user.
+
+<br/>
 
 With mostly focus on native mobile, I've also taken a special interest in creating themes for various brands and modes, ensuring that our design system can adapt to different brand identities while maintaining accessible and consistent experiences.
 

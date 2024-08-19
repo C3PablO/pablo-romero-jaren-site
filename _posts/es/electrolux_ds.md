@@ -12,13 +12,25 @@ image: /assets/images/posts/thumbnails/electrolux.png
 
 # SHAPE Design System
 
-At Electrolux, within the SHAPE design system team, my role as a UX engineer has been a journey of continuous learning and contribution across various aspects of design and technology. SHAPE, an ambitious project distributed throughout the digital organization at Electrolux, spans three different platforms: web, mobile, and appliances. My involvement in SHAPE has allowed me to engage in numerous activities, offering me a unique opportunity to learn from different touchpoints within the organization.
+SHAPE is a design system for cohesive and efficient design experience and development serving to the digital organization at Electrolux.
 
-During my time working with SHAPE, I have contributed to the following activities:
+<br/>
+
+## My role.
+The project spans three different platforms: web, mobile, and appliances and my involvement in SHAPE has allowed me to engage in numerous activities, offering me a unique opportunity to contribute and learn across various aspects of design and technology.
+
+<br/>
 
 ## UI Design
 
-I've been instrumental in creating design libraries and assets, focusing on the visual aspects, interaction and  documentation. My efforts have been particularly concentrated on reducing complexity for the audience of the system and working closely with developers to ensure the best alignment possible between the components in Figma and the components in code. Organizing design resources, and aligning with users of the design system thuough sync sessions and workshops have been crucial in scalating adoption.
+I've been instrumental in creating design libraries and assets, focusing on the visual aspects, interaction and  documentation of UI components. My efforts have been particularly concentrated on: 
+<br/>
+- Reducing complexity for the audience of the system.
+- Working closely with developers to ensure the best alignment possible between design and code. 
+- Enabling adoption of the system though good communication and workshops.
+- Provide a good experience for the end user.
+
+<br/>
 
 With mostly focus on native mobile, I've also taken a special interest in creating themes for various brands and modes, ensuring that our design system can adapt to different brand identities while maintaining accessible and consistent experiences.
 
@@ -27,11 +39,11 @@ With mostly focus on native mobile, I've also taken a special interest in creati
 
 ## Design engineering
 
-As a Design Technologist, I've laid the groundwork for automating and optimizing our design processes. This has involved creating the necessary infrastructure and pipelines, utilizing scripts, and developing Figma plugins to streamline workflows. My leadership in the design tokens community has been vital in standardizing design elements and ensuring consistency across our platforms. [Token Studio](https://tokens.studio/), [Figma](https://www.figma.com/) and [Style Dictionary](https://amzn.github.io/style-dictionary/#/) have been vital tools working with design tokens.
-
-Solving technical issues that arise between designers and developers has been another critical aspect of my role. By facilitating communication and understanding between these two groups, I've helped to smooth out the integration of design and development. Additionally, I've worked on translating different brand visual identities into aligned color palettes, ensuring that our design system can accommodate diverse brand aesthetics while maintaining a unified look and feel.
+As a Design Technologist, I've laid the groundwork for automating and optimizing our design processes. This has involved creating the necessary infrastructure and pipelines, utilizing scripts, and developing Figma plugins to streamline workflows. My leadership in the design tokens community has been vital in standardizing design elements and ensuring consistency across our platforms. [Token Studio](https://tokens.studio/), [Figma Variables](https://help.figma.com/hc/en-us/articles/14506821864087-Overview-of-variables-collections-and-modes) and [Style Dictionary](https://amzn.github.io/style-dictionary/#/) have been vital tools working with design tokens.
 
 ![](/assets/images/posts/electrolux/006.png)
+
+As a UI designer is crucial for me to understand as much as possible the technology stack I design for. I'm never afraid of learning a new programming language and jump into code. With my coding skills I've not only solved desing problems but also facilitated workshops and conversations to help easing technical issues with different profiles of people involved.
 
 ## Visual Design
 
@@ -48,6 +60,4 @@ Developing the design system portal has been a significant part of my responsibi
 ## Other Activities
 
 Beyond my primary roles, I've engaged in additional activities that enrich my professional experience and contribute to the broader community. I've served as a mentor in the [STEM:FEM (2023)](https://www.electroluxgroup.com/en/electrolux-group-launches-stemfem-and-donates-100-mentorship-hours-to-stem-students-35035/) mentorship program, offering guidance and support to students in the STEM field. Participating in UX design and research, sketching sessions, and roundtable discussions have also been integral to my development and contribution to the field of design.
-
-
 
