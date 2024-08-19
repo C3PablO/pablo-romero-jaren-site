@@ -12,11 +12,11 @@ image: /assets/images/posts/thumbnails/electrolux.png
 
 # SHAPE Design System
 
-SHAPE is a design system for cohesive and efficient design experience and development serving to the digital organization at Electrolux.
+SHAPE is a design system for cohesive and efficient design experience and development serving the digital organization at Electrolux.
 
 <br/>
 
-## My role.
+## My role
 The project spans three different platforms: web, mobile, and appliances and my involvement in SHAPE has allowed me to engage in numerous activities, offering me a unique opportunity to contribute and learn across various aspects of design and technology.
 
 <br/>
