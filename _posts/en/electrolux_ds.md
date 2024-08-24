@@ -18,12 +18,12 @@ SHAPE is a design system for cohesive and efficient design experience and develo
 
 ## My role
 The project spans three different platforms: web, mobile, and appliances and my involvement in SHAPE has allowed me to engage in numerous activities, offering me a unique opportunity to contribute and learn across various aspects of design and technology.
-
-My efforts have been particularly concentrated on: 
 <br/>
+My efforts have been particularly concentrated on: 
+
 - Providing high quality assets and reducing complexity for the audience of the system
 - Working closely with developers to ensure the best alignment possible between design and code. 
-- Enabling adoption of the system though good communication and workshops.
+- Enabling adoption of the system through good communication, workshops and migration resources.
 - Provide an optimal experience for the end user.
 <br/>
 
