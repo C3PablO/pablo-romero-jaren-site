@@ -10,7 +10,7 @@ image: /assets/images/posts/thumbnails/electrolux.png
 
 ![](/assets/images/posts/electrolux/005.png)
 
-# SHAPE Design System
+# SHAPE
 
 SHAPE is a design system for cohesive and efficient design experience and development serving the digital organization at Electrolux.
 
