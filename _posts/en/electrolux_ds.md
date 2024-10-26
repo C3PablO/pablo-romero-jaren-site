@@ -27,7 +27,6 @@ My efforts have been particularly concentrated on:
 - Working closely with developers to ensure the best alignment possible between design and code. 
 - Enabling trust on the design system.
 - Providing an optimal experience for the end user.
-<br/>
 
 <br/>
 
@@ -37,6 +36,7 @@ With mostly focus on native mobile I've been instrumental in creating design lib
 
 ![](/assets/images/posts/electrolux/004.png)
 
+<br/>
 
 ## Design engineering
 
