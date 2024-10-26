@@ -48,6 +48,8 @@ My leadership in the **design tokens** community has been vital in standardizing
 
 As a UI designer is crucial for me to understand as much as possible the technology stack I design for. I'm never afraid of learning a new programming language and jumping into code. With my coding skills I've not only solved desing problems but also facilitated workshops and conversations to help easing technical issues with different profiles of people involved.
 
+<br/>
+
 ## Visual Design
 
 To convince others of something, high-quality communication is key. I've utilized my visual design skills to create the brand identity for the design system itself, from the logo and the aesthetics of the documentation site to presentation slides, making the design system recognizable and its communication consistent throughout the organization.
