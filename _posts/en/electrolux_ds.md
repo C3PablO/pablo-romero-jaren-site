@@ -12,7 +12,7 @@ image: /assets/images/posts/thumbnails/electrolux.png
 
 # SHAPE
 
-SHAPE is a design system for cohesive and efficient design experience and development serving the digital organization at Electrolux.
+SHAPE is Electrolux group’s design system for cohesive and efficient design and development.
 
 <br/>
 
@@ -27,14 +27,13 @@ My efforts have been particularly concentrated on:
 - Provide an optimal experience for the end user.
 <br/>
 
-<br/>
-
 ## UI Design
 
 With mostly focus on native mobile I've been instrumental in creating design libraries and assets, focusing on the visual aspects, interaction and documentation of UI components. Always with an eye on accessibility I've also taken a special interest in creating themes for various brands and modes, ensuring that our design system can adapt to different brand identities while maintaining accessible and consistent experiences.
 
 ![](/assets/images/posts/electrolux/004.png)
 
+<br/>
 
 ## Design engineering
 
@@ -44,17 +43,23 @@ As a Design Technologist, I've laid the groundwork for automating and optimizing
 
 As a UI designer is crucial for me to understand as much as possible the technology stack I design for. I'm never afraid of learning a new programming language and jump into code. With my coding skills I've not only solved desing problems but also facilitated workshops and conversations to help easing technical issues with different profiles of people involved.
 
+<br/>
+
 ## Visual Design
 
 To convince others of something, high-quality communication is key. I've utilized my visual design skills to create the brand identity for the design system itself, from the logo and the aesthetics of the documentation site to presentation slides, making the design system recognizable and its communication consistent throughout the organization.
 
 ![](/assets/images/posts/electrolux/007.png)
 
+<br/>
+
 ## Web Development
 
 Developing the design system portal has been a significant part of my responsibilities. Using the [Supernova](https://www.supernova.io/) platform the team have created a central hub for the design system. The portal is connected to different sources of data that keeps the documentation updated through automations abd contributors from different parts of the organization.
 
 ![](/assets/images/posts/electrolux/002.png)
+
+<br/>
 
 ## Other Activities
 
