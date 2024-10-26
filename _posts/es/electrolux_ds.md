@@ -21,10 +21,14 @@ The project spans three different platforms: web, mobile, and appliances and my 
 <br/>
 My efforts have been particularly concentrated on: 
 
-- Providing high quality assets and reducing complexity for the audience of the system
+- Creating high quality UI components and design assets.
+- Reducing complexity and streamlining design processes both for the design system and its audience.
+- Providing documentation for different aspects of the system.
 - Working closely with developers to ensure the best alignment possible between design and code. 
-- Enabling adoption of the system through good communication, workshops and migration resources.
-- Provide an optimal experience for the end user.
+- Enabling trust on the design system.
+- Providing an optimal experience for the end user.
+<br/>
+
 <br/>
 
 ## UI Design
@@ -33,17 +37,16 @@ With mostly focus on native mobile I've been instrumental in creating design lib
 
 ![](/assets/images/posts/electrolux/004.png)
 
-<br/>
 
 ## Design engineering
 
-As a Design Technologist, I've laid the groundwork for automating and optimizing our design processes. This has involved creating the necessary infrastructure and pipelines, utilizing scripts, and developing Figma plugins to streamline workflows. My leadership in the **design tokens** community has been vital in standardizing design elements and ensuring consistency across our platforms. [Token Studio](https://tokens.studio/), [Figma Variables](https://help.figma.com/hc/en-us/articles/14506821864087-Overview-of-variables-collections-and-modes) and [Style Dictionary](https://amzn.github.io/style-dictionary/#/) have been vital tools working with design tokens.
+As a Design Technologist, I've laid the groundwork for automating and optimizing our design processes. This has involved creating the necessary infrastructure and pipelines as Figma plugins to streamline workflows. 
+
+My leadership in the **design tokens** community has been vital in standardizing design decisions and ensuring consistency across our platforms and brands. [Token Studio](https://tokens.studio/), [Figma Variables](https://help.figma.com/hc/en-us/articles/14506821864087-Overview-of-variables-collections-and-modes) and [Style Dictionary](https://amzn.github.io/style-dictionary/#/) have been vital tools working with design tokens.
 
 ![](/assets/images/posts/electrolux/006.png)
 
-As a UI designer is crucial for me to understand as much as possible the technology stack I design for. I'm never afraid of learning a new programming language and jump into code. With my coding skills I've not only solved desing problems but also facilitated workshops and conversations to help easing technical issues with different profiles of people involved.
-
-<br/>
+As a UI designer is crucial for me to understand as much as possible the technology stack I design for. I'm never afraid of learning a new programming language and jumping into code. With my coding skills I've not only solved desing problems but also facilitated workshops and conversations to help easing technical issues with different profiles of people involved.
 
 ## Visual Design
 
@@ -51,7 +54,8 @@ To convince others of something, high-quality communication is key. I've utilize
 
 ![](/assets/images/posts/electrolux/007.png)
 
-<br/>
+![](/assets/images/posts/electrolux/008.png)
+
 
 ## Web Development
 
@@ -59,13 +63,10 @@ Developing the design system portal has been a significant part of my responsibi
 
 ![](/assets/images/posts/electrolux/002.png)
 
-<br/>
-
 ## Other Activities
 
 ### 2024
-I joined the animation workgroup to investigate and define how to systematize and organize animation in our user interfaces.
+I joined the animation workgroup to investigate, explore and define an animation system for our user interfaces.
 
 ### 2023
 Beyond my primary roles, I've engaged in additional activities that enrich my professional experience and contribute to the broader community. I've served as a mentor in the [STEM:FEM](https://www.electroluxgroup.com/en/electrolux-group-launches-stemfem-and-donates-100-mentorship-hours-to-stem-students-35035/) mentorship program, offering guidance and support to students in the STEM field. Participating in UX design and research, sketching sessions, and roundtable discussions have also been integral to my development and contribution to the field of design.
-
