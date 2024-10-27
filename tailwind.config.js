@@ -1,5 +1,11 @@
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}', './_posts/**/*.md'],
+  safelist: [
+    'sm:grid-cols-1',
+    'sm:grid-cols-2',
+    'sm:grid-cols-3',
+    'sm:grid-cols-4',
+  ],
   theme: {
     screens: {
       sm: '480px',

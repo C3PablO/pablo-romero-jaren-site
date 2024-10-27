@@ -16,6 +16,12 @@ type ILocaleProps = {
 };
 const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
   const [topLoaded, setTopLoaded] = useState(false);
+  const productProyects = props.posts.filter(
+    (post) => post.category === 'product'
+  );
+  const illustrationProyects = props.posts.filter(
+    (post) => post.category === 'illustration'
+  );
 
   const [style, setStyle] = useState({
     opacity: 1,
@@ -109,10 +115,32 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                   {props.localeMessages[props.locale]['page.index.text.work']}
                 </p>
               </div>
+
+              <h3
+                data-aos="fade-up"
+                className="font-display text-2xl pb-4 text-indigo-900"
+              >
+                Product design
+              </h3>
               <BlogGallery
-                posts={props.posts}
+                posts={productProyects}
                 pagination={props.pagination}
                 path={props.localeMessages[props.locale]['route.work']}
+                columns={2}
+              />
+              <br />
+              <br />
+              <h3
+                data-aos="fade-up"
+                className="font-display text-2xl pb-4 text-indigo-900"
+              >
+                Illustration
+              </h3>
+              <BlogGallery
+                posts={illustrationProyects}
+                pagination={props.pagination}
+                path={props.localeMessages[props.locale]['route.work']}
+                columns={3}
               />
             </div>
 
@@ -131,7 +159,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             >
               <p className="pb-8 text-center text-2xl md:text-3xl">
                 {
-                  'My professional journey in the design world began in 2010 and has led me through various territories that have marked my adventure.'
+                  'My professional journey in the design world began in 2010 and has led me through various territories that have marked the adventure.'
                 }
               </p>
             </div>

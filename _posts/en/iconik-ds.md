@@ -6,6 +6,7 @@ modified_date: '2022-04-13'
 background: '#13161A'
 containerClass: 'text-zinc-300'
 image: /assets/images/posts/thumbnails/icons.png
+category: "product"
 ---
 
 ![](/assets/images/posts/design_system/003.png)

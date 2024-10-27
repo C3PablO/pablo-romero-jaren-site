@@ -6,6 +6,7 @@ modified_date: '2022-04-12'
 background: '#F9FAFB'
 containerClass: 'text-indigo-900'
 image: /assets/images/posts/thumbnails/electrolux.png
+category: "product"
 ---
 
 ![](/assets/images/posts/electrolux/005.png)
@@ -65,10 +66,13 @@ Developing the design system portal has been a significant part of my responsibi
 
 ![](/assets/images/posts/electrolux/002.png)
 
+<br />
+
 ## Other Activities
+Beyond my primary role, I've engaged in additional activities that enrich my professional experience and contribute to the broader community.
 
 ### 2024
-I joined the animation workgroup to investigate, explore and define an animation system for our user interfaces.
+I joined the animation workgroup to investigate, explore and define an animation system for the user interfaces in the Electrolux group.
 
 ### 2023
-Beyond my primary roles, I've engaged in additional activities that enrich my professional experience and contribute to the broader community. I've served as a mentor in the [STEM:FEM](https://www.electroluxgroup.com/en/electrolux-group-launches-stemfem-and-donates-100-mentorship-hours-to-stem-students-35035/) mentorship program, offering guidance and support to students in the STEM field. Participating in UX design and research, sketching sessions, and roundtable discussions have also been integral to my development and contribution to the field of design.
+I served as a mentor in the [STEM:FEM](https://www.electroluxgroup.com/en/electrolux-group-launches-stemfem-and-donates-100-mentorship-hours-to-stem-students-35035/) mentorship program, offering guidance and support to students in the STEM field. Participating in UX design and research, sketching sessions, and roundtable discussions have also been integral to my development and contribution to the field of design.

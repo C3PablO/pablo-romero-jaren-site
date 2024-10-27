@@ -6,6 +6,7 @@ modified_date: "2022-06-10"
 background: "#1a1a2b"
 containerClass: "text-zinc-100"
 image: /assets/images/posts/thumbnails/demc.png
+category: "illustration"
 ---
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc003.png)

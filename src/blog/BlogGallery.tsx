@@ -11,10 +11,14 @@ export type IBlogGalleryProps = {
   pagination: IPaginationProps;
 };
 
-const BlogGallery = (props: IBlogGalleryProps & { path: string }) => (
+const BlogGallery = (
+  props: IBlogGalleryProps & { path: string; columns?: 1 | 2 | 3 | 4 }
+) => (
   <>
     <ul
-      className=" grid grid-cols-1 gap-5 sm:grid-cols-2 relative z-100"
+      className={`grid grid-cols-1 gap-5 sm:grid-cols-${
+        props.columns ?? 2
+      } relative z-100`}
       id="gallery"
     >
       {props.posts.map((elt) => (
@@ -32,9 +36,9 @@ const BlogGallery = (props: IBlogGalleryProps & { path: string }) => (
               <img src={elt.image} alt={elt.title} className="rounded-b-xl" />
             </div>
             <div className="info bottom-0 w-full p-5">
-              <h3 className="text-indigo-900 truncate md:text-lg no-underline">
+              <h4 className="text-indigo-900 truncate md:text-lg no-underline">
                 {elt.title}
-              </h3>
+              </h4>
               <p className="text-sm normal mb-2 font-normal">
                 {elt.description}
               </p>

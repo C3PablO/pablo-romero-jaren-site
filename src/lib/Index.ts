@@ -12,7 +12,7 @@ export const getIndexStaticProps: (
   (locale: SupportedLocales) => async () => {
     const currentLocale = locales[locale];
     const posts = getAllPosts(
-      ['title', 'description', 'date', 'slug', 'image'],
+      ['title', 'description', 'date', 'slug', 'image', 'category'],
       Object.values(locales)
     );
     const pagination: IPaginationProps = {};

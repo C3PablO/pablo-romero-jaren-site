@@ -6,6 +6,7 @@ modified_date: '2022-04-10'
 background: '#F9F6E7'
 containerClass: 'text-blue-900'
 image: /assets/images/posts/thumbnails/olivia.png
+category: "illustration"
 ---
 
 ![](/assets/images/posts/olivia/001.png)

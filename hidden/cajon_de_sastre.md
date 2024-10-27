@@ -6,6 +6,7 @@ modified_date: '2020-04-08'
 background: '#F9F6E7'
 containerClass: 'text-gray-900'
 image: /assets/images/posts/thumbnails/doodles.png
+category: "illustration"
 ---
 
 ![](/assets/images/posts/doodles/00.png)

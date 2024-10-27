@@ -15,7 +15,7 @@
 
 @tailwind utilities;
 
-.content h1, h2, h3 {
+.content h1, h2, h3, h4 {
   @apply font-display;
   margin-top: 0.5em;
   margin-bottom: 0.3em;
@@ -35,6 +35,10 @@
 
 .content h3 {
   @apply text-xl;
+}
+
+.content h4 {
+  @apply text-lg;
 }
 
 .content a {
@@ -133,7 +137,7 @@
 
 .grid-item:hover {
   --a:0deg;
-  animation: slide 5s infinite;
+  animation: slide 2s infinite;
   background: conic-gradient(from var(--a), rgb(49, 46, 129), magenta 49.9%,rgb(49, 46, 129));
 }
 

@@ -6,6 +6,7 @@ modified_date: '2022-03-08'
 background: '#1e3039'
 containerClass: 'text-zinc-100'
 image: /assets/images/posts/thumbnails/lucia.png
+category: "illustration"
 ---
 
 ![](/assets/images/posts/lucia/luciacover.png)
