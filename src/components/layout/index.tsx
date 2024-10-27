@@ -126,24 +126,13 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             </div>
 
             <div
-              className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-10"
+              className="flex gap-4 md:gap-8 items-center max-w-[700px] mx-auto px-3 md:px-0 mt-14"
               data-aos="fade-up"
             >
-              <p className="pb-5 text-center">
+              <p className="pb-8 text-center text-2xl md:text-3xl">
                 {
-                  'My journey in design has led me to navigate uncharted territories. Here are the waypoints that mark my adventure.'
+                  'My professional journey in the design world began in 2010 and has led me through various territories that have marked my adventure.'
                 }
-              </p>
-            </div>
-            <div
-              className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-10"
-              data-aos="fade-right"
-            >
-              <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
-                ⌛
-              </h2>
-              <p className="pb-5">
-                {"I've traveled the design world professionally since 2010."}
               </p>
             </div>
             <div
@@ -169,6 +158,19 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               <p className="pb-5">
                 {
                   'My luggage contains UI/UX Design and egineering, Design Systems and Frontend Development.'
+                }
+              </p>
+            </div>
+            <div
+              className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-4"
+              data-aos="fade-right"
+            >
+              <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
+                👁️
+              </h2>
+              <p className="pb-5">
+                {
+                  "I'm passionate about illustration and graphic work, always looking for new ways to express myself."
                 }
               </p>
             </div>
