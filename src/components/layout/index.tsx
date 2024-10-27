@@ -131,7 +131,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             >
               <p className="pb-5 text-center">
                 {
-                  'My design journey is about navigating uncharted territories, where the ultimate goal is to bring goodness through change and progress. Here are the waypoints that mark my adventure.'
+                  'My journey in design has led me to navigate uncharted territories. Here are the waypoints that mark my adventure.'
                 }
               </p>
             </div>
@@ -143,7 +143,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                 ⌛
               </h2>
               <p className="pb-5">
-                {"I've travelled the desing world for over a decade."}
+                {"I've traveled the design world professionally since 2010."}
               </p>
             </div>
             <div
@@ -168,7 +168,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               </h2>
               <p className="pb-5">
                 {
-                  'My backpack contains UI/UX Design, Design Systems, Frontend Development, and Illustration.'
+                  'My luggage contains UI/UX Design and egineering, Design Systems and Frontend Development.'
                 }
               </p>
             </div>
