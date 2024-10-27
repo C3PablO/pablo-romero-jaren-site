@@ -1,6 +1,6 @@
 ---
 title: "SHAPE Design System"
-description: "The benefits of design systems for designing at scale."
+description: "Implementing the benefits of design systems for designing at scale."
 date: '2024-02-01'
 modified_date: '2022-04-12'
 background: '#F9FAFB'
