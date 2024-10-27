@@ -157,7 +157,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               </h2>
               <p className="pb-5">
                 {
-                  'My luggage contains UI/UX Design and egineering, Design Systems and Frontend Development.'
+                  'My luggage contains UI/UX design and egineering, design systems and frontend development.'
                 }
               </p>
             </div>
@@ -170,7 +170,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               </h2>
               <p className="pb-5">
                 {
-                  "I'm passionate about illustration and graphic work, always looking for new ways to express myself."
+                  "I'm passionate about illustration and graphic work, always looking for new ways of expression."
                 }
               </p>
             </div>
