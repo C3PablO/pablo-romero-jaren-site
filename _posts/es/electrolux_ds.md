@@ -19,7 +19,7 @@ SHAPE is Electrolux group’s design system for cohesive and efficient design an
 <br/>
 
 ## My role
-The project spans three different platforms: web, mobile, and appliances and my involvement in SHAPE has allowed me to engage in numerous activities, offering me a unique opportunity to contribute and learn across various aspects of design and technology.
+The project spans three different platforms: web, mobile, and appliances and my involvement in SHAPE has allowed me to engage in numerous activities, offering me a unique opportunity to contribute and learn across various aspects of design and engineering.
 <br/>
 My efforts have been particularly concentrated on: 
 
