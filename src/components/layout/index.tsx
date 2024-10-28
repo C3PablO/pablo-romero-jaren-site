@@ -10,6 +10,38 @@ import Instagram from '../icons/instagram';
 import Linkedin from '../icons/linkedin';
 import ArrowDown from '../icons/arrow_down';
 
+const isDST = (date: Date): boolean => {
+  // Simple check for DST based on date ranges (last Sunday of March to last Sunday of October)
+  const marLastSun = new Date(date.getFullYear(), 2, 31);
+  marLastSun.setDate(marLastSun.getDate() - marLastSun.getDay());
+
+  const octLastSun = new Date(date.getFullYear(), 9, 31);
+  octLastSun.setDate(octLastSun.getDate() - octLastSun.getDay());
+
+  return date >= marLastSun && date < octLastSun;
+};
+
+const SwedishClock: React.FC = () => {
+  const [time, setTime] = useState<Date>(new Date());
+
+  useEffect(() => {
+    const timerId = setInterval(() => {
+      const date = new Date();
+      const utc = date.getTime() + date.getTimezoneOffset() * 60000;
+
+      // Check if currently daylight saving time is active in Sweden
+      const dst = isDST(new Date(utc));
+      // CET is UTC+1, CEST is UTC+2
+      const swedishTime = new Date(utc + 3600000 * (dst ? 2 : 1));
+      setTime(swedishTime);
+    }, 1000);
+
+    return () => clearInterval(timerId);
+  }, []);
+
+  return <span>{time.toLocaleTimeString('en-US', { hour12: false })}</span>;
+};
+
 type ILocaleProps = {
   localeMessages: LocaleMessages;
   locale: SupportedLocales;
@@ -223,7 +255,9 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                 🏕️
               </h2>
               <p className="pb-5">
-                {'My basecamp is set in Stockholm, Sweeden (CEST).'}
+                {'My basecamp is set in Stockholm, Sweeden ('}
+                <SwedishClock />
+                {').'}
               </p>
             </div>
 
