@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
-    "@netlify/plugin-nextjs": "^5.8.1",
     "aos": "^2.3.4",
     "colorthief": "^2.3.2",
     "date-fns": "^2.28.0",
