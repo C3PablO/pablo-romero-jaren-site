@@ -255,9 +255,9 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                 🏕️
               </h2>
               <p className="pb-5">
-                {'My basecamp is set in Stockholm, Sweeden ('}
+                {'My basecamp is set in Stockholm, Sweeden '}
                 <SwedishClock />
-                {' CET (UTC+1)).'}
+                {' CET (UTC+1).'}
               </p>
             </div>
 
