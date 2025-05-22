@@ -204,7 +204,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               </h2>
               <p className="pb-5">
                 {
-                  'My goal is to use my skills to forge paths that positively impact society.'
+                  'My destination is a place where I can use my skills to forge paths that positively impact society.'
                 }
               </p>
             </div>
@@ -230,7 +230,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               </h2>
               <p className="pb-5">
                 {
-                  "I'm passionate about illustration and graphic work, always looking for new ways of expression."
+                  'I visit the fields of illustration and graphic work always I can, looking for new ways of expression.'
                 }
               </p>
             </div>
