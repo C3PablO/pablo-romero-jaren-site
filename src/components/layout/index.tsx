@@ -62,7 +62,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
 
   const handleScroll = () => {
     // Maximum scroll value at which header is fully transparent
-    const maxScroll = 700; // Adjust this value based on your needs
+    const maxScroll = 900; // Adjust this value based on your needs
     const currentScroll = window.scrollY;
     const opacity = Math.max(1 - currentScroll / maxScroll, 0);
     const blur = Math.min((currentScroll / maxScroll) * 2, 10); // Calculate blur from 0 to 10
@@ -96,7 +96,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
           callback={() => {
             setTopLoaded(true);
           }}
-          className={`sticky top-0 custom_header ${
+          className={`top-0 custom_header ${
             topLoaded ? 'custom_header_loaded' : ''
           } relative`}
           placeholderColor={[
@@ -136,7 +136,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               <h2 className="m-0 font-display text-vw-5xl min-[600px]:text-[80px] leading-none md:text-[110px] md:text-6xl text-center pb-5 pt-5 text-indigo-900">
                 {props.localeMessages[props.locale]['page.index.title.work']}
               </h2>
-              <div className="flex items-center max-w-[700px] mx-auto mb-12">
+              <div className="flex items-center max-w-[700px] mx-auto mb-16">
                 <p className="text-center text-2xl md:text-3xl">
                   {props.localeMessages[props.locale]['page.index.text.work']}
                 </p>
@@ -276,7 +276,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               <a href="#" className="animate-pulse rotate-180">
                 <ArrowDown width={18} height={18} />
               </a>
-              <p className="w-full">(ɔ) Pablo Romero Jarén 2024</p>
+              <p className="w-full">(ɔ) Pablo Romero Jarén 2025</p>
             </div>
           </div>
         </div>

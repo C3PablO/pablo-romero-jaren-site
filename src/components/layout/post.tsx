@@ -75,7 +75,7 @@ const LayoutPost = (props: IPostProps) => {
         <a href="#" className="animate-pulse rotate-180">
           <ArrowDown width={18} height={18} />
         </a>
-        <p className="w-full">(ɔ) Pablo Romero Jarén 2024</p>
+        <p className="w-full">(ɔ) Pablo Romero Jarén 2025</p>
       </div>
     </>
   );
