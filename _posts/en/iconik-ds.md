@@ -1,6 +1,6 @@
 ---
 title: 'iconik.io'
-description: "An evolution in design and development using web technologies."
+description: "SaaS solution for media asset management."
 date: '2022-04-13'
 modified_date: '2022-04-13'
 background: '#13161A'

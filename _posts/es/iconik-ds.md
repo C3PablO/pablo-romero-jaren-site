@@ -1,6 +1,6 @@
 ---
 title: 'iconik.io'
-description: "An evolution in design and development using web technologies."
+description: "SaaS solution for media asset management."
 date: '2022-04-13'
 modified_date: '2022-04-13'
 background: '#13161A'
@@ -13,7 +13,7 @@ category: "product"
 
 
 # iconik.io
-[Iconik](http://www.iconik.io) is a cloud-native solution that securely gathers and organizes media from any storage, while also providing hassle-free media collaboration and powerful automation features. The platform is designed to be user-friendly on any device.
+[Iconik](http://www.iconik.io) is a cloud-native solution that gathers and organises media securely from anywhere. It's easy to use and allows for hassle-free media collaboration.
 <br/>
 
 ## My role

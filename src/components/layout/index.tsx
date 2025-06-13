@@ -133,25 +133,16 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
           <div className="relative h-24 bg-gradient-to-b from-transparent to-amber-50"></div>
           <div className="bg-amber-50">
             <div className="max-w-screen-md mx-auto px-3 md:px-0">
-              <h2
-                data-aos="fade-up"
-                className="m-0 font-display text-vw-5xl min-[600px]:text-[80px] leading-none md:text-[110px] md:text-6xl text-center pb-5 pt-5 text-indigo-900"
-              >
+              <h2 className="m-0 font-display text-vw-5xl min-[600px]:text-[80px] leading-none md:text-[110px] md:text-6xl text-center pb-5 pt-5 text-indigo-900">
                 {props.localeMessages[props.locale]['page.index.title.work']}
               </h2>
-              <div
-                className="flex items-center max-w-[600px] mx-auto mb-12"
-                data-aos="fade-up"
-              >
-                <p className="text-center">
+              <div className="flex items-center max-w-[700px] mx-auto mb-12">
+                <p className="text-center text-2xl md:text-3xl">
                   {props.localeMessages[props.locale]['page.index.text.work']}
                 </p>
               </div>
 
-              <h3
-                data-aos="fade-up"
-                className="font-display text-2xl pb-4 text-indigo-900"
-              >
+              <h3 className="font-display text-4xl pb-4 text-indigo-900">
                 Product design
               </h3>
               <BlogGallery
@@ -162,10 +153,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               />
               <br />
               <br />
-              <h3
-                data-aos="fade-up"
-                className="font-display text-2xl pb-4 text-indigo-900"
-              >
+              <h3 className="font-display text-4xl pb-4 text-indigo-900">
                 Illustration
               </h3>
               <BlogGallery
@@ -177,21 +165,15 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             </div>
 
             <div className="contact flex flex-col items-center justify-center -mt-[15vh]">
-              <h2
-                data-aos="fade-up"
-                className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900"
-              >
+              <h2 className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900">
                 {props.localeMessages[props.locale]['page.index.title.whoami']}
               </h2>
             </div>
 
-            <div
-              className="flex gap-4 md:gap-8 items-center max-w-[700px] mx-auto px-3 md:px-0 mt-14"
-              data-aos="fade-up"
-            >
+            <div className="flex gap-4 md:gap-8 items-center max-w-[700px] mx-auto px-3 md:px-0 mt-14">
               <p className="pb-8 text-center text-2xl md:text-3xl">
                 {
-                  'My professional journey in the design world began in 2010 and has led me through various territories that have marked the adventure.'
+                  'Naturally curious, I navigate between disciplines to create meaningful experiences and keep me interested in my work.'
                 }
               </p>
             </div>
@@ -204,7 +186,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               </h2>
               <p className="pb-5">
                 {
-                  'My destination is a place where I can use my skills to forge paths that positively impact society.'
+                  'The destination is a place where I can use my skills to forge paths that positively impact society.'
                 }
               </p>
             </div>
@@ -217,20 +199,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               </h2>
               <p className="pb-5">
                 {
-                  'My luggage contains UI/UX design and egineering, design systems and frontend development.'
-                }
-              </p>
-            </div>
-            <div
-              className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-4"
-              data-aos="fade-right"
-            >
-              <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
-                👁️
-              </h2>
-              <p className="pb-5">
-                {
-                  'I visit the fields of illustration and graphic work always I can, looking for new ways of expression.'
+                  'My suitcase holds UI/UX design and engineering, design systems, illustration, and a strong interest in learning and exploring.'
                 }
               </p>
             </div>

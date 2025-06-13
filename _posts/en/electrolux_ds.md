@@ -1,6 +1,6 @@
 ---
 title: "SHAPE Design System"
-description: "Implementing the benefits of design systems for designing at scale."
+description: "An enterprise desig system for designing at scale."
 date: '2024-02-01'
 modified_date: '2022-04-12'
 background: '#F9FAFB'
@@ -34,9 +34,9 @@ My efforts have been particularly concentrated on:
 
 As a UI designer with a focus on native mobile platforms, I specialise in crafting delightful and accessible user interfaces tailored to iOS and Android. My work involves designing UI components and developing cohesive brand themes and visual modes allowing for flexibility and expression.
 <br/>
- I've also contributed to build the foundations of the design system as setting up the infrastructure and definition of **design tokens** with [Token Studio](https://tokens.studio/), [Figma Variables](https://help.figma.com/hc/en-us/articles/14506821864087-Overview-of-variables-collections-and-modes) and [Style Dictionary](https://amzn.github.io/style-dictionary/#/) being the core tools.
+Knowing the end technology helps me design more effectively, anticipating constraints and opportunities early on. I enjoy contributing with my coding skills to the development of UI components for native mobile using SwiftUI and Jetpack Compose to both experiment and build production-ready interfaces.
 <br/>
-Additionally, I believe coding is a vital part of the UI design process, enabling a deeper understanding of how design decisions translate into real user experiences. Knowing the end technology helps me design more effectively, anticipating constraints and opportunities early on. I enjoy contributing with my coding skills to the development of UI components for native mobile using SwiftUI and Jetpack Compose to both experiment and build production-ready interfaces.
+ I've also contributed to build the foundations of the design system as setting up the infrastructure and definition of **design tokens** with [Token Studio](https://tokens.studio/), [Figma Variables](https://help.figma.com/hc/en-us/articles/14506821864087-Overview-of-variables-collections-and-modes) and [Style Dictionary](https://amzn.github.io/style-dictionary/#/) being the core tools.
 <br/>
 
 ![](/assets/images/posts/electrolux/004.png)
