@@ -1,6 +1,6 @@
 ---
 title: "SHAPE Design System"
-description: "An enterprise desig system for designing at scale."
+description: "An enterprise design system for designing at scale."
 date: '2024-02-01'
 modified_date: '2022-04-12'
 background: '#F9FAFB'
