@@ -23,7 +23,7 @@ The project spans three different platforms: web, mobile, and appliances and my 
 My efforts have been particularly concentrated on: 
 
 - Designing and developing high quality UI components and design assets.
-- Automating, streamlining, and reducing complexity in processes.
+- Automating, streamlining, and reducing complexity in processes
 - Providing design system documentation and training.
 - Building bridges between design and engineering. 
 - Ensuring a rich and accessible experience for the end user.
