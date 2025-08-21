@@ -32,11 +32,13 @@ My efforts have been particularly concentrated on:
 
 ## UI Design & Development
 
-As a UI designer with a focus on native mobile platforms, I specialise in crafting delightful and accessible user interfaces tailored to iOS and Android. My work involves designing UI components and developing cohesive brand themes and visual modes allowing for flexibility and expression.
+## UI Design & Development
+
+For creating great user interfaces, a solid foundation is essential. At SHAPE, I’ve been deeply involved in shaping the design system pillars as design tokens, scalable color scales, and documentation.
 <br/>
-Knowing the end technology helps me design more effectively, anticipating constraints and opportunities early on. I enjoy contributing with my coding skills to the development of UI components for native mobile using SwiftUI and Jetpack Compose to both experiment and build production-ready interfaces.
+Beyond these foundations, I focus on designing and developing delightful, accessible user interfaces tailored for native mobile applications.
 <br/>
- I've also contributed to build the foundations of the design system as setting up the infrastructure and definition of **design tokens** with [Token Studio](https://tokens.studio/), [Figma Variables](https://help.figma.com/hc/en-us/articles/14506821864087-Overview-of-variables-collections-and-modes) and [Style Dictionary](https://amzn.github.io/style-dictionary/#/) being the core tools.
+Alongside interaction and visual design, a key part of my role is ensuring alignment between design and code, so components behave and feel the same across both worlds. To bridge the gap between design intent and implementation, I leverage tools such as Figma Code Connect, enabling product developers—and even AI tools—to access the right context for building consistent, user-centred experiences.
 <br/>
 
 ![](/assets/images/posts/electrolux/004.png)
