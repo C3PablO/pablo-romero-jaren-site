@@ -30,7 +30,9 @@ My efforts have been particularly concentrated on:
 
 <br/>
 
-## UI Design & Development
+![](/assets/images/posts/electrolux/004.png)
+
+<br/>
 
 ## UI Design & Development
 
@@ -38,7 +40,7 @@ For creating great user interfaces, a solid foundation is essential. At SHAPE, I
 <br/>
 Beyond these foundations, I focus on designing and developing delightful, accessible user interfaces tailored for native mobile applications.
 <br/>
-Alongside interaction and visual design, a key part of my role is ensuring alignment between design and code, so components behave and feel the same across both worlds. To bridge the gap between design intent and implementation, I leverage tools such as Figma Code Connect, enabling product developers—and even AI tools—to access the right context for building consistent, user-centred experiences.
+Alongside interaction and visual design, a key part of my role is ensuring alignment between design and code, so components behave and feel the same across both worlds. To bridge the gap between design intent and implementation, I leverage tools such as Figma Code Connect, enabling product developers and AI tools to access the right context for building consistent, user-centred experiences.
 <br/>
 
 ![](/assets/images/posts/electrolux/004.png)
