@@ -43,7 +43,7 @@ Beyond these foundations, I focus on designing and developing delightful, access
 Alongside interaction and visual design, a key part of my role is ensuring alignment between design and code, so components behave and feel the same across both worlds. To bridge the gap between design intent and implementation, I leverage tools such as Figma Code Connect, enabling product developers and AI tools to access the right context for building consistent, user-centred experiences.
 <br/>
 
-![](/assets/images/posts/electrolux/004.png)
+![](/assets/images/posts/electrolux/010.png)
 
 <br/>
 
