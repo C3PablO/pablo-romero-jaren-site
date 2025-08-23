@@ -22,16 +22,8 @@ const BlogGallery = (
       id="gallery"
     >
       {props.posts.map((elt) => (
-        <li
-          data-aos="fade-up"
-          key={elt.slug}
-          id={elt.slug}
-          className="grid-item overflow-hidden shadow-md shadow-gray-950/20 relative"
-        >
-          <Link
-            href={`/${props.path}/${elt.slug}`}
-            className="block bg-white hover:no-underline rounded-xl overflow-hidden h-full"
-          >
+        <li data-aos="fade-up" key={elt.slug} id={elt.slug}>
+          <Link href={`/${props.path}/${elt.slug}`} className="grid-item">
             <div className="zoomIn border-solid border-2 border-white">
               <img src={elt.image} alt={elt.title} className="rounded-b-xl" />
             </div>
@@ -42,7 +34,7 @@ const BlogGallery = (
               <p className="text-sm normal mb-2 font-normal">
                 {elt.description}
               </p>
-              <small className="block text-pink-900 text-right">
+              <small className="block text-indigo-900 text-right">
                 Read more <ArrowRight width={14} className="ml-1 inline" />
               </small>
             </div>

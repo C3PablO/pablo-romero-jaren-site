@@ -70,6 +70,30 @@
   top: 0;
   left: 0;
 }
+
+.grid-item {
+  transition: all .2s ease-in-out;
+  @apply
+    relative
+    px-2
+    py-2
+    border-2
+    border-indigo-900
+    rounded-2xl
+    bg-white
+    shadow-threed
+    hover:shadow-threed-2
+    overflow-hidden
+    block
+    hover:no-underline
+    h-full
+}
+
+.grid-item:hover {
+  transition: all .2s ease-in-out;
+  translate: 5px 5px;
+}
+
 .grid-item:hover img {
 	transform: translateY(-10px);
 }
@@ -127,27 +151,6 @@
   syntax: '<angle>';
   inherits: false;
   initial-value: 10deg;
-}
-
-.grid-item {
-  background: white;
-  padding: 4px; /* This will effectively be the border width */
-  border-radius: 14px
-}
-
-.grid-item:hover {
-  --a:0deg;
-  animation: slide 2s infinite;
-  background: conic-gradient(from var(--a), rgb(49, 46, 129), magenta 49.9%,rgb(49, 46, 129));
-}
-
-@keyframes slide {
-  0% {
-    --a: -0deg;
-  }
-  100% {
-    --a: -360deg;
-  }
 }
 
 .custom_header {
