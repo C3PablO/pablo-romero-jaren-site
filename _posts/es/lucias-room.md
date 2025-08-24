@@ -18,6 +18,10 @@ See more on [Instagram](https://www.instagram.com/stories/highlights/18071731465
 
 ![](/assets/images/posts/lucia/lucia000.png)
 
+<br/>
+In this project, I was very lucky to get support from a young artist friend.
+<br/>
+
 ![](/assets/images/posts/lucia/lucia001.png)
 
 ![](/assets/images/posts/lucia/lucia002.png)

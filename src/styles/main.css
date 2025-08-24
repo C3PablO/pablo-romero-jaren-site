@@ -340,7 +340,8 @@
 
 .post {
   animation-delay: 3s;
-  animation: fadeInFromNone 1s; 
+  animation: fadeInFromNone 1s;
+  min-height: 100vh;
 }
 
 @keyframes slideDown {

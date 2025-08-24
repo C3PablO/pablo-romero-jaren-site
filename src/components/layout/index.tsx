@@ -142,7 +142,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                 </p>
               </div>
 
-              <h3 className="font-display text-4xl pb-4 text-indigo-900">
+              <h3 className="font-display text-4xl pb-4 text-indigo-900 text-center sm:text-left">
                 Product design
               </h3>
               <BlogGallery
@@ -153,7 +153,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               />
               <br />
               <br />
-              <h3 className="font-display text-4xl pb-4 text-indigo-900">
+              <h3 className="font-display text-4xl pb-4 text-indigo-900 text-center sm:text-left">
                 Illustration
               </h3>
               <BlogGallery
