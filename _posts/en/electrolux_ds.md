@@ -78,8 +78,8 @@ Developing the design system portal has been a significant part of my responsibi
 ## Other Activities
 Beyond my primary role, I've engaged in additional activities that enrich my professional experience and contribute to the broader community.
 
-### 2025 - Accessibility
-I've engaged into activities regarding accessibility as attending meet-up sessions outside the organization, learning to use assistive technology and to design and develop for a broader audience making desing more inclusive.
+### 2025 – AI & Emerging Tools
+I'm exploring how AI can enhance design and development workflows through activities such as vibe coding, agent-based systems, MCPs, and context engineering. These experiments allow me to better understand how to integrate AI into design system practices, enabling more efficient ways for teams to build experiences.
 
 ### 2024 - Motion design
 I joined the animation workgroup to investigate, explore and define an animation system for the user interfaces in the Electrolux group.
