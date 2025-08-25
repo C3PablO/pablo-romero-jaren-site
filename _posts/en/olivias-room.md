@@ -11,8 +11,22 @@ category: "illustration"
 
 ![](/assets/images/posts/olivia/001.png)
 # Olivia's Room
+There’s something uniquely inspiring about creating art on a freshly painted white wall. It feels like starting from a blank page, where every brushstroke brings life, colour, and meaning to the space. Transforming Olivia’s room into a place filled with her family’s story made the process even more special.
 
-Olivia is an amazing kid with wonderful parents. They wanted a painting for her room that not only depicted their family, but also their roots and the things they love as a family. I was honored to be commissioned to create this portrait for them.
+<br/>
+
+## The commission
+Olivia is an extraordinary child, surrounded by the love and care of her wonderful parents. When they approached me, their vision was to create a painting for her room that would go beyond a simple portrait—it had to tell their family’s story. They wanted an artwork that reflected not only their bond but also their heritage and passions as a family.
+
+<br/>
+
+Their roots span across Norway, Sweden, and Spain, and their lives are deeply connected to nature, the outdoors, and martial arts. At the heart of it all is Olivia, the queen of their kingdom, whose presence unites and inspires them.
+
+<br/>
+
+I was truly honored to be entrusted with this commission, translating their story into a portrait that celebrates who they are and what they love most.
+
+<br/>
 
 ![](/assets/images/posts/olivia/h1.png)
 
