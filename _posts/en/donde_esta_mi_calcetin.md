@@ -18,7 +18,7 @@ It looks like someone has lost a sock. Perhaps the octopus under the bed took it
 Join the wonderful story of four charismatic creatures on their search for a missing sock, and discover the joy of searching and finding, even when the things found are not always the ones expected.
 
 
-*¿Dónde está mi calcetín?* (Where is my sock?) is a self-published picture book written in Spanish for children aged 3 and above, as well as beginner readers. The crowdfunding campaign was launched on Verkami on September 15th, 2022, and was published in November 2022 with the help of arpund 200 pledges.
+*¿Dónde está mi calcetín?* (Where is my sock?) is a self-published picture book written in Spanish for children aged 3 and above, as well as beginner readers. The crowdfunding campaign was launched on Verkami on September 15th, 2022, and was published in November 2022.
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc008.png)
 
