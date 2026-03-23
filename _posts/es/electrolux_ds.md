@@ -9,6 +9,8 @@ image: /assets/images/posts/thumbnails/electrolux.png
 category: "product"
 ---
 
+
+
 ![](/assets/images/posts/electrolux/005.png)
 
 # SHAPE
@@ -34,13 +36,19 @@ My efforts have been particularly concentrated on:
 
 <br/>
 
-## UI Design & Development
+## UI Design & development
 
-For creating great user interfaces, a solid foundation is essential. At SHAPE, I’ve been deeply involved in shaping the design system pillars as design tokens, scalable color palettes, and documentation.
+For creating great user interfaces, a solid foundation is essential. At SHAPE, I’ve been deeply involved in creating the design system pillars as design tokens, scalable color palettes, and documentation.
 <br/>
 Beyond these foundations, I focus on designing and developing delightful, accessible user interfaces tailored for native mobile applications.
 <br/>
 Alongside interaction and visual aspects, a key part of my role is ensuring alignment between design and code, so components behave and feel the same across both worlds. To bridge the gap between design intent and implementation, I leverage tools such as Figma Code Connect, enabling product developers and AI tools to access the right context for building consistent, user-centred experiences.
+<br/>
+### AI first designer
+I invest heavily in consolidating tasks through AI-driven workflows by building AI skills and aim to enable spec-driven design and development wherever possible. This approach is supported by tools such as [Claude Code](https://code.claude.com/docs/en/quickstart) and resources like the [Figma Console MCP](https://github.com/southleft/figma-console-mcp), making UI work significantly more efficient.
+
+That said, I don’t rely solely on AI-generated output. Collaborative and professional human discernment remains essential in both design and development, along with user interviews during research phases to ensure optimal outcomes.
+
 <br/>
 
 ![](/assets/images/posts/electrolux/010.png)
@@ -49,7 +57,7 @@ Alongside interaction and visual aspects, a key part of my role is ensuring alig
 
 ## Design operations
 
-Streamlining design processes is key for reducing cost enabling space for creativity and allowing people to do the work they enjoy the most. In order to help in this area I've contributed with scripts, Figma plugins and GitHub actions removing manual processes and repetitive tasks from people's work.
+Streamlining design processes is key for reducing cost enabling space for creativity and allowing people to do the work they enjoy the most. In order to help in this area I've contributed with scripts, Figma plugins, AI workflows or GitHub actions removing manual processes and repetitive tasks from people's work.
  
 
 
@@ -69,7 +77,7 @@ To convince others of something, high-quality communication is key. I've utilize
 
 ## Web Development
 
-Developing the design system portal has been a significant part of my responsibilities. Using the [Supernova](https://www.supernova.io/) platform the team have created a central hub for the design system. The portal is connected to different sources of data that keeps the documentation updated through automations abd contributors from different parts of the organization.
+Developing the design system portal has been a significant part of my responsibilities. Using a custom frontend of the [Supernova](https://www.supernova.io/) platform the team have created a central hub for the design system. The portal is connected to different sources of data that keeps the documentation updated through automations abd contributors from different parts of the organization.
 
 ![](/assets/images/posts/electrolux/002.png)
 
@@ -78,11 +86,11 @@ Developing the design system portal has been a significant part of my responsibi
 ## Other Activities
 Beyond my primary role, I've engaged in additional activities that enrich my professional experience and contribute to the broader community.
 
-### 2025 – AI & Emerging Tools
+### AI & Emerging Tools
 I'm exploring how AI can enhance design and development workflows through activities such as vibe coding, agent-based systems, MCPs, and context engineering. These experiments allow me to better understand how to integrate AI into design system practices, enabling more efficient ways for teams to build experiences.
 
-### 2024 - Motion design
+### Motion design
 I joined the animation workgroup to investigate, explore and define an animation system for the user interfaces in the Electrolux group.
 
-### 2023 - Mentoring
+### Mentoring
 I served as a mentor in the [STEM:FEM](https://www.electroluxgroup.com/en/electrolux-group-launches-stemfem-and-donates-100-mentorship-hours-to-stem-students-35035/) mentorship program, offering guidance and support to students in the STEM field. Participating in UX design and research, sketching sessions, and roundtable discussions have also been integral to my development and contribution to the field of design.
