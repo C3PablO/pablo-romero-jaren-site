@@ -6,7 +6,7 @@ import BGLoader from '../bg_loader';
 import Button from '../button';
 import ButtonLabel from '../button_label';
 import ArrowRight from '../icons/arrow_right';
-import Instagram from '../icons/instagram';
+// import Instagram from '../icons/instagram';
 import Linkedin from '../icons/linkedin';
 import ArrowDown from '../icons/arrow_down';
 
