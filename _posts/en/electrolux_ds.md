@@ -40,7 +40,7 @@ For creating great user interfaces, a solid foundation is essential. At SHAPE, I
 <br/>
 Beyond these foundations, I focus on designing and developing delightful, accessible user interfaces tailored for native mobile applications.
 <br/>
-Alongside interaction and visual aspects, a key part of my role is ensuring alignment between design and code, so components behave and feel the same across both worlds. To bridge the gap between design intent and implementation, I leverage tools such as Figma Code Connect, enabling product developers and AI tools to access the right context for building consistent, user-centred experiences.
+Alongside interaction and visual aspects, a key part of my role is ensuring alignment between design and code, so components behave and feel the same across both worlds. To bridge the gap between design intent and implementation, I leverage tools such as [Figma Code Connect](https://help.figma.com/hc/en-us/articles/23920389749655-Code-Connect), enabling product developers and AI tools to access the right context for building consistent, user-centred experiences.
 <br/>
 ### AI first designer
 I invest heavily in consolidating tasks through AI-driven workflows by building AI skills and aim to enable spec-driven design and development wherever possible. This approach is supported by tools such as [Claude Code](https://code.claude.com/docs/en/quickstart) and resources like the [Figma Console MCP](https://github.com/southleft/figma-console-mcp), making UI work significantly more efficient.
