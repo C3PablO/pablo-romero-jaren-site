@@ -6,6 +6,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 const baseUrl = '';
 
 module.exports = withBundleAnalyzer({
+  output: 'export',
   images: {
     loader: 'custom',
   },

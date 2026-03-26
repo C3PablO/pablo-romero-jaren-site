@@ -259,7 +259,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                   <ArrowRight />
                 </Button>
 
-                <Button
+                {/* <Button
                   markup="a"
                   href="https://www.instagram.com/rawromero/"
                   widthType="w-auto"
@@ -269,7 +269,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                   <Instagram />
                   <ButtonLabel>Instagram</ButtonLabel>
                   <ArrowRight />
-                </Button>
+                </Button> */}
               </div>
             </div>
             <div className="bg-indigo-900 text-zinc-100 text-center text-sm flex items-center p-4">

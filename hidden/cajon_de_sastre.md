@@ -54,5 +54,3 @@ I love how Procreate makes the creative process so portable, allowing me to spen
 
   ![](/assets/images/posts/doodles/06.png)
 
-
-See more on [Instagram](https://www.instagram.com/stories/highlights/18071731465339249/)
