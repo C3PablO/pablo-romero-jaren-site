@@ -13,16 +13,16 @@ category: "product"
 
 # SHAPE
 
-SHAPE empowers the Electrolux Group to efficiently build cohesive experiences at scale, aligned with brand.
+SHAPE empowers the Electrolux Group to efficiently build cohesive experiences at scale, aligned with the brand.
 
 <br/>
 
 ## My role
-The project spans three different platforms: web, mobile, and appliances and my involvement in SHAPE has allowed me to engage in numerous activities, offering me a unique opportunity to contribute and learn across various aspects of design and engineering.
+The project spans three different platforms: web, mobile, and appliances, and my involvement in SHAPE has allowed me to engage in numerous activities, offering me a unique opportunity to contribute and learn across various aspects of design and engineering.
 <br/>
 My efforts have been particularly concentrated on: 
 
-- Design and develope high quality and accessible UI.
+- Design and develop high-quality, accessible user interfaces.
 - Create and evolve the design system foundation.
 - Automate, streamline, and reduce complexity in processes.
 - Build tools and AI resources for designers and developers.
@@ -34,7 +34,7 @@ My efforts have been particularly concentrated on:
 <br/>
 
 ## Design system foundation & tools
-For cohesive user interfaces, a solid foundation is essential. At SHAPE, I’ve been deeply involved in building the design system pillars, including design tokens, scalable color palettes, themes and modes, [Figma](https://www.figma.com/) libraries and the documentation portal. I have also led the creation of tooling to maintain this foundation, such as a [VS Code](https://code.visualstudio.com/) extension for managing design tokens, [Figma](https://www.figma.com/) plugins and automations for CI/CD pipelines.
+For cohesive user interfaces, a solid foundation is essential. At SHAPE, I’ve been deeply involved in building the design system pillars, including design tokens, scalable color palettes, themes and modes, [Figma](https://www.figma.com/) libraries, and the documentation portal. I have also led the creation of tooling to maintain this foundation, such as a [VS Code](https://code.visualstudio.com/) extension for managing design tokens, [Figma](https://www.figma.com/) plugins, and automations for CI/CD pipelines.
 
 <br/>
 
@@ -48,7 +48,7 @@ For cohesive user interfaces, a solid foundation is essential. At SHAPE, I’ve 
 Alongside interaction and visual aspects, I ensure close alignment between design intent and code, so both people and AI agents can navigate the design system with ease when building experiences. I’m comfortable moving between design and code across different tech stacks, and I believe that understanding implementation details leads to better outcomes for end users and greater efficiency for the organization.
 
 <br/>
-To bridge the gap between product specifications, design, and implementation I build custom AI-driven prototyping tools that help people across the organization visualize concepts using the design system or enable resources as [Figma Code Connect](https://help.figma.com/hc/en-us/articles/23920389749655-Code-Connect), which provide richer context for AI-assisted development.
+To bridge the gap between product specifications, design, and implementation, I build custom AI-driven prototyping tools that help people across the organization visualize concepts using the design system, or I leverage resources such as [Figma Code Connect](https://help.figma.com/hc/en-us/articles/23920389749655-Code-Connect), which provide richer context for AI-assisted development.
 
 <br/>
 ![](/assets/images/posts/electrolux/011.png)
@@ -75,10 +75,10 @@ To bring people on board, high-quality communication is essential. I’ve used m
 Beyond my primary role, I've engaged in additional activities that enrich my professional experience and contribute to the broader community.
 
 ### AI & Emerging Tools
-I explore how AI can enhance design and development workflows connected to the design system through exploring new tools, ways of working, context engineering or creating skills. These experiments allow me to better understand how to integrate AI into design system practices, enabling more efficient ways for teams to build experiences.
+I explore how AI can enhance design and development workflows around the design system by experimenting with new tools, ways of working, context engineering, and skill creation. These experiments help me better understand how to integrate AI into design system practices and create more efficient ways for teams to build experiences.
 
 ### Motion design
-I joined the animation workgroup to investigate, explore and define an animation system for the user interfaces in the Electrolux group.
+I joined the animation workgroup to investigate, explore, and define an animation system for the user interfaces in the Electrolux Group.
 
 ### Mentoring
 I served as a mentor in the [STEM:FEM](https://www.electroluxgroup.com/en/electrolux-group-launches-stemfem-and-donates-100-mentorship-hours-to-stem-students-35035/) mentorship program, offering guidance and support to students in the STEM field. Participating in UX design and research, sketching sessions, and roundtable discussions have also been integral to my development and contribution to the field of design.
