@@ -34,7 +34,7 @@ My efforts have been particularly concentrated on:
 
 <br/>
 
-## Design system foundation & tools
+## Design System Foundation & Tools
 For cohesive user interfaces, a solid foundation is essential. At SHAPE, I’ve been deeply involved in building the design system pillars, including design tokens, scalable color palettes, themes and modes, [Figma](https://www.figma.com/) libraries, and the documentation portal. I have also led the creation of tooling to maintain this foundation, such as a [VS Code](https://code.visualstudio.com/) extension for managing design tokens, [Figma](https://www.figma.com/) plugins, and automations for CI/CD pipelines.
 
 <br/>
@@ -44,7 +44,7 @@ For cohesive user interfaces, a solid foundation is essential. At SHAPE, I’ve 
 <br/>
 
 
-## UI Design & development
+## UI Design & Development
 
 Alongside interaction and visual aspects, I ensure close alignment between design intent and code, so both people and AI agents can navigate the design system with ease when building experiences. I’m comfortable moving between design and code across different tech stacks, and I believe that understanding implementation details leads to better outcomes for end users and greater efficiency for the organization.
 
@@ -78,7 +78,7 @@ Beyond my primary role, I've engaged in additional activities that enrich my pro
 ### AI & Emerging Tools
 I explore how AI can enhance design and development workflows around the design system by experimenting with new tools, ways of working, context engineering, and skill creation. These experiments help me better understand how to integrate AI into design system practices and create more efficient ways for teams to build experiences.
 
-### Motion design
+### Motion Design
 I joined the animation workgroup to investigate, explore, and define an animation system for the user interfaces in the Electrolux Group.
 
 ### Mentoring

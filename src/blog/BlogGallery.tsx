@@ -26,7 +26,7 @@ const BlogGallery = (
               <img src={elt.image} alt={elt.title} className="rounded-b-xl" />
             </div>
             <div className="info bottom-0 w-full p-5">
-              <h4 className="text-indigo-900 truncate md:text-lg no-underline">
+              <h4 className="font-display text-indigo-900 truncate md:text-lg no-underline">
                 {elt.title}
               </h4>
               <p className="text-sm normal mb-2 font-normal">
