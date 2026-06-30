@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
@@ -117,7 +115,7 @@ const Meta = (props: IMetaProps) => {
             />
             <script
               type="application/ld+json"
-              // eslint-disable-next-line react/no-danger
+
               dangerouslySetInnerHTML={{
                 __html: `
           {
@@ -130,8 +128,8 @@ const Meta = (props: IMetaProps) => {
             },
             "@type": "BlogPosting",
             "url": "${AppConfig.url}${router.basePath}${addTrailingSlash(
-                  router.asPath
-                )}",
+              router.asPath,
+            )}",
             "publisher": {
               "@type": "Organization",
               "logo": {
@@ -146,13 +144,13 @@ const Meta = (props: IMetaProps) => {
             "image": ["${AppConfig.url}${router.basePath}${props.post.image}"],
             "datePublished": "${new Date(props.post.date).toISOString()}",
             "dateModified": "${new Date(
-              props.post.modified_date
+              props.post.modified_date,
             ).toISOString()}",
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "${AppConfig.url}${router.basePath}${addTrailingSlash(
-                  router.asPath
-                )}"
+                router.asPath,
+              )}"
             },
             "@context": "http://schema.org"
           }`,

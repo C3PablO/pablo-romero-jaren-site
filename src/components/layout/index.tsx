@@ -49,10 +49,10 @@ type ILocaleProps = {
 const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
   const [topLoaded, setTopLoaded] = useState(false);
   const productProyects = props.posts.filter(
-    (post) => post.category === 'product'
+    (post) => post.category === 'product',
   );
   const illustrationProyects = props.posts.filter(
-    (post) => post.category === 'illustration'
+    (post) => post.category === 'illustration',
   );
 
   const [style, setStyle] = useState({
@@ -116,7 +116,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               <br /> ROMERO
               <br /> JARÉN
             </h1>
-            <h2 className="flex flex-col md:flex-row gap-3 text-2xl text-center md:text-[40px]">
+            <h2 className="flex flex-col md:flex-row gap-3 font-display text-2xl text-center md:text-[40px]">
               <span>A Design Journey</span>
               <p>
                 <a
@@ -130,9 +130,11 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
           </header>
         </BGLoader>
         <div className="relative" id="work">
-          <div className="relative h-24 bg-gradient-to-b from-transparent to-amber-50"></div>
+          <div className="relative h-24 bg-linear-to-b from-transparent to-amber-50"></div>
+           <div className="bg-amber-50">
+            </div>
           <div className="bg-amber-50">
-            <div className="max-w-screen-md mx-auto px-3 md:px-0">
+            <div className="max-w-[1000px] mx-auto px-3 md:px-0">
               <h2 className="m-0 font-display text-vw-5xl min-[600px]:text-[80px] leading-none md:text-[110px] md:text-6xl text-center pb-5 pt-5 text-indigo-900">
                 {props.localeMessages[props.locale]['page.index.title.work']}
               </h2>
@@ -164,7 +166,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               />
             </div>
 
-            <div className="contact flex flex-col items-center justify-center -mt-[15vh]">
+            <div className="contact flex flex-col items-center justify-center mt-[-15vh]">
               <h2 className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900">
                 {props.localeMessages[props.locale]['page.index.title.whoami']}
               </h2>
@@ -181,9 +183,9 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-4"
               data-aos="fade-right"
             >
-              <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
+              <p className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 mt-0 mb-0">
                 🌍
-              </h2>
+              </p>
               <p className="pb-5">
                 {
                   'The destination is a place where I can use my skills to forge paths that positively impact society.'
@@ -194,9 +196,9 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-4"
               data-aos="fade-right"
             >
-              <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
+              <p className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 mt-0 mb-0">
                 🧳
-              </h2>
+              </p>
               <p className="pb-5">
                 {
                   'My suitcase holds UI/UX design and engineering, design systems, illustration, and a strong interest in learning and exploring.'
@@ -207,9 +209,9 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-4"
               data-aos="fade-right"
             >
-              <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
+              <p className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 mt-0 mb-0">
                 📍
-              </h2>
+              </p>
               <p className="pb-5">
                 {
                   'I am charting new territories at Electrolux, crafting Design Systems.'
@@ -220,9 +222,9 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-4"
               data-aos="fade-right"
             >
-              <h2 className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 m-0">
+              <p className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 mt-0 mb-0">
                 🏕️
-              </h2>
+              </p>
               <p className="pb-5">
                 {'My basecamp is set in Stockholm, Sweeden '}
                 <SwedishClock />
@@ -231,8 +233,8 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             </div>
 
             <div className="basedIn flex flex-col items-center justify-start bg-fixed">
-              <div className="max-w-screen-md mx-auto px-3 md:px-0">
-                <h2
+              <div className="max-w-[1000px] mx-auto px-3 md:px-0">
+                <p
                   data-aos="fade-up"
                   className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900"
                 >
@@ -241,7 +243,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                       'page.index.title.contact'
                     ]
                   }
-                </h2>
+                </p>
               </div>
               <div
                 data-aos="fade-up"

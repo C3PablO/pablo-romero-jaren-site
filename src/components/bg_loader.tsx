@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { roughGradient4 } from '../lib/color';
 
 interface WrapperProps extends React.HTMLAttributes<HTMLDivElement> {
-  placeholderColor: string[];
+  placeholderColor: (string | number[])[];
   callback: () => void;
 }
 
@@ -11,32 +11,35 @@ const BGLoader: React.FC<WrapperProps> = (props: WrapperProps) => {
   const { children, placeholderColor, callback, ...rest } = props;
   const [loaded, setLoaded] = useState(false);
   const container = useRef(null);
-  const images: HTMLImageElement[] = [];
-  let totalImages = 0;
-  let counter = 0;
-  const imageLoaded = () => {
-    counter += 1;
-    if (totalImages === counter) {
-      setLoaded(true);
-    }
-  };
 
   useEffect(() => {
-    if (container.current) {
-      const bg = window.getComputedStyle(container.current).background;
-      const urlArr = (bg.match(/(url\(".*?"\))/g) ?? []).map((str) => {
-        return str.replace('url("', '').replace('")', '');
-      });
-
-      totalImages = urlArr.length ?? 0;
-
-      urlArr?.forEach((src) => {
-        const image = new Image();
-        images.push(image);
-        image.addEventListener('load', imageLoaded);
-        image.src = src;
-      });
+    if (!container.current) {
+      return undefined;
     }
+    const images: HTMLImageElement[] = [];
+    let totalImages = 0;
+    let counter = 0;
+    const imageLoaded = () => {
+      counter += 1;
+      if (totalImages === counter) {
+        setLoaded(true);
+      }
+    };
+
+    const bg = window.getComputedStyle(container.current).background;
+    const urlArr = (bg.match(/(url\(".*?"\))/g) ?? []).map((str) => {
+      return str.replace('url("', '').replace('")', '');
+    });
+
+    totalImages = urlArr.length ?? 0;
+
+    urlArr?.forEach((src) => {
+      const image = new Image();
+      images.push(image);
+      image.addEventListener('load', imageLoaded);
+      image.src = src;
+    });
+
     return () => {
       images.forEach((i) => i.removeEventListener('load', imageLoaded));
     };

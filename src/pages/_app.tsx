@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 import { AppProps } from 'next/app';
 import { Fraunces, Inter } from 'next/font/google';

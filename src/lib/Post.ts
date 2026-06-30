@@ -27,12 +27,12 @@ export const getPostStaticPaths: () => GetStaticPaths<IPostUrl> =
           params: {
             slug: post.slug,
           },
-        }))
+        })),
       )
       .flat();
     return {
       paths,
-      fallback: true,
+      fallback: false,
     };
   };
 
@@ -40,7 +40,6 @@ function setPlaceholders(options: { placeholders: { [key: string]: string } }) {
   function transformer(tree: any) {
     function visitor(node: any) {
       if (node.tagName === 'img') {
-        // eslint-disable-next-line no-param-reassign
         node.properties['aria-placeholder'] =
           options.placeholders[node.properties.src];
       }
@@ -51,7 +50,7 @@ function setPlaceholders(options: { placeholders: { [key: string]: string } }) {
 }
 
 export const getPostStaticProps: (
-  locale: SupportedLocales
+  locale: SupportedLocales,
 ) => GetStaticProps<IPostProps, IPostUrl> =
   (locale: SupportedLocales) =>
   async ({ params }) => {
@@ -88,7 +87,7 @@ export const getPostStaticProps: (
       .filter(
         (item: any) =>
           item.content.startsWith('!') &&
-          item.content.includes('/assets/images/posts/')
+          item.content.includes('/assets/images/posts/'),
       )
       .map((item: any) => {
         // improve this. it can easily break images
@@ -97,23 +96,15 @@ export const getPostStaticProps: (
 
     const gradients = await Promise.all(
       imagePaths.map(async (src: string) => {
-        path.join(__dirname, '../', `public${src}`);
         const colors = await ColorThief.getPalette(
-          path.join(
-            __dirname,
-            process.env.NODE_ENV === 'production'
-              ? '../../../'
-              : '../../../../../',
-            'public',
-            src
-          ),
-          4
+          path.join(process.cwd(), 'public', src),
+          4,
         );
         return {
           src,
           css: roughGradient4(colors),
         };
-      })
+      }),
     ).then((values) => values);
 
     const placeholdersObj: { [key: string]: string } = {};

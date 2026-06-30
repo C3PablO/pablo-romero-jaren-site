@@ -7,13 +7,13 @@ import { IBlogGalleryProps } from '../blog/BlogGallery';
 import { IPaginationProps } from '../pagination/Pagination';
 
 export const getIndexStaticProps: (
-  locale: SupportedLocales
+  locale: SupportedLocales,
 ) => GetStaticProps<IBlogGalleryProps> =
   (locale: SupportedLocales) => async () => {
     const currentLocale = locales[locale];
     const posts = getAllPosts(
       ['title', 'description', 'date', 'slug', 'image', 'category'],
-      Object.values(locales)
+      Object.values(locales),
     );
     const pagination: IPaginationProps = {};
 

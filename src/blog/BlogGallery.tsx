@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Link from 'next/link';
 
 import { PostItems } from '../lib/Content';
@@ -12,7 +10,7 @@ export type IBlogGalleryProps = {
 };
 
 const BlogGallery = (
-  props: IBlogGalleryProps & { path: string; columns?: 1 | 2 | 3 | 4 }
+  props: IBlogGalleryProps & { path: string; columns?: 1 | 2 | 3 | 4 },
 ) => (
   <>
     <ul

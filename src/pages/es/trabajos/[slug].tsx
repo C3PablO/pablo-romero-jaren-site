@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { GetStaticPaths } from 'next/types';
 
 import LayoutPost, { IPostProps } from '../../../components/layout/post';
@@ -22,12 +20,12 @@ export const getStaticPaths: GetStaticPaths<IPostUrl> = async () => {
         params: {
           slug: post.slug,
         },
-      }))
+      })),
     )
     .flat();
   return {
     paths,
-    fallback: true,
+    fallback: false,
   };
 };
 

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { IBlogGalleryProps } from '../../blog/BlogGallery';
 import IndexPage from '../../components/layout';
 import { Meta } from '../../layout/Meta';

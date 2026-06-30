@@ -1,5 +1,4 @@
-// TODO: @mapbox/rehype-prism does not have typescript definition
-// @ts-ignore
+// TODO: @mapbox/rehype-prism does not have typescript definitions
 import rehypePrism from '@mapbox/rehype-prism';
 import html from 'rehype-stringify';
 import gfm from 'remark-gfm';

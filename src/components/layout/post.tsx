@@ -34,7 +34,7 @@ const LayoutPost = (props: IPostProps) => {
     <>
       <div
         key={props.title}
-        className={`max-w-screen-md mx-auto  px-3 pt-8 md:px-0 ${props.containerClass}`}
+        className={`max-w-[1000px] mx-auto  px-3 pt-8 md:px-0 ${props.containerClass}`}
       >
         <Content>
           <MDXRemote {...props.content} components={components as any} />
