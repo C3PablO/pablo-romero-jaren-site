@@ -200,7 +200,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               </p>
               <p className="pb-5">
                 {
-                  'My suitcase holds UI/UX design and engineering, design systems, illustration, and a strong interest in learning and exploring.'
+                  'My suitcase contains UI/UX design and engineering, design systems, AI native, illustration, and a strong interest in learning and exploring.'
                 }
               </p>
             </div>
@@ -225,7 +225,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                 🏕️
               </p>
               <p className="pb-5">
-                {'My basecamp is set in Stockholm, Sweeden '}
+                {'My basecamp is set in Stockholm, Sweden '}
                 <SwedishClock />
                 {' CET (UTC+1).'}
               </p>

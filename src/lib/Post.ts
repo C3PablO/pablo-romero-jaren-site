@@ -68,9 +68,10 @@ export const getPostStaticProps: (
       'slug',
     ]);
 
-    const myposts = getAllPosts(['slug', 'date'], Object.values(locales))[
-      currentLocale
-    ];
+    const myposts = getAllPosts(
+      ['title', 'description', 'slug', 'image', 'date'],
+      Object.values(locales),
+    )[currentLocale];
     const index = myposts.findIndex((item) => item.slug === params!.slug);
     const prevIdex = index > 0 ? index - 1 : myposts.length - 1;
     const nextIndex = index < myposts.length - 1 ? index + 1 : 0;
@@ -80,6 +81,8 @@ export const getPostStaticProps: (
 
     post.prev = prevSlug;
     post.next = nextSlug;
+
+    const otherPosts = myposts.filter((item) => item.slug !== params!.slug);
 
     const mdi = new MarkdownIt();
     const result = mdi.parse(post.content, {});
@@ -137,6 +140,7 @@ export const getPostStaticProps: (
         prev: post.prev,
         next: post.next,
         slug: post.slug,
+        otherPosts,
       },
     };
   };
