@@ -13,7 +13,7 @@ category: "product"
 
 # SHAPE
 
-SHAPE empowers the Electrolux Group to efficiently build cohesive experiences at scale, aligned with the brand.
+SHAPE is the design system at Electrolux Group. It empowers the organization to efficiently build cohesive experiences at scale, aligned with its brands.
 
 <br/>
 
@@ -29,7 +29,7 @@ My efforts have been particularly concentrated on:
 
 <br/>
 
-![](/assets/images/posts/electrolux/004.png)
+![](/assets/images/posts/electrolux/014.png)
 
 <br/>
 
