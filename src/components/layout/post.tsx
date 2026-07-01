@@ -85,7 +85,7 @@ const LayoutPost = (props: IPostProps) => {
             {props.otherPosts.map((post, index) => (
               <div
                 key={post.slug}
-                className={`w-64 shrink-0 sm:w-72 ${
+                className={`w-64 shrink-0 sm:w-72 md:w-96 lg:w-[28rem] ${
                   index === 0 ? 'ml-8' : ''
                 } ${index === props.otherPosts.length - 1 ? 'mr-8' : ''}`}
               >
