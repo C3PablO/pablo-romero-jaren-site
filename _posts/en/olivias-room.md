@@ -11,14 +11,14 @@ category: "illustration"
 
 ![](/assets/images/posts/olivia/h1.png)
 # Olivia's Room
-There’s something uniquely inspiring about creating art on a freshly painted white wall. It feels like starting from a blank page, where every brushstroke brings life, colour, and meaning to the space. Transforming Olivia’s room into a place filled with her family’s story made the process even more special.
+There’s something uniquely inspiring about creating art on a freshly painted white wall. It feels like starting from a blank page, where every brushstroke brings life, color, and meaning to the space. Transforming Olivia’s room into a place filled with her family’s story made the process even more special.
 
 <br/>
 ![](/assets/images/posts/olivia/001.png)
 <br/>
 
 ## The commission
-Olivia is an extraordinary child, surrounded by the love and care of her wonderful parents. When they approached me, their vision was to create a painting for her room that would go beyond a simple portrait, it had to tell their family’s story. They wanted an artwork that reflected not only their bond but also their heritage and passions as a family.
+Olivia is an extraordinary child, surrounded by the love and care of her wonderful parents. When they approached me, their vision was to create a painting for her room that would go beyond a simple portrait — it had to tell their family’s story. They wanted an artwork that reflected not only their bond but also their heritage and passions as a family.
 
 <br/>
 

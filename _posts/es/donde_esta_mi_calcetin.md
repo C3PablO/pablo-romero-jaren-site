@@ -1,6 +1,6 @@
 ---
 title: "¿Dónde Está Mi Calcetín?"
-description: "(Where is my sock?) A self-published picture book."
+description: "Un álbum ilustrado autoeditado."
 date: '2022-04-12'
 modified_date: "2022-06-10"
 background: "#1a1a2b"
@@ -12,13 +12,13 @@ category: "illustration"
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc003.png)
 # ¿Dónde Está Mi Calcetín?
 
-It looks like someone has lost a sock. Perhaps the octopus under the bed took it? Or maybe the ghost in the library has seen it? Regardless of where it is, finding this sock is going to be an adventure.
+Parece que alguien ha perdido un calcetín. ¿Quizá se lo llevó el pulpo que vive debajo de la cama? ¿O tal vez lo ha visto el fantasma de la biblioteca? Esté donde esté, encontrar este calcetín va a ser toda una aventura.
 
 
-Join the wonderful story of four charismatic creatures on their search for a missing sock, and discover the joy of searching and finding, even when the things found are not always the ones expected.
+Únete a la maravillosa historia de cuatro carismáticas criaturas en la búsqueda de un calcetín perdido, y descubre la alegría de buscar y encontrar, aunque lo que se encuentra no siempre sea lo que se esperaba.
 
 
-*¿Dónde está mi calcetín?* (Where is my sock?) is a self-published picture book written in Spanish for children aged 3 and above, as well as beginner readers. The crowdfunding campaign was launched on Verkami on September 15th, 2022, and was published in November 2022.
+*¿Dónde está mi calcetín?* es un álbum ilustrado autoeditado, escrito en español para niños a partir de 3 años y para lectores principiantes. La campaña de micromecenazgo se lanzó en Verkami el 15 de septiembre de 2022, y el libro se publicó en noviembre de 2022.
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc008.png)
 
@@ -26,13 +26,13 @@ Join the wonderful story of four charismatic creatures on their search for a mis
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc002.png)
 
-The book is intended for anyone who enjoys fantasy and likes to have fun while reading. It contains 36 pages filled with fantastic and mysterious illustrations that are full of surprises.
+El libro está pensado para cualquiera que disfrute de la fantasía y le guste divertirse mientras lee. Contiene 36 páginas repletas de ilustraciones fantásticas y misteriosas, llenas de sorpresas.
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc004.png)
 
-## The story behind
+## La historia detrás
 
-I was inspired to create this story by my daughter Violeta, who loves taking off her socks since she was a baby. Like the character in the book, her socks end up in unexpected places. Violeta has a very creative mind, and when we ask her where her socks are, she comes up with ingenious stories.
+Me inspiró a crear esta historia mi hija Violeta, a quien le ha encantado quitarse los calcetines desde que era un bebé. Como el personaje del libro, sus calcetines acaban en los lugares más inesperados. Violeta tiene una mente muy creativa, y cuando le preguntamos dónde están sus calcetines, se inventa historias ingeniosas.
 
 ![](/assets/images/posts/donde_esta_mi_calcetin/demc005.png)
 

@@ -1,6 +1,6 @@
 ---
 title: "SHAPE Design System"
-description: "An enterprise design system for designing at scale."
+description: "Un sistema de diseño empresarial para diseñar a gran escala."
 date: '2024-02-01'
 modified_date: '2022-04-12'
 background: '#F9FAFB'
@@ -14,19 +14,19 @@ category: "product"
 
 # SHAPE
 
-SHAPE is the design system at Electrolux Group. It empowers the organization to efficiently build cohesive experiences at scale, aligned with its brands.
+SHAPE es el sistema de diseño de Electrolux Group. Permite a la organización crear de forma eficiente experiencias coherentes a gran escala, alineadas con sus marcas.
 
 <br/>
 
-## My role
-The project spans three different platforms: web, mobile, and appliances, and my involvement in SHAPE has allowed me to engage in numerous activities, offering me a unique opportunity to contribute and learn across various aspects of design and engineering.
+## Mi papel
+El proyecto abarca tres plataformas diferentes: web, móvil y electrodomésticos, y mi participación en SHAPE me ha permitido implicarme en numerosas actividades, ofreciéndome una oportunidad única para contribuir y aprender en distintos ámbitos del diseño y la ingeniería.
 <br/>
-My efforts have been particularly concentrated on: 
+Mis esfuerzos se han centrado especialmente en:
 
-- Design and develop high-quality, accessible user interfaces.
-- Create and evolve the design system foundation.
-- Automate, streamline, and reduce complexity in processes.
-- Build tools and AI resources for designers and developers.
+- Diseñar y desarrollar interfaces de usuario accesibles y de alta calidad.
+- Crear y hacer evolucionar los cimientos del sistema de diseño.
+- Automatizar, agilizar y reducir la complejidad de los procesos.
+- Crear herramientas y recursos de IA para diseñadores y desarrolladores.
 
 <br/>
 
@@ -34,8 +34,8 @@ My efforts have been particularly concentrated on:
 
 <br/>
 
-## Design System Foundation & Tools
-For cohesive user interfaces, a solid foundation is essential. At SHAPE, I’ve been deeply involved in building the design system pillars, including design tokens, scalable color palettes, themes and modes, [Figma](https://www.figma.com/) libraries, and the documentation portal. I have also led the creation of tooling to maintain this foundation, such as a [VS Code](https://code.visualstudio.com/) extension for managing design tokens, different [Figma](https://www.figma.com/) plugins, and automations for CI/CD pipelines.
+## Cimientos y herramientas del sistema de diseño
+Para lograr interfaces coherentes, unos cimientos sólidos son esenciales. En SHAPE he participado de forma muy activa en la construcción de los pilares del sistema de diseño, incluidos los design tokens, paletas de color escalables, temas y modos, librerías de [Figma](https://www.figma.com/) y el portal de documentación. También he liderado la creación de herramientas para mantener estos cimientos, como una extensión de [VS Code](https://code.visualstudio.com/) para gestionar design tokens, distintos plugins de [Figma](https://www.figma.com/) y automatizaciones para los pipelines de CI/CD.
 
 <br/>
 
@@ -44,42 +44,42 @@ For cohesive user interfaces, a solid foundation is essential. At SHAPE, I’ve 
 <br/>
 
 
-## UI Design & Development
+## Diseño y desarrollo de interfaces
 
-Alongside interaction and visual aspects, I ensure close alignment between design intent and code, so both people and AI agents can navigate the design system with ease when building experiences. I’m comfortable moving between design and code across different tech stacks, and I believe that understanding implementation details leads to better outcomes for end users and greater efficiency for the organization.
+Además de los aspectos visuales y de interacción, me aseguro de que exista una estrecha alineación entre la intención de diseño y el código, para que tanto las personas como los agentes de IA puedan navegar por el sistema de diseño con facilidad al crear experiencias. Me muevo con soltura entre el diseño y el código en diferentes stacks tecnológicos, y creo que comprender los detalles de implementación conduce a mejores resultados para los usuarios finales y a una mayor eficiencia para la organización.
 
 <br/>
-To bridge the gap between product specifications, design, and implementation, I build custom AI-driven prototyping tools that help people across the organization visualize concepts using the design system, or I leverage resources such as [Figma Code Connect](https://help.figma.com/hc/en-us/articles/23920389749655-Code-Connect), which provide richer context for AI-assisted development.
+Para salvar la distancia entre las especificaciones de producto, el diseño y la implementación, creo herramientas de prototipado impulsadas por IA que ayudan a personas de toda la organización a visualizar conceptos utilizando el sistema de diseño, o aprovecho recursos como [Figma Code Connect](https://help.figma.com/hc/en-us/articles/23920389749655-Code-Connect), que aportan un contexto más rico para el desarrollo asistido por IA.
 
 <br/>
 ![](/assets/images/posts/electrolux/011.png)
 ![](/assets/images/posts/electrolux/010.png)
 <br/>
 
-## AI native
-I invest heavily in streamlining work and building from specifications with AI. I create AI skills, context, and reusable resources that empower people across the organization and strengthen collaboration. I see AI as a powerful way to learn quickly and push beyond my current limitations.
+## IA nativa
+Invierto mucho en agilizar el trabajo y en construir a partir de especificaciones con IA. Creo skills de IA, contexto y recursos reutilizables que empoderan a las personas de toda la organización y refuerzan la colaboración. Veo la IA como una forma poderosa de aprender rápido y superar mis limitaciones actuales.
 
 <br/>
 ![](/assets/images/posts/electrolux/013.png)
 <br/>
 
-## Visual Design
+## Diseño visual
 
-To bring people on board, high-quality communication is essential. I’ve used my graphic design knowledge to shape the design system’s brand identity, from the logo and documentation site aesthetics to presentation slides and merchandise. This has helped make the design system recognizable and its communication consistent across touchpoints.
+Para sumar a las personas al proyecto, una comunicación de alta calidad es esencial. He utilizado mis conocimientos de diseño gráfico para dar forma a la identidad de marca del sistema de diseño, desde el logotipo y la estética del sitio de documentación hasta las diapositivas de presentación y el merchandising. Esto ha ayudado a que el sistema de diseño sea reconocible y a que su comunicación sea coherente en todos los puntos de contacto.
 <br/>
 ![](/assets/images/posts/electrolux/007.png)
 ![](/assets/images/posts/electrolux/002.png)
 
 <br/>
 
-## Other Activities
-Beyond my primary role, I've engaged in additional activities that enrich my professional experience and contribute to the broader community.
+## Otras actividades
+Más allá de mi función principal, he participado en actividades adicionales que enriquecen mi experiencia profesional y contribuyen a la comunidad en general.
 
-### AI & Emerging Tools
-I explore how AI can enhance design and development workflows around the design system by experimenting with new tools, ways of working, context engineering, and skill creation. These experiments help me better understand how to integrate AI into design system practices and create more efficient ways for teams to build experiences.
+### IA y herramientas emergentes
+Exploro cómo la IA puede mejorar los flujos de trabajo de diseño y desarrollo en torno al sistema de diseño, experimentando con nuevas herramientas, formas de trabajar, ingeniería de contexto y creación de skills. Estos experimentos me ayudan a comprender mejor cómo integrar la IA en las prácticas del sistema de diseño y a crear formas más eficientes para que los equipos construyan experiencias.
 
-### Motion Design
-I joined the animation workgroup to investigate, explore, and define an animation system for the user interfaces in the Electrolux Group.
+### Diseño de movimiento
+Me uní al grupo de trabajo de animación para investigar, explorar y definir un sistema de animación para las interfaces de usuario del Electrolux Group.
 
-### Mentoring
-I served as a mentor in the [STEM:FEM](https://www.electroluxgroup.com/en/electrolux-group-launches-stemfem-and-donates-100-mentorship-hours-to-stem-students-35035/) mentorship program, offering guidance and support to students in the STEM field. Participating in UX design and research, sketching sessions, and roundtable discussions have also been integral to my development and contribution to the field of design.
+### Mentoría
+Fui mentor en el programa de mentoría [STEM:FEM](https://www.electroluxgroup.com/en/electrolux-group-launches-stemfem-and-donates-100-mentorship-hours-to-stem-students-35035/), ofreciendo orientación y apoyo a estudiantes del ámbito STEM. Participar en sesiones de diseño e investigación de UX, sesiones de bocetado y mesas redondas también ha sido parte esencial de mi desarrollo y de mi contribución al campo del diseño.

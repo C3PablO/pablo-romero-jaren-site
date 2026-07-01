@@ -8,6 +8,7 @@ import Button from '../button';
 import ArrowLeft from '../icons/arrow_left';
 import Home from '../icons/home';
 import ProjectCard from '../ProjectCard';
+import LanguageSwitcher from '../LanguageSwitcher';
 import ImageComp from '../image_comp';
 import ArrowDown from '../icons/arrow_down';
 import ArrowRight from '../icons/arrow_right';
@@ -78,32 +79,39 @@ const LayoutPost = (props: IPostProps) => {
         </div>
       </div>
       <div className="p-4">
-       <div className="bg-amber-50 pr-0 rounded-4xl border-solid border-2 border-amber-200">
-        <h2 className="font-display text-2xl mb-4 px-8 pt-8 pb-4  text-indigo-900">{props.localeMessages[props.locale]['page.work.title.other']}</h2>
-        {props.otherPosts?.length > 0 && (
-          <div className="-mx-3 flex gap-5 overflow-x-auto pb-8 md:mx-0">
-            {props.otherPosts.map((post, index) => (
-              <div
-                key={post.slug}
-                className={`w-64 shrink-0 sm:w-72 md:w-96 lg:w-[28rem] ${
-                  index === 0 ? 'ml-8' : ''
-                } ${index === props.otherPosts.length - 1 ? 'mr-8' : ''}`}
-              >
-                <ProjectCard
-                  post={post}
-                  path={props.localeMessages[props.locale]['route.work']}
-                />
-              </div>
-            ))}
-          </div>
-        )}
+        <div className="bg-amber-50 pr-0 rounded-4xl border-solid border-2 border-amber-200">
+          <h2 className="font-display text-2xl mb-4 px-8 pt-8 pb-4  text-indigo-900">
+            {props.localeMessages[props.locale]['page.work.title.other']}
+          </h2>
+          {props.otherPosts?.length > 0 && (
+            <div className="-mx-3 flex gap-5 overflow-x-auto pb-8 md:mx-0">
+              {props.otherPosts.map((post, index) => (
+                <div
+                  key={post.slug}
+                  className={`w-64 shrink-0 sm:w-72 md:w-96 lg:w-[28rem] ${
+                    index === 0 ? 'ml-8' : ''
+                  } ${index === props.otherPosts.length - 1 ? 'mr-8' : ''}`}
+                >
+                  <ProjectCard
+                    post={post}
+                    path={props.localeMessages[props.locale]['route.work']}
+                  />
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </div>
-      <div className="bg-indigo-900 text-zinc-100 text-center text-sm flex p-4">
+      <div className="bg-indigo-900 text-zinc-100 text-center text-sm flex items-center gap-4 p-4">
         <a href="#" className="animate-pulse rotate-180">
           <ArrowDown width={18} height={18} />
         </a>
         <p className="w-full">(ɔ) Pablo Romero Jarén 2026</p>
+        <LanguageSwitcher
+          locale={props.locale}
+          hrefEn={`/${props.localeMessages['en']['route.work']}/${props.slug}`}
+          hrefEs={`/${props.localeMessages['es']['route.work']}/${props.slug}`}
+        />
       </div>
     </>
   );

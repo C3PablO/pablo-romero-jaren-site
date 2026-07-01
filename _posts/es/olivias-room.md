@@ -1,6 +1,6 @@
 ---
-title: "Olivia's Room"
-description: "Mural painting representing Olivia's family."
+title: "La habitación de Olivia"
+description: "Mural que representa a la familia de Olivia."
 date: '2022-04-10'
 modified_date: '2022-04-10'
 background: '#F9F6E7'
@@ -10,26 +10,23 @@ category: "illustration"
 ---
 
 ![](/assets/images/posts/olivia/h1.png)
-
-# Olivia's Room
-There’s something uniquely inspiring about creating art on a freshly painted white wall. It feels like starting from a blank page, where every brushstroke brings life, colour, and meaning to the space. Transforming Olivia’s room into a place filled with her family’s story made the process even more special.
+# La habitación de Olivia
+Hay algo especialmente inspirador en crear arte sobre una pared blanca recién pintada. Es como empezar desde una página en blanco, donde cada pincelada aporta vida, color y significado al espacio. Transformar la habitación de Olivia en un lugar lleno de la historia de su familia hizo que el proceso fuera aún más especial.
 
 <br/>
-
 ![](/assets/images/posts/olivia/001.png)
+<br/>
+
+## El encargo
+Olivia es una niña extraordinaria, rodeada del amor y el cuidado de sus maravillosos padres. Cuando se pusieron en contacto conmigo, su idea era crear una pintura para su habitación que fuera más allá de un simple retrato: debía contar la historia de su familia. Querían una obra que reflejara no solo su vínculo, sino también su herencia y sus pasiones como familia.
 
 <br/>
 
-## The commission
-Olivia is an extraordinary child, surrounded by the love and care of her wonderful parents. When they approached me, their vision was to create a painting for her room that would go beyond a simple portrait, it had to tell their family’s story. They wanted an artwork that reflected not only their bond but also their heritage and passions as a family.
+Sus raíces se extienden por Noruega, Suecia y España, y sus vidas están profundamente ligadas a la naturaleza, la vida al aire libre, la navegación y las artes marciales. En el centro de todo está Olivia, la reina de su reino, cuya presencia los une y los inspira.
 
 <br/>
 
-Their roots span across Norway, Sweden, and Spain, and their lives are deeply connected to nature, the outdoors, sailing and martial arts. At the heart of it all is Olivia, the queen of their kingdom, whose presence unites and inspires them.
-
-<br/>
-
-I was truly honored to be entrusted with this commission, translating their story into a portrait that celebrates who they are and what they love most.
+Fue un verdadero honor que me confiaran este encargo, traduciendo su historia en un retrato que celebra quiénes son y lo que más aman.
 
 <br/>
 
@@ -41,7 +38,7 @@ I was truly honored to be entrusted with this commission, translating their stor
 
 <br/>
 
-For this project, it was very important to make the line drawing firm and precise, so I created my own tools to support my hand.
+En este proyecto era muy importante que el trazo fuera firme y preciso, así que creé mis propias herramientas para apoyar la mano.
 
 <br/>
 
@@ -51,7 +48,7 @@ For this project, it was very important to make the line drawing firm and precis
 
 <br/>
 
-In the end, it seems Olivia was satisfied with the work.
+Al final, parece que Olivia quedó satisfecha con el resultado.
 
 <br/>
 

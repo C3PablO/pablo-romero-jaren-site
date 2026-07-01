@@ -1,6 +1,6 @@
 ---
-title: "Lucia's Room"
-description: "Small mural painting for Lucia. Collaboration with a litle artist."
+title: "La habitación de Lucía"
+description: "Pequeño mural para Lucía. Una colaboración con una pequeña artista."
 date: '2021-12-31'
 modified_date: '2022-03-08'
 background: '#1e3039'
@@ -11,13 +11,13 @@ category: "illustration"
 
 ![](/assets/images/posts/lucia/luciacover.png)
 
-# Lucia's Room
-Awaiting Lucia's arrival, I've painted a mural reflecting our unique global family, blending the different cultures we belong to. A celestial tapestry features northern and southern constellations and a diverse animal kingdom - our heritage embodied. This mural isn't just art, but a promise of unity and love across borders. To Lucia, may your life mirror this vibrant diversity.
+# La habitación de Lucía
+A la espera de la llegada de Lucía, he pintado un mural que refleja nuestra singular familia global, entrelazando las diferentes culturas a las que pertenecemos. Un tapiz celeste reúne constelaciones del norte y del sur y un diverso reino animal: nuestra herencia hecha imagen. Este mural no es solo arte, sino una promesa de unidad y amor más allá de las fronteras. A Lucía: que tu vida refleje esta vibrante diversidad.
 
 ![](/assets/images/posts/lucia/lucia000.png)
 
 <br/>
-In this project, I was very lucky to get support from a young artist friend.
+En este proyecto tuve la gran suerte de contar con la ayuda de una joven amiga artista.
 <br/>
 
 ![](/assets/images/posts/lucia/lucia001.png)

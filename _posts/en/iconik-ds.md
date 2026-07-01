@@ -26,10 +26,10 @@ During my tenure at Iconik, a company renowned for its unique culture rooted in 
 In my capacity as a UI Designer, my responsibilities were diverse and integral to the visual and functional coherence of Iconik's products. I developed Figma libraries to streamline the design process, ensuring efficiency and consistency across the team. My design of UI components was meticulously aligned with the Iconik brand, reinforcing the company's identity across our web-based product, desktop application, and admin tools. This alignment was crucial for maintaining a seamless user experience and a strong visual language across all platforms.
 <br/>
 
-Given Iconik's complex nature and its broad spectrum of customer profiles within the media industry, my role as a UX Designer was both challenging and rewarding. I designed features tailored to various roles and permissions, enhancing the product's versatility and user-centricity. My work on collaboration features, technical features, and admin features was aimed at facilitating efficient workflows and empowering users with diverse needs.
+Given Iconik's complex nature and its broad spectrum of customer profiles within the media industry, my role as a UX Designer was both challenging and rewarding. I designed features tailored to various roles and permissions, enhancing the product's versatility and user-centricity. My work on collaboration, technical, and admin features was aimed at facilitating efficient workflows and empowering users with diverse needs.
 <br/>
 
-Gathering both qualitative and quantitative data was a key part of my process. Analyzing analytics helped in understanding user behavior, while insights from support lines and interviews provided a deeper understanding of user needs and pain points, informing the design of more intuitive and effective features.
+Gathering both qualitative and quantitative data was a key part of my process. Studying analytics helped me understand user behavior, while insights from support channels and interviews provided a deeper understanding of user needs and pain points, informing the design of more intuitive and effective features.
 
 ![](/assets/images/posts/design_system/iconik_agent.png)
 

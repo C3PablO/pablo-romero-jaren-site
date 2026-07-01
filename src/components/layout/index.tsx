@@ -5,6 +5,7 @@ import { LocaleMessages, SupportedLocales } from '../../lib/lang';
 import BGLoader from '../bg_loader';
 import Button from '../button';
 import ButtonLabel from '../button_label';
+import LanguageSwitcher from '../LanguageSwitcher';
 import ArrowRight from '../icons/arrow_right';
 // import Instagram from '../icons/instagram';
 import Linkedin from '../icons/linkedin';
@@ -117,7 +118,9 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               <br /> JARÉN
             </h1>
             <h2 className="flex flex-col md:flex-row gap-3 font-display text-2xl text-center md:text-[40px]">
-              <span>A Design Journey</span>
+              <span>
+                {props.localeMessages[props.locale]['page.index.subtitle']}
+              </span>
               <p>
                 <a
                   href="#work"
@@ -144,7 +147,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               </div>
 
               <h3 className="font-display text-4xl pb-4 text-indigo-900 text-center sm:text-left">
-                Product design
+                {props.localeMessages[props.locale]['page.index.title.product']}
               </h3>
               <BlogGallery
                 posts={productProyects}
@@ -155,7 +158,11 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               <br />
               <br />
               <h3 className="font-display text-4xl pb-4 text-indigo-900 text-center sm:text-left">
-                Illustration
+                {
+                  props.localeMessages[props.locale][
+                    'page.index.title.illustration'
+                  ]
+                }
               </h3>
               <BlogGallery
                 posts={illustrationProyects}
@@ -173,9 +180,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
 
             <div className="flex gap-4 md:gap-8 items-center max-w-[700px] mx-auto px-3 md:px-0 mt-14">
               <p className="pb-8 text-center text-2xl md:text-3xl">
-                {
-                  'Naturally curious, I navigate between disciplines to create meaningful experiences and keep me interested in my work.'
-                }
+                {props.localeMessages[props.locale]['page.index.text.curious']}
               </p>
             </div>
             <div
@@ -187,7 +192,9 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               </p>
               <p className="pb-5">
                 {
-                  'The destination is a place where I can use my skills to forge paths that positively impact society.'
+                  props.localeMessages[props.locale][
+                    'page.index.text.destination'
+                  ]
                 }
               </p>
             </div>
@@ -199,9 +206,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                 🧳
               </p>
               <p className="pb-5">
-                {
-                  'My suitcase contains UI/UX design and engineering, design systems, AI native, illustration, and a strong interest in learning and exploring.'
-                }
+                {props.localeMessages[props.locale]['page.index.text.suitcase']}
               </p>
             </div>
             <div
@@ -213,7 +218,9 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               </p>
               <p className="pb-5">
                 {
-                  'I am charting new territories at Electrolux, crafting Design Systems.'
+                  props.localeMessages[props.locale][
+                    'page.index.text.basecamp_electrolux'
+                  ]
                 }
               </p>
             </div>
@@ -225,9 +232,17 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                 🏕️
               </p>
               <p className="pb-5">
-                {'My basecamp is set in Stockholm, Sweden '}
+                {
+                  props.localeMessages[props.locale][
+                    'page.index.text.basecamp_prefix'
+                  ]
+                }
                 <SwedishClock />
-                {' CET (UTC+1).'}
+                {
+                  props.localeMessages[props.locale][
+                    'page.index.text.basecamp_suffix'
+                  ]
+                }
               </p>
             </div>
 
@@ -273,11 +288,16 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                 </Button> */}
               </div>
             </div>
-            <div className="bg-indigo-900 text-zinc-100 text-center text-sm flex items-center p-4">
+            <div className="bg-indigo-900 text-zinc-100 text-center text-sm flex items-center gap-4 p-4">
               <a href="#" className="animate-pulse rotate-180">
                 <ArrowDown width={18} height={18} />
               </a>
               <p className="w-full">(ɔ) Pablo Romero Jarén 2026</p>
+              <LanguageSwitcher
+                locale={props.locale}
+                hrefEn="/en"
+                hrefEs="/es"
+              />
             </div>
           </div>
         </div>

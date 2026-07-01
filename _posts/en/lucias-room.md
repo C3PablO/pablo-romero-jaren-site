@@ -1,6 +1,6 @@
 ---
 title: "Lucia's Room"
-description: "Small mural painting for Lucia. Collaboration with a litle artist."
+description: "Small mural painting for Lucia. A collaboration with a little artist."
 date: '2021-12-31'
 modified_date: '2022-03-08'
 background: '#1e3039'
