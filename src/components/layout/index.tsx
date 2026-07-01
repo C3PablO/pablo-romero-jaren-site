@@ -131,8 +131,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
         </BGLoader>
         <div className="relative" id="work">
           <div className="relative h-24 bg-linear-to-b from-transparent to-amber-50"></div>
-           <div className="bg-amber-50">
-            </div>
+          <div className="bg-amber-50"></div>
           <div className="bg-amber-50">
             <div className="max-w-[1000px] mx-auto px-3 md:px-0">
               <h2 className="m-0 font-display text-vw-5xl min-[600px]:text-[80px] leading-none md:text-[110px] md:text-6xl text-center pb-5 pt-5 text-indigo-900">
@@ -278,7 +277,7 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
               <a href="#" className="animate-pulse rotate-180">
                 <ArrowDown width={18} height={18} />
               </a>
-              <p className="w-full">(ɔ) Pablo Romero Jarén 2025</p>
+              <p className="w-full">(ɔ) Pablo Romero Jarén 2026</p>
             </div>
           </div>
         </div>

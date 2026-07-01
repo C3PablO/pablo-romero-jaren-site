@@ -34,7 +34,7 @@ My efforts have been particularly concentrated on:
 <br/>
 
 ## Design System Foundation & Tools
-For cohesive user interfaces, a solid foundation is essential. At SHAPE, I’ve been deeply involved in building the design system pillars, including design tokens, scalable color palettes, themes and modes, [Figma](https://www.figma.com/) libraries, and the documentation portal. I have also led the creation of tooling to maintain this foundation, such as a [VS Code](https://code.visualstudio.com/) extension for managing design tokens, [Figma](https://www.figma.com/) plugins, and automations for CI/CD pipelines.
+For cohesive user interfaces, a solid foundation is essential. At SHAPE, I’ve been deeply involved in building the design system pillars, including design tokens, scalable color palettes, themes and modes, [Figma](https://www.figma.com/) libraries, and the documentation portal. I have also led the creation of tooling to maintain this foundation, such as a [VS Code](https://code.visualstudio.com/) extension for managing design tokens, different [Figma](https://www.figma.com/) plugins, and automations for CI/CD pipelines.
 
 <br/>
 

@@ -4,8 +4,8 @@ import Link from 'next/link';
 import { Content } from '../../content/Content';
 import { LocaleMessages, SupportedLocales } from '../../lib/lang';
 import Button from '../button';
-import ButtonLabel from '../button_label';
 import ArrowLeft from '../icons/arrow_left';
+import Home from '../icons/home';
 import ImageComp from '../image_comp';
 import ArrowDown from '../icons/arrow_down';
 import ArrowRight from '../icons/arrow_right';
@@ -63,11 +63,14 @@ const LayoutPost = (props: IPostProps) => {
       </div>
       <div className="flex justify-center">
         <div className="fixed top-5 left-5 navbar z-100">
-          <Button markup="a" href={`/${props.locale}#${props.slug}`}>
-            <ArrowLeft />
-            <ButtonLabel>
-              {props.localeMessages[props.locale]['page.work.button.bottom']}
-            </ButtonLabel>
+          <Button
+            markup="a"
+            href={`/${props.locale}`}
+            aria-label={
+              props.localeMessages[props.locale]['page.work.button.home']
+            }
+          >
+            <Home />
           </Button>
         </div>
       </div>
@@ -75,7 +78,7 @@ const LayoutPost = (props: IPostProps) => {
         <a href="#" className="animate-pulse rotate-180">
           <ArrowDown width={18} height={18} />
         </a>
-        <p className="w-full">(ɔ) Pablo Romero Jarén 2025</p>
+        <p className="w-full">(ɔ) Pablo Romero Jarén 2026</p>
       </div>
     </>
   );
