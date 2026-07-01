@@ -30,7 +30,7 @@ Mis esfuerzos se han centrado especialmente en:
 
 <br/>
 
-![](/assets/images/posts/electrolux/004.png)
+![](/assets/images/posts/electrolux/014.png)
 
 <br/>
 
