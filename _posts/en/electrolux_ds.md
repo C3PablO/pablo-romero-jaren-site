@@ -82,3 +82,7 @@ I joined the animation workgroup to investigate, explore, and define an animatio
 
 ### Mentoring
 I served as a mentor in the [STEM:FEM](https://www.electroluxgroup.com/en/electrolux-group-launches-stemfem-and-donates-100-mentorship-hours-to-stem-students-35035/) mentorship program, offering guidance and support to students in the STEM field. Participating in UX design and research, sketching sessions, and roundtable discussions have also been integral to my development and contribution to the field of design.
+
+<br/>
+![](/assets/images/posts/electrolux/015.png)
+<br/>

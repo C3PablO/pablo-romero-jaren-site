@@ -83,3 +83,7 @@ Me uní al grupo de trabajo de animación para investigar, explorar y definir un
 
 ### Mentoría
 Fui mentor en el programa de mentoría [STEM:FEM](https://www.electroluxgroup.com/en/electrolux-group-launches-stemfem-and-donates-100-mentorship-hours-to-stem-students-35035/), ofreciendo orientación y apoyo a estudiantes del ámbito STEM. Participar en sesiones de diseño e investigación de UX, sesiones de bocetado y mesas redondas también ha sido parte esencial de mi desarrollo y de mi contribución al campo del diseño.
+
+<br/>
+![](/assets/images/posts/electrolux/015.png)
+<br/>
