@@ -60,6 +60,7 @@ I invest heavily in streamlining work and building from specifications with AI. 
 
 <br/>
 ![](/assets/images/posts/electrolux/013.png)
+![](/assets/images/posts/electrolux/016.png)
 <br/>
 
 ## Visual Design

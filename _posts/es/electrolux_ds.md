@@ -61,6 +61,7 @@ Invierto mucho en agilizar el trabajo y en construir a partir de especificacione
 
 <br/>
 ![](/assets/images/posts/electrolux/013.png)
+![](/assets/images/posts/electrolux/016.png)
 <br/>
 
 ## Diseño visual
