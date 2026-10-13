@@ -34,7 +34,7 @@ My efforts have been particularly concentrated on:
 <br/>
 
 ## Design System Foundation & Tools
-For cohesive user interfaces, a solid foundation is essential. At SHAPE, I’ve been deeply involved in building the design system pillars, including design tokens, scalable color palettes, themes and modes, [Figma](https://www.figma.com/) libraries, and the documentation portal. I have also led the creation of tooling to maintain this foundation, such as a [VS Code](https://code.visualstudio.com/) extension for managing design tokens, different [Figma](https://www.figma.com/) plugins, and automations for CI/CD pipelines.
+For cohesive user interfaces, a solid foundation is essential. At SHAPE, I’ve been deeply involved in building the design system pillars to suppor different platforms (web, native mobile, embedded appliance). This includes design tokens, the documentation portal, scalable color palettes, themes and modes, [Figma](https://www.figma.com/) and code libraries for different stacks as React, Swift UI and Jetpack Compose. I have also led the creation of tooling to maintain this foundation, such as a [VS Code](https://code.visualstudio.com/) extension for managing design tokens, different [Figma](https://www.figma.com/) plugins, and automations for CI/CD pipelines.
 
 <br/>
 
@@ -48,7 +48,7 @@ For cohesive user interfaces, a solid foundation is essential. At SHAPE, I’ve 
 Alongside interaction and visual aspects, I ensure close alignment between design intent and code, so both people and AI agents can navigate the design system with ease when building experiences. I’m comfortable moving between design and code across different tech stacks, and I believe that understanding implementation details leads to better outcomes for end users and greater efficiency for the organization.
 
 <br/>
-To bridge the gap between product specifications, design, and implementation, I build custom AI-driven prototyping tools that help people across the organization visualize concepts using the design system, or I leverage resources such as [Figma Code Connect](https://help.figma.com/hc/en-us/articles/23920389749655-Code-Connect), which provide richer context for AI-assisted development.
+To bridge the gap between product specifications, design, and implementation, I build resources and tools that help people across the organization not only build experiences but also visualize concepts using the design system.
 
 <br/>
 ![](/assets/images/posts/electrolux/011.png)
