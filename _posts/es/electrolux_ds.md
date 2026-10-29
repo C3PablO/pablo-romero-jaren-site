@@ -35,7 +35,7 @@ Mis esfuerzos se han centrado especialmente en:
 <br/>
 
 ## Cimientos y herramientas del sistema de diseño
-Para lograr interfaces coherentes, unos cimientos sólidos son esenciales. En SHAPE he participado de forma muy activa en la construcción de los pilares del sistema de diseño, incluidos los design tokens, paletas de color escalables, temas y modos, librerías de [Figma](https://www.figma.com/) y el portal de documentación. También he liderado la creación de herramientas para mantener estos cimientos, como una extensión de [VS Code](https://code.visualstudio.com/) para gestionar design tokens, distintos plugins de [Figma](https://www.figma.com/) y automatizaciones para los pipelines de CI/CD.
+Para lograr interfaces coherentes, unos cimientos sólidos son esenciales. En SHAPE he participado de forma muy activa en la construcción de los pilares del sistema de diseño para dar soporte a distintas plataformas (web, móvil nativo y electrodomésticos embebidos). Esto incluye design tokens, el portal de documentación, paletas de color escalables, temas y modos, y librerías de [Figma](https://www.figma.com/) y de código para distintos stacks. También he liderado la creación de herramientas para mantener estos cimientos, como una extensión de [VS Code](https://code.visualstudio.com/) para gestionar design tokens, distintos plugins de [Figma](https://www.figma.com/) y automatizaciones para los pipelines de CI/CD.
 
 <br/>
 
@@ -46,18 +46,15 @@ Para lograr interfaces coherentes, unos cimientos sólidos son esenciales. En SH
 
 ## Diseño y desarrollo de interfaces
 
-Además de los aspectos visuales y de interacción, me aseguro de que exista una estrecha alineación entre la intención de diseño y el código, para que tanto las personas como los agentes de IA puedan navegar por el sistema de diseño con facilidad al crear experiencias. Me muevo con soltura entre el diseño y el código en diferentes stacks tecnológicos, y creo que comprender los detalles de implementación conduce a mejores resultados para los usuarios finales y a una mayor eficiencia para la organización.
+Creo que comprender y dominar tanto el diseño como el desarrollo es crucial para una interfaz de alta calidad. Me aseguro de que exista una estrecha alineación y conexión entre ambas partes para que tanto las personas como los agentes de IA puedan navegar por el sistema de diseño con facilidad al crear experiencias. Me siento cómodo moviéndome entre gráficos y código en distintos stacks de frontend como TypeScript/React, SwiftUI, Jetpack Compose o Flutter, pero también soy un gran fan de herramientas de diseño como Figma.
 
-<br/>
-Para salvar la distancia entre las especificaciones de producto, el diseño y la implementación, creo herramientas de prototipado impulsadas por IA que ayudan a personas de toda la organización a visualizar conceptos utilizando el sistema de diseño, o aprovecho recursos como [Figma Code Connect](https://help.figma.com/hc/en-us/articles/23920389749655-Code-Connect), que aportan un contexto más rico para el desarrollo asistido por IA.
-
-<br/>
 ![](/assets/images/posts/electrolux/011.png)
 ![](/assets/images/posts/electrolux/010.png)
+![](/assets/images/posts/electrolux/017.png)
 <br/>
 
 ## IA nativa
-Invierto mucho en agilizar el trabajo y en construir a partir de especificaciones con IA. Creo skills de IA, contexto y recursos reutilizables que empoderan a las personas de toda la organización y refuerzan la colaboración. Veo la IA como una forma poderosa de aprender rápido y superar mis limitaciones actuales.
+Invierto en agilizar el trabajo y en construir a partir de especificaciones claras con IA. Uso la IA para apoyar mi trabajo de código y diseño, y creo skills, contexto y recursos reutilizables que ayudan a las personas de toda la organización a colaborar y a trabajar con mayor eficiencia. Veo la IA como una herramienta poderosa para aprender rápido y superar mis limitaciones actuales.
 
 <br/>
 ![](/assets/images/posts/electrolux/013.png)
