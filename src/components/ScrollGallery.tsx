@@ -199,10 +199,16 @@ const ScrollGallery = ({
         ref={scroller}
         id={id}
         onScroll={update}
-        className="no-scrollbar flex gap-5 overflow-x-auto px-3 md:px-8 pb-6"
+        // While a card is hovered the others shrink to 95%.
+        // Vertical padding (cancelled by negative margins) leaves room for the
+        // scaled/tilted hovered card, which the scroll container would clip.
+        className="no-scrollbar motion-safe:[@media(hover:hover)]:[&:has(>div:hover)>div:not(:hover)]:scale-95 -mt-12 -mb-6 flex gap-5 overflow-x-auto px-3 pt-12 pb-12 md:px-8"
       >
         {items.map((item) => (
-          <div key={item.key} className={itemClassName}>
+          <div
+            key={item.key}
+            className={`${itemClassName} relative transition-transform duration-300 ease-out motion-safe:hover:z-20 motion-safe:hover:-rotate-5 motion-safe:hover:scale-105`}
+          >
             {item.node}
           </div>
         ))}

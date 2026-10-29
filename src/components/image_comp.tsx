@@ -32,8 +32,9 @@ const ImageComp = (props: ImageProps) => {
         alt=""
         unoptimized={true}
         loader={customLoader}
-        onLoadingComplete={() => {
+        onLoad={(event) => {
           setLoaded(true);
+          props.onLoad?.(event);
         }}
       />
     </span>
