@@ -8,6 +8,7 @@ import Button from '../button';
 import ArrowLeft from '../icons/arrow_left';
 import Home from '../icons/home';
 import ProjectCard from '../ProjectCard';
+import ScrollGallery from '../ScrollGallery';
 import LanguageSwitcher from '../LanguageSwitcher';
 import ImageComp from '../image_comp';
 import ArrowDown from '../icons/arrow_down';
@@ -84,21 +85,17 @@ const LayoutPost = (props: IPostProps) => {
             {props.localeMessages[props.locale]['page.work.title.other']}
           </h2>
           {props.otherPosts?.length > 0 && (
-            <div className="-mx-3 flex gap-5 overflow-x-auto pb-8 md:mx-0">
-              {props.otherPosts.map((post, index) => (
-                <div
-                  key={post.slug}
-                  className={`w-64 shrink-0 sm:w-72 md:w-96 lg:w-[28rem] ${
-                    index === 0 ? 'ml-8' : ''
-                  } ${index === props.otherPosts.length - 1 ? 'mr-8' : ''}`}
-                >
+            <ScrollGallery
+              items={props.otherPosts.map((post) => ({
+                key: post.slug,
+                node: (
                   <ProjectCard
                     post={post}
                     path={props.localeMessages[props.locale]['route.work']}
                   />
-                </div>
-              ))}
-            </div>
+                ),
+              }))}
+            />
           )}
         </div>
       </div>

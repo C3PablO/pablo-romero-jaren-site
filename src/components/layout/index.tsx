@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react';
 
-import { IBlogGalleryProps, BlogGallery } from '../../blog/BlogGallery';
+import { IBlogGalleryProps } from '../../blog/BlogGallery';
 import { LocaleMessages, SupportedLocales } from '../../lib/lang';
 import BGLoader from '../bg_loader';
 import Button from '../button';
 import ButtonLabel from '../button_label';
 import LanguageSwitcher from '../LanguageSwitcher';
+import ProjectCard from '../ProjectCard';
+import ScrollGallery from '../ScrollGallery';
 import ArrowRight from '../icons/arrow_right';
 // import Instagram from '../icons/instagram';
 import Linkedin from '../icons/linkedin';
@@ -49,13 +51,6 @@ type ILocaleProps = {
 };
 const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
   const [topLoaded, setTopLoaded] = useState(false);
-  const productProyects = props.posts.filter(
-    (post) => post.category === 'product',
-  );
-  const illustrationProyects = props.posts.filter(
-    (post) => post.category === 'illustration',
-  );
-
   const [style, setStyle] = useState({
     opacity: 1,
     filter: 'blur(0px)', // Initial blur value
@@ -145,34 +140,21 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                   {props.localeMessages[props.locale]['page.index.text.work']}
                 </p>
               </div>
-
-              <h3 className="font-display text-4xl pb-4 text-indigo-900 text-center sm:text-left">
-                {props.localeMessages[props.locale]['page.index.title.product']}
-              </h3>
-              <BlogGallery
-                posts={productProyects}
-                pagination={props.pagination}
-                path={props.localeMessages[props.locale]['route.work']}
-                columns={2}
-              />
-              <br />
-              <br />
-              <h3 className="font-display text-4xl pb-4 text-indigo-900 text-center sm:text-left">
-                {
-                  props.localeMessages[props.locale][
-                    'page.index.title.illustration'
-                  ]
-                }
-              </h3>
-              <BlogGallery
-                posts={illustrationProyects}
-                pagination={props.pagination}
-                path={props.localeMessages[props.locale]['route.work']}
-                columns={3}
-              />
             </div>
 
-            <div className="contact flex flex-col items-center justify-center mt-[-15vh]">
+            <ScrollGallery
+              items={props.posts.map((post) => ({
+                key: post.slug,
+                node: (
+                  <ProjectCard
+                    post={post}
+                    path={props.localeMessages[props.locale]['route.work']}
+                  />
+                ),
+              }))}
+            />
+
+            <div className="contact flex flex-col items-center justify-center mt-[-11vh]">
               <h2 className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900">
                 {props.localeMessages[props.locale]['page.index.title.whoami']}
               </h2>
