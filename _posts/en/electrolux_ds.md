@@ -34,7 +34,7 @@ My efforts have been particularly concentrated on:
 <br/>
 
 ## Design System Foundation & Tools
-For cohesive user interfaces, a solid foundation is essential. At SHAPE, I’ve been deeply involved in building the design system pillars to suppor different platforms (web, native mobile, embedded appliance). This includes design tokens, the documentation portal, scalable color palettes, themes and modes, [Figma](https://www.figma.com/) and code libraries for different stacks as React, Swift UI and Jetpack Compose. I have also led the creation of tooling to maintain this foundation, such as a [VS Code](https://code.visualstudio.com/) extension for managing design tokens, different [Figma](https://www.figma.com/) plugins, and automations for CI/CD pipelines.
+For cohesive user interfaces, a solid foundation is essential. At SHAPE, I’ve been deeply involved in building the design system pillars to suppor different platforms (web, native mobile, embedded appliance). This includes design tokens, the documentation portal, scalable color palettes, themes and modes, [Figma](https://www.figma.com/) and code libraries for different stacks. I have also led the creation of tooling to maintain this foundation, such as a [VS Code](https://code.visualstudio.com/) extension for managing design tokens, different [Figma](https://www.figma.com/) plugins, and automations for CI/CD pipelines.
 
 <br/>
 
@@ -45,18 +45,15 @@ For cohesive user interfaces, a solid foundation is essential. At SHAPE, I’ve 
 
 ## UI Design & Development
 
-Alongside interaction and visual aspects, I ensure close alignment between design intent and code, so both people and AI agents can navigate the design system with ease when building experiences. I’m comfortable moving between design and code across different tech stacks, and I believe that understanding implementation details leads to better outcomes for end users and greater efficiency for the organization.
+I believe that understanding and being fluent in design and development is crucial for high quality UI. I ensure close alignment and connection between both parts so, people and AI agents can navigate the design system with ease when building experiences. I’m comfortable moving between graphics and code across different frontend stacks such as TypeScript/React, Swift UI, Jetpack Compose or Flutter but I'm also a big fan of design tools as Figma.
 
-<br/>
-To bridge the gap between product specifications, design, and implementation, I build resources and tools that help people across the organization not only build experiences but also visualize concepts using the design system.
-
-<br/>
 ![](/assets/images/posts/electrolux/011.png)
 ![](/assets/images/posts/electrolux/010.png)
+![](/assets/images/posts/electrolux/017.png)
 <br/>
 
 ## AI native
-I invest heavily in streamlining work and building from specifications with AI. I create AI skills, context, and reusable resources that empower people across the organization and strengthen collaboration. I see AI as a powerful way to learn quickly and push beyond my current limitations.
+I invest in streamlining work and building from clear specifications with AI. I use AI to support my coding and design, create skills, context, and reusable resources that help people across the organization collaborate and work more efficiently. I see AI as a powerful tool for learning quickly and pushing beyond my current limitations.
 
 <br/>
 ![](/assets/images/posts/electrolux/013.png)

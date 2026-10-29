@@ -86,16 +86,17 @@ export const getPostStaticProps: (
 
     const mdi = new MarkdownIt();
     const result = mdi.parse(post.content, {});
-    const imagePaths = result
-      .filter(
-        (item: any) =>
-          item.content.startsWith('!') &&
-          item.content.includes('/assets/images/posts/'),
-      )
-      .map((item: any) => {
-        // improve this. it can easily break images
-        return item.content.slice(0, -1).slice(4);
-      });
+    // Collect every image src from inline tokens (several images can share one
+    // inline token when they are on adjacent lines).
+    const imagePaths: string[] = Array.from(
+      new Set(
+        result
+          .flatMap((item: any) => item.children ?? [])
+          .filter((child: any) => child.type === 'image')
+          .map((child: any) => child.attrGet('src') as string)
+          .filter((src: string) => src?.startsWith('/assets/images/posts/')),
+      ),
+    );
 
     const gradients = await Promise.all(
       imagePaths.map(async (src: string) => {
