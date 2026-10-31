@@ -7,6 +7,7 @@ import Button from '../button';
 import ButtonLabel from '../button_label';
 import LanguageSwitcher from '../LanguageSwitcher';
 import ProjectCard from '../ProjectCard';
+import RichText from '../RichText';
 import ScrollGallery from '../ScrollGallery';
 import ArrowRight from '../icons/arrow_right';
 // import Instagram from '../icons/instagram';
@@ -114,7 +115,11 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
             </h1>
             <h2 className="flex flex-col md:flex-row gap-3 font-display text-2xl text-center md:text-[40px]">
               <span>
-                {props.localeMessages[props.locale]['page.index.subtitle']}
+                <RichText
+                  text={
+                    props.localeMessages[props.locale]['page.index.subtitle']
+                  }
+                />
               </span>
               <p>
                 <a
@@ -136,11 +141,19 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                 id="work"
                 className="m-0 font-display text-vw-5xl min-[600px]:text-[80px] leading-none md:text-[110px] md:text-6xl text-center pb-5 pt-5 text-indigo-900"
               >
-                {props.localeMessages[props.locale]['page.index.title.work']}
+                <RichText
+                  text={
+                    props.localeMessages[props.locale]['page.index.title.work']
+                  }
+                />
               </h2>
               <div className="flex items-center max-w-[700px] mx-auto mb-16">
                 <p className="text-center text-2xl md:text-3xl">
-                  {props.localeMessages[props.locale]['page.index.text.work']}
+                  <RichText
+                    text={
+                      props.localeMessages[props.locale]['page.index.text.work']
+                    }
+                  />
                 </p>
               </div>
             </div>
@@ -159,13 +172,40 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
 
             <div className="contact flex flex-col items-center justify-center mt-[-11vh]">
               <h2 className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900">
-                {props.localeMessages[props.locale]['page.index.title.whoami']}
+                <RichText
+                  text={
+                    props.localeMessages[props.locale][
+                      'page.index.title.whoami'
+                    ]
+                  }
+                />
               </h2>
             </div>
 
             <div className="flex gap-4 md:gap-8 items-center max-w-[700px] mx-auto px-3 md:px-0 mt-14">
               <p className="pb-8 text-center text-2xl md:text-3xl">
-                {props.localeMessages[props.locale]['page.index.text.curious']}
+                <RichText
+                  text={
+                    props.localeMessages[props.locale][
+                      'page.index.text.curious'
+                    ]
+                  }
+                />
+              </p>
+            </div>
+            <div
+              className="flex gap-4 md:gap-8 items-center max-w-[600px] mx-auto px-3 md:px-0 mt-4"
+              data-aos="fade-right"
+            >
+              <p className="font-display leading-none text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900 mt-0 mb-0">
+                🏁
+              </p>
+              <p className="pb-5">
+                <RichText
+                  text={
+                    props.localeMessages[props.locale]['page.index.text.start']
+                  }
+                />
               </p>
             </div>
             <div
@@ -176,11 +216,13 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                 🌍
               </p>
               <p className="pb-5">
-                {
-                  props.localeMessages[props.locale][
-                    'page.index.text.destination'
-                  ]
-                }
+                <RichText
+                  text={
+                    props.localeMessages[props.locale][
+                      'page.index.text.destination'
+                    ]
+                  }
+                />
               </p>
             </div>
             <div
@@ -191,7 +233,13 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                 🧳
               </p>
               <p className="pb-5">
-                {props.localeMessages[props.locale]['page.index.text.suitcase']}
+                <RichText
+                  text={
+                    props.localeMessages[props.locale][
+                      'page.index.text.suitcase'
+                    ]
+                  }
+                />
               </p>
             </div>
             <div
@@ -202,11 +250,13 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                 📍
               </p>
               <p className="pb-5">
-                {
-                  props.localeMessages[props.locale][
-                    'page.index.text.basecamp_electrolux'
-                  ]
-                }
+                <RichText
+                  text={
+                    props.localeMessages[props.locale][
+                      'page.index.text.basecamp_electrolux'
+                    ]
+                  }
+                />
               </p>
             </div>
             <div
@@ -217,17 +267,21 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                 🏕️
               </p>
               <p className="pb-5">
-                {
-                  props.localeMessages[props.locale][
-                    'page.index.text.basecamp_prefix'
-                  ]
-                }
+                <RichText
+                  text={
+                    props.localeMessages[props.locale][
+                      'page.index.text.basecamp_prefix'
+                    ]
+                  }
+                />
                 <SwedishClock />
-                {
-                  props.localeMessages[props.locale][
-                    'page.index.text.basecamp_suffix'
-                  ]
-                }
+                <RichText
+                  text={
+                    props.localeMessages[props.locale][
+                      'page.index.text.basecamp_suffix'
+                    ]
+                  }
+                />
               </p>
             </div>
 
@@ -237,11 +291,13 @@ const LayoutIndex = (props: IBlogGalleryProps & ILocaleProps) => {
                   data-aos="fade-up"
                   className="font-display text-vw-5xl min-[600px]:text-[80px] md:text-[110px] md:text-6xl text-center py-5 text-indigo-900"
                 >
-                  {
-                    props.localeMessages[props.locale][
-                      'page.index.title.contact'
-                    ]
-                  }
+                  <RichText
+                    text={
+                      props.localeMessages[props.locale][
+                        'page.index.title.contact'
+                      ]
+                    }
+                  />
                 </p>
               </div>
               <div

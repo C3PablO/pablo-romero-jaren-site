@@ -8,6 +8,7 @@ import Button from '../button';
 import ArrowLeft from '../icons/arrow_left';
 import Home from '../icons/home';
 import ProjectCard from '../ProjectCard';
+import RichText from '../RichText';
 import ScrollGallery from '../ScrollGallery';
 import LanguageSwitcher from '../LanguageSwitcher';
 import ImageComp from '../image_comp';
@@ -52,7 +53,9 @@ const LayoutPost = (props: IPostProps) => {
             }`}
           >
             <ArrowLeft />{' '}
-            {props.localeMessages[props.locale]['page.work.button.prev']}
+            <RichText
+              text={props.localeMessages[props.locale]['page.work.button.prev']}
+            />
           </Link>
           <span>|</span>
           <Link
@@ -61,7 +64,9 @@ const LayoutPost = (props: IPostProps) => {
               props.next
             }`}
           >
-            {props.localeMessages[props.locale]['page.work.button.next']}{' '}
+            <RichText
+              text={props.localeMessages[props.locale]['page.work.button.next']}
+            />{' '}
             <ArrowRight />
           </Link>
         </div>
@@ -79,25 +84,25 @@ const LayoutPost = (props: IPostProps) => {
           </Button>
         </div>
       </div>
-      <div className="p-4">
-        <div className="bg-amber-50 pr-0 rounded-4xl border-solid border-2 border-amber-200">
-          <h2 className="font-display text-2xl mb-4 px-8 pt-8 pb-4  text-indigo-900">
-            {props.localeMessages[props.locale]['page.work.title.other']}
-          </h2>
-          {props.otherPosts?.length > 0 && (
-            <ScrollGallery
-              items={props.otherPosts.map((post) => ({
-                key: post.slug,
-                node: (
-                  <ProjectCard
-                    post={post}
-                    path={props.localeMessages[props.locale]['route.work']}
-                  />
-                ),
-              }))}
-            />
-          )}
-        </div>
+      <div className="bg-amber-50 pt-8">
+        <h2 className="font-display text-2xl mb-4 px-3 md:px-8 pb-4 text-indigo-900">
+          <RichText
+            text={props.localeMessages[props.locale]['page.work.title.other']}
+          />
+        </h2>
+        {props.otherPosts?.length > 0 && (
+          <ScrollGallery
+            items={props.otherPosts.map((post) => ({
+              key: post.slug,
+              node: (
+                <ProjectCard
+                  post={post}
+                  path={props.localeMessages[props.locale]['route.work']}
+                />
+              ),
+            }))}
+          />
+        )}
       </div>
       <div className="bg-indigo-900 text-zinc-100 text-center text-sm flex items-center gap-4 p-4">
         <a href="#" className="animate-pulse rotate-180">

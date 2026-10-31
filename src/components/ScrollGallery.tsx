@@ -75,7 +75,7 @@ const Chevron = ({ direction }: { direction: 'left' | 'right' }) => (
  */
 const ScrollGallery = ({
   items,
-  itemClassName = 'w-64 shrink-0 sm:w-72 md:w-96 lg:w-[28rem]',
+  itemClassName = 'w-72 shrink-0 md:w-96 lg:w-[28rem]',
   prevLabel = 'Previous',
   nextLabel = 'Next',
 }: IScrollGalleryProps) => {
@@ -139,7 +139,16 @@ const ScrollGallery = ({
     const t = track.current;
     if (!el || !t) return;
     const rect = t.getBoundingClientRect();
-    const ratio = Math.min(Math.max((clientX - rect.left) / rect.width, 0), 1);
+    // The wave is never shorter than MIN_ACTIVE, so the pointer maps to the
+    // wave's end: the first MIN_ACTIVE px mean "start", the last px "end".
+    const ratio = Math.min(
+      Math.max(
+        (clientX - rect.left - MIN_ACTIVE) /
+          Math.max(rect.width - MIN_ACTIVE, 1),
+        0,
+      ),
+      1,
+    );
     el.scrollTo({
       left: ratio * (el.scrollWidth - el.clientWidth),
       behavior: smooth ? 'smooth' : 'auto',
@@ -189,7 +198,7 @@ const ScrollGallery = ({
     'p-2 text-indigo-900 transition-opacity disabled:opacity-25 disabled:cursor-default cursor-pointer';
 
   const mid = HEIGHT / 2;
-  const activeW = Math.max(m.progress * trackW, MIN_ACTIVE);
+  const activeW = MIN_ACTIVE + m.progress * Math.max(trackW - MIN_ACTIVE, 0);
   const trackStart = activeW + GAP;
   const showTrack = trackW - trackStart > STROKE;
 
